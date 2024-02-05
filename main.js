@@ -3,7 +3,6 @@ window.$s = document.querySelectorAll.bind(document);
 
 document.addEventListener("DOMContentLoaded", () => {
   const departmentDropdown = $("#department");
-  console.log(departmentDropdown);
 
   departmentDir.forEach((dep) => {
     const opt = document.createElement("option");
@@ -15,7 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   departmentDropdown.addEventListener("change", () => {
     const selection = departmentDropdown.value;
-    console.log(selection);
     render(selection);
   });
   render();

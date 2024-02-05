@@ -108,7 +108,6 @@ function hierarchy(data) {
 
 async function fetchJSONData(department) {
   let filePath;
-  console.log(department);
   if (!department || department == "" || department === "all")
     filePath = "./hw5_data/HED_formatted.json";
   else filePath = `./hw5_data/${department}_list.json`;
@@ -134,8 +133,10 @@ const render = async (department = "all") => {
   data = hierarchy(res);
   const width = 1000;
   const radius = width / 2;
+  const fontSize = department === "all" ? "6px" : "10px";
+  const borderSize = department === "all" ? 100 : 200;
 
-  const tree = d3.cluster().size([2 * Math.PI, radius - 100]);
+  const tree = d3.cluster().size([2 * Math.PI, radius - borderSize]);
   const root = tree(
     bilink(
       d3
@@ -143,13 +144,11 @@ const render = async (department = "all") => {
         .sort(
           (a, b) =>
             d3.ascending(a.department, b.department) ||
-            d3.ascending(a.height, b.height) ||
-            d3.ascending(a.data.name, b.data.name)
+            d3.ascending(a.data.name, b.data.name) ||
+            d3.ascending(a.height, b.height)
         )
     )
   );
-
-  // console.log(root);
 
   d3.select("#chart svg").remove();
   const svg = d3
@@ -158,7 +157,10 @@ const render = async (department = "all") => {
     .attr("width", width)
     .attr("height", width)
     .attr("viewBox", [-width / 2, -width / 2, width, width])
-    .attr("style", "max-width: 100%; height: auto; font: 6px sans-serif;");
+    .attr(
+      "style",
+      `max-width: 100%; height: auto; font: ${fontSize} sans-serif;`
+    );
 
   // console.log(root);
   // console.log(root.leaves());
@@ -176,18 +178,22 @@ const render = async (department = "all") => {
     .attr("x", (d) => (d.x < Math.PI ? 6 : -6))
     .attr("text-anchor", (d) => (d.x < Math.PI ? "start" : "end"))
     .attr("transform", (d) => (d.x >= Math.PI ? "rotate(180)" : null))
-    .attr("fill", (d) => colorMapping[d.data.department])
+    .attr("fill", (d) => {
+      return colorMapping[d.data.department];
+    })
+    .attr("color", (d) => colorMapping[d.data.department])
     .text((d) => d.data.displayName)
     .each(function (d) {
       d.text = this;
     })
     .on("mouseover", overed)
     .on("mouseout", outed)
+    .on("click", click)
     .call((text) =>
       text.append("title").text(
-        (d) => `${d.data.department}: ${d.data.displayName}
-${d.outgoing.length} outgoing
-${d.incoming.length} incoming`
+        (d) => `${d.data.name.toUpperCase()}: ${d.data.displayName}
+${d.outgoing.length} prereq(s) needed
+${d.incoming.length} course(s) has this as prereq`
       )
     );
 
@@ -210,6 +216,48 @@ ${d.incoming.length} incoming`
       d.path = this;
     });
 
+  function click(event, d) {
+    event.preventDefault();
+    const text = d3.select(this);
+    const isToggled = text.attr("data-toggled");
+
+    const newState = isToggled === "true" ? "false" : "true";
+    text.attr("data-toggled", newState);
+
+    if (newState === "true") {
+      link.style("mix-blend-mode", null);
+      d3.select(this).attr("font-weight", "bold");
+      // d3.select(this).attr("font-size", "15px");
+      d3.selectAll(d.incoming.map((d) => d.path))
+        .attr("stroke", colorin)
+        .raise();
+      d3.selectAll(d.incoming.map(([d]) => d.text))
+        .attr("fill", colorin)
+        .attr("font-weight", "bold");
+      d3.selectAll(d.outgoing.map((d) => d.path))
+        .attr("stroke", colorout)
+        .raise();
+      d3.selectAll(d.outgoing.map(([, d]) => d.text))
+        .attr("fill", colorout)
+        .attr("font-weight", "bold");
+    } else if (newState === "false") {
+      link.style("mix-blend-mode", "multiply");
+      d3.select(this).attr("font-weight", null);
+      d3.selectAll(d.incoming.map((d) => d.path)).attr("stroke", null);
+      d3.selectAll(d.incoming.map(([d]) => d.text))
+        .attr("fill", function () {
+          return d3.select(this).attr("color");
+        })
+        .attr("font-weight", null);
+      d3.selectAll(d.outgoing.map((d) => d.path)).attr("stroke", null);
+      d3.selectAll(d.outgoing.map(([, d]) => d.text))
+        .attr("fill", function () {
+          return d3.select(this).attr("color");
+        })
+        .attr("font-weight", null);
+    }
+  }
+
   function overed(event, d) {
     link.style("mix-blend-mode", null);
     d3.select(this).attr("font-weight", "bold");
@@ -229,16 +277,21 @@ ${d.incoming.length} incoming`
   }
 
   function outed(event, d) {
+    const toggled = d3.select(this).attr("data-toggled") === "true";
+    if (toggled) return;
     link.style("mix-blend-mode", "multiply");
     d3.select(this).attr("font-weight", null);
-    // d3.select(this).attr("font-size", null);
     d3.selectAll(d.incoming.map((d) => d.path)).attr("stroke", null);
     d3.selectAll(d.incoming.map(([d]) => d.text))
-      .attr("fill", null)
+      .attr("fill", function () {
+        return d3.select(this).attr("color");
+      })
       .attr("font-weight", null);
     d3.selectAll(d.outgoing.map((d) => d.path)).attr("stroke", null);
     d3.selectAll(d.outgoing.map(([, d]) => d.text))
-      .attr("fill", null)
+      .attr("fill", function () {
+        return d3.select(this).attr("color");
+      })
       .attr("font-weight", null);
   }
 

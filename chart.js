@@ -1,6 +1,8 @@
 const colornone = "#ccc";
 const colorout = "#f00";
 const colorin = "#00f";
+const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+const colorMapping = {};
 const departmentDir = [
   "all",
   "arch",
@@ -97,6 +99,10 @@ function hierarchy(data) {
     return datum;
   });
 
+  depList.forEach((dep, i) => {
+    colorMapping[dep] = colorScale(i);
+  });
+
   return root;
 }
 
@@ -136,6 +142,7 @@ const render = async (department = "all") => {
         .hierarchy(data)
         .sort(
           (a, b) =>
+            d3.ascending(a.department, b.department) ||
             d3.ascending(a.height, b.height) ||
             d3.ascending(a.data.name, b.data.name)
         )
@@ -169,6 +176,7 @@ const render = async (department = "all") => {
     .attr("x", (d) => (d.x < Math.PI ? 6 : -6))
     .attr("text-anchor", (d) => (d.x < Math.PI ? "start" : "end"))
     .attr("transform", (d) => (d.x >= Math.PI ? "rotate(180)" : null))
+    .attr("fill", (d) => colorMapping[d.data.department])
     .text((d) => d.data.displayName)
     .each(function (d) {
       d.text = this;

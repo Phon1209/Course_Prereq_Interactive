@@ -18,4 +18,5 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(selection);
     render(selection);
   });
+  render();
 });

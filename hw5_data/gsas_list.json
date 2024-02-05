@@ -1,0 +1,139 @@
+[
+    {
+        "name": "gsas 1040",
+        "prereqs": [],
+        "department": "gsas",
+        "displayName": "Introduction To Game Art"
+    },
+    {
+        "name": "gsas 1600",
+        "prereqs": [],
+        "department": "gsas",
+        "displayName": "History And Culture Of Games"
+    },
+    {
+        "name": "gsas 2510",
+        "prereqs": [],
+        "department": "gsas",
+        "displayName": "Intro To Game Design"
+    },
+    {
+        "name": "gsas 2520",
+        "prereqs": [],
+        "department": "gsas",
+        "displayName": "Intro To Game Storytelling"
+    },
+    {
+        "name": "gsas 2540",
+        "prereqs": [],
+        "department": "gsas",
+        "displayName": "Intro To Game Programming"
+    },
+    {
+        "name": "gsas 4510",
+        "prereqs": [
+            "csci 4540",
+            "gsas 4540"
+        ],
+        "department": "gsas",
+        "displayName": "Experimental Game Design"
+    },
+    {
+        "name": "gsas 4540",
+        "prereqs": [
+            "gsas 4520"
+        ],
+        "department": "gsas",
+        "displayName": "Game Development II"
+    },
+    {
+        "name": "gsas 4520",
+        "prereqs": [
+            "gsas 2510",
+            "gsas 2540"
+        ],
+        "department": "gsas",
+        "displayName": "Game Development I"
+    },
+    {
+        "name": "gsas 4963",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "gsas",
+        "displayName": "Computer Graphics"
+    },
+    {
+        "name": "gsas 4260",
+        "prereqs": [
+            "gsas 2520"
+        ],
+        "department": "gsas",
+        "displayName": "Game Narrative Design"
+    },
+    {
+        "name": "gsas 4550",
+        "prereqs": [
+            "csci 4530",
+            "ecse 4750"
+        ],
+        "department": "gsas",
+        "displayName": "Game Architecture"
+    },
+    {
+        "name": "gsas 4990",
+        "prereqs": [
+            "gsas 4510"
+        ],
+        "department": "gsas",
+        "displayName": "Gsas Capstone"
+    },
+    {
+        "name": "gsas 4240",
+        "prereqs": [
+            "gsas 2520",
+            "writ 2330"
+        ],
+        "department": "gsas",
+        "displayName": "Writing For Games I"
+    },
+    {
+        "name": "gsas 4270",
+        "prereqs": [
+            "gsas 1040",
+            "gsas 1600",
+            "gsas 2510",
+            "gsas 2520",
+            "gsas 2540"
+        ],
+        "department": "gsas",
+        "displayName": "Level Design"
+    },
+    {
+        "name": "gsas 4530",
+        "prereqs": [
+            "csci 2200",
+            "csci 2300",
+            "csci 2500",
+            "csci 2600"
+        ],
+        "department": "gsas",
+        "displayName": "Computer Graphics For Games"
+    },
+    {
+        "name": "gsas 4250",
+        "prereqs": [
+            "gsas 4240"
+        ],
+        "department": "gsas",
+        "displayName": "Writing For Games II"
+    },
+    {
+        "name": "gsas 4230",
+        "prereqs": [
+            "arts 2230"
+        ],
+        "department": "gsas",
+        "displayName": "Game Animation"
+    }
+]

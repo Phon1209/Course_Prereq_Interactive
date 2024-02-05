@@ -1,0 +1,181 @@
+[
+    {
+        "name": "lang 2110",
+        "prereqs": [
+            "lang 1120"
+        ],
+        "department": "lang",
+        "displayName": "French III"
+    },
+    {
+        "name": "lang 2310",
+        "prereqs": [
+            "lang 1320"
+        ],
+        "department": "lang",
+        "displayName": " German III"
+    },
+    {
+        "name": "lang 4400",
+        "prereqs": [
+            "lang 2120"
+        ],
+        "department": "lang",
+        "displayName": "Business French I"
+    },
+    {
+        "name": "lang 1120",
+        "prereqs": [
+            "lang 1110"
+        ],
+        "department": "lang",
+        "displayName": "French II"
+    },
+    {
+        "name": "lang 1320",
+        "prereqs": [],
+        "department": "lang",
+        "displayName": "German II"
+    },
+    {
+        "name": "lang 2120",
+        "prereqs": [
+            "lang 2110"
+        ],
+        "department": "lang",
+        "displayName": "French Iv"
+    },
+    {
+        "name": "lang 4410",
+        "prereqs": [
+            "lang 4400"
+        ],
+        "department": "lang",
+        "displayName": "Business French II"
+    },
+    {
+        "name": "lang 4961",
+        "prereqs": [
+            "lang 1410",
+            "lang 2410",
+            "lang 4420",
+            "lang 4430"
+        ],
+        "department": "lang",
+        "displayName": "Chinese Lang & Culture In Film"
+    },
+    {
+        "name": "lang 1110",
+        "prereqs": [],
+        "department": "lang",
+        "displayName": "French I"
+    },
+    {
+        "name": "lang 2410",
+        "prereqs": [
+            "lang 1410"
+        ],
+        "department": "lang",
+        "displayName": "Chinese II"
+    },
+    {
+        "name": "lang 1410",
+        "prereqs": [],
+        "department": "lang",
+        "displayName": "Chinese I"
+    },
+    {
+        "name": "lang 2210",
+        "prereqs": [
+            "lang 1210",
+            "lang 1220"
+        ],
+        "department": "lang",
+        "displayName": "Japanese III"
+    },
+    {
+        "name": "lang 1220",
+        "prereqs": [
+            "lang 1210"
+        ],
+        "department": "lang",
+        "displayName": "Japanese II"
+    },
+    {
+        "name": "lang 2220",
+        "prereqs": [
+            "lang 2210"
+        ],
+        "department": "lang",
+        "displayName": "Japanese Iv"
+    },
+    {
+        "name": "lang 1520",
+        "prereqs": [
+            "lang 1510"
+        ],
+        "department": "lang",
+        "displayName": "Spanish II"
+    },
+    {
+        "name": "lang 1210",
+        "prereqs": [],
+        "department": "lang",
+        "displayName": "Japanese I"
+    },
+    {
+        "name": "lang 1510",
+        "prereqs": [],
+        "department": "lang",
+        "displayName": "Spanish I"
+    },
+    {
+        "name": "lang 2420",
+        "prereqs": [
+            "lang 1420",
+            "lang 2410"
+        ],
+        "department": "lang",
+        "displayName": "Chinese III"
+    },
+    {
+        "name": "lang 1420",
+        "prereqs": [
+            "lang 1410"
+        ],
+        "department": "lang",
+        "displayName": "Chinese II"
+    },
+    {
+        "name": "lang 2430",
+        "prereqs": [
+            "lang 2420"
+        ],
+        "department": "lang",
+        "displayName": "Chinese Iv"
+    },
+    {
+        "name": "lang 4430",
+        "prereqs": [
+            "lang 2420"
+        ],
+        "department": "lang",
+        "displayName": "Chinese Iv"
+    },
+    {
+        "name": "lang 4470",
+        "prereqs": [
+            "lang 4430"
+        ],
+        "department": "lang",
+        "displayName": "Chinese V"
+    },
+    {
+        "name": "lang 4420",
+        "prereqs": [
+            "lang 2410"
+        ],
+        "department": "lang",
+        "displayName": "Chinese III"
+    }
+]

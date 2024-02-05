@@ -1,0 +1,201 @@
+[
+    {
+        "name": "phys 1100",
+        "prereqs": [],
+        "department": "phys",
+        "displayName": "Physics I"
+    },
+    {
+        "name": "phys 1200",
+        "prereqs": [
+            "math 1020",
+            "phys 1100"
+        ],
+        "department": "phys",
+        "displayName": "Physics II"
+    },
+    {
+        "name": "phys 2330",
+        "prereqs": [
+            "math 2010",
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "phys",
+        "displayName": "Intermediate Mechanics"
+    },
+    {
+        "name": "phys 2510",
+        "prereqs": [
+            "math 2010",
+            "math 2400",
+            "phys 2110"
+        ],
+        "department": "phys",
+        "displayName": "Quantum Physics"
+    },
+    {
+        "name": "phys 4720",
+        "prereqs": [
+            "phys 2220"
+        ],
+        "department": "phys",
+        "displayName": "Solid State Physics"
+    },
+    {
+        "name": "phys 2350",
+        "prereqs": [
+            "phys 2210"
+        ],
+        "department": "phys",
+        "displayName": "Experimental Physics"
+    },
+    {
+        "name": "phys 2620",
+        "prereqs": [
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "phys",
+        "displayName": "Fundamentals Of Optics"
+    },
+    {
+        "name": "phys 4100",
+        "prereqs": [
+            "phys 2210"
+        ],
+        "department": "phys",
+        "displayName": "Introductory Quantum Mechanics"
+    },
+    {
+        "name": "phys 4210",
+        "prereqs": [
+            "math 4600",
+            "math 4700",
+            "phys 2210"
+        ],
+        "department": "phys",
+        "displayName": "Electromagnetic Theory"
+    },
+    {
+        "name": "phys 4420",
+        "prereqs": [
+            "math 2010",
+            "math 2400",
+            "phys 2210"
+        ],
+        "department": "phys",
+        "displayName": "Thermodyn & Stat Mech"
+    },
+    {
+        "name": "phys 6410",
+        "prereqs": [
+            "phys 6210"
+        ],
+        "department": "phys",
+        "displayName": "Electrodynamics"
+    },
+    {
+        "name": "phys 4620",
+        "prereqs": [
+            "phys 4100"
+        ],
+        "department": "phys",
+        "displayName": "Elementary Particle Physics"
+    },
+    {
+        "name": "phys 4810",
+        "prereqs": [
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "phys",
+        "displayName": "Computational Physics"
+    },
+    {
+        "name": "phys 6210",
+        "prereqs": [],
+        "department": "phys",
+        "displayName": "Mathematical Methods In Physic"
+    },
+    {
+        "name": "phys 1150",
+        "prereqs": [
+            "math 1010"
+        ],
+        "department": "phys",
+        "displayName": "Intro Classical Dynamics"
+    },
+    {
+        "name": "phys 1250",
+        "prereqs": [
+            "math 1020",
+            "phys 1100",
+            "phys 1150"
+        ],
+        "department": "phys",
+        "displayName": "Intro Electromag Theory"
+    },
+    {
+        "name": "phys 2110",
+        "prereqs": [
+            "math 2010",
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "phys",
+        "displayName": "Modern Physics"
+    },
+    {
+        "name": "phys 4240",
+        "prereqs": [
+            "math 4600",
+            "phys 4330"
+        ],
+        "department": "phys",
+        "displayName": "General Relativity"
+    },
+    {
+        "name": "phys 4330",
+        "prereqs": [
+            "math 2010",
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "phys",
+        "displayName": "Theoretical Mechanics"
+    },
+    {
+        "name": "phys 2210",
+        "prereqs": [
+            "math 1020",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "phys",
+        "displayName": "Quantum Physics I"
+    },
+    {
+        "name": "phys 2220",
+        "prereqs": [
+            "math 2010",
+            "phys 2210"
+        ],
+        "department": "phys",
+        "displayName": "Quantum Physics II"
+    },
+    {
+        "name": "phys 1600",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "chem 1120"
+        ],
+        "department": "phys",
+        "displayName": "Materials Science"
+    }
+]

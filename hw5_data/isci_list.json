@@ -1,0 +1,27 @@
+[
+    {
+        "name": "isci 4510",
+        "prereqs": [
+            "erth 1510",
+            "isci 1510"
+        ],
+        "department": "isci",
+        "displayName": "Rdgs Astrobio & Orig Of Life"
+    },
+    {
+        "name": "isci 1600",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "chem 1120"
+        ],
+        "department": "isci",
+        "displayName": "Materials Science"
+    },
+    {
+        "name": "isci 1510",
+        "prereqs": [],
+        "department": "isci",
+        "displayName": "Intro To Astrobiology"
+    }
+]

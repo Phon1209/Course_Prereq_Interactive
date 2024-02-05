@@ -1,0 +1,10 @@
+[
+    {
+        "name": "itec 2110",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "itec",
+        "displayName": "Web Systems Development"
+    }
+]

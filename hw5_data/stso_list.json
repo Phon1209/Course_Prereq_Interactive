@@ -1,0 +1,263 @@
+[
+    {
+        "name": "stso 1110",
+        "prereqs": [],
+        "department": "stso",
+        "displayName": "Science, Technology & Society"
+    },
+    {
+        "name": "stso 2100",
+        "prereqs": [
+            "inqr 1110",
+            "inqr 1240",
+            "inqr 1320",
+            "stso 1110"
+        ],
+        "department": "stso",
+        "displayName": "Investigating Society"
+    },
+    {
+        "name": "stso 2300",
+        "prereqs": [
+            "ihss 1100",
+            "ihss 1110",
+            "ihss 1240",
+            "ihss 1250",
+            "ihss 1320",
+            "inqr 1100",
+            "inqr 1110",
+            "inqr 1240",
+            "inqr 1250",
+            "inqr 1320",
+            "stso 1100"
+        ],
+        "department": "stso",
+        "displayName": "Environment And Society"
+    },
+    {
+        "name": "stso 2500",
+        "prereqs": [],
+        "department": "stso",
+        "displayName": "American History"
+    },
+    {
+        "name": "stso 4250",
+        "prereqs": [
+            "ihss 1160",
+            "ihss 4250",
+            "inqr 1150",
+            "inqr 1160",
+            "phil 1110",
+            "phil 4240",
+            "stso 2500",
+            "stso 2510",
+            "stso 2520",
+            "stss 2500",
+            "stss 2510",
+            "stss 2520"
+        ],
+        "department": "stso",
+        "displayName": "Bioethics"
+    },
+    {
+        "name": "stso 4350",
+        "prereqs": [
+            "stso 2100",
+            "stso 2210",
+            "stso 2300",
+            "stso 2500",
+            "stso 2520",
+            "stss 2100",
+            "stss 2210",
+            "stss 2300",
+            "stss 2500",
+            "stss 2520"
+        ],
+        "department": "stso",
+        "displayName": "Politics Of Design"
+    },
+    {
+        "name": "stso 4605",
+        "prereqs": [
+            "stso 2020"
+        ],
+        "department": "stso",
+        "displayName": "Design And Innovation Studio B"
+    },
+    {
+        "name": "stso 4970",
+        "prereqs": [
+            "stso 2020"
+        ],
+        "department": "stso",
+        "displayName": "Dis Senior Project"
+    },
+    {
+        "name": "stso 4980",
+        "prereqs": [],
+        "department": "stso",
+        "displayName": "Research Design"
+    },
+    {
+        "name": "stso 2210",
+        "prereqs": [],
+        "department": "stso",
+        "displayName": "Design, Culture, And Society"
+    },
+    {
+        "name": "stso 2520",
+        "prereqs": [],
+        "department": "stso",
+        "displayName": "Sociology"
+    },
+    {
+        "name": "stso 2610",
+        "prereqs": [
+            "ihss 1610",
+            "inqr 1610"
+        ],
+        "department": "stso",
+        "displayName": "Design & Innovation Studio II"
+    },
+    {
+        "name": "stso 4430",
+        "prereqs": [
+            "ihss 1100",
+            "ihss 1220",
+            "ihss 1240",
+            "ihss 1250",
+            "ihss 1320",
+            "ihss 1350",
+            "ihss 1570",
+            "ihss 1580",
+            "ihss 1610",
+            "inqr 1100",
+            "inqr 1110",
+            "inqr 1220",
+            "inqr 1240",
+            "inqr 1250",
+            "inqr 1320",
+            "inqr 1350",
+            "inqr 1570",
+            "inqr 1580",
+            "inqr 1610",
+            "stso 1100",
+            "stso 2520",
+            "stss 2520"
+        ],
+        "department": "stso",
+        "displayName": "Drugs In History"
+    },
+    {
+        "name": "stso 4500",
+        "prereqs": [
+            "stso 2100",
+            "stso 2300",
+            "stso 2500",
+            "stso 2520"
+        ],
+        "department": "stso",
+        "displayName": "Globalization & Development"
+    },
+    {
+        "name": "stso 4530",
+        "prereqs": [
+            "ihss 1420",
+            "ihss 1430",
+            "stso 1110",
+            "stso 2500",
+            "stso 2520"
+        ],
+        "department": "stso",
+        "displayName": "History Of Sci & Technology"
+    },
+    {
+        "name": "stso 4610",
+        "prereqs": [
+            "stso 2020"
+        ],
+        "department": "stso",
+        "displayName": "Design And Innovation Studio C"
+    },
+    {
+        "name": "stso 4990",
+        "prereqs": [
+            "stso 4980",
+            "stss 4980"
+        ],
+        "department": "stso",
+        "displayName": "Sts & Sust Senior Project"
+    },
+    {
+        "name": "stso 2020",
+        "prereqs": [
+            "stso 2610"
+        ],
+        "department": "stso",
+        "displayName": "Design & Innovation Studio 3"
+    },
+    {
+        "name": "stso 4440",
+        "prereqs": [
+            "ihss 1410",
+            "ihss 1420",
+            "ihss 1430",
+            "stso 1110",
+            "stso 2500",
+            "stso 2520"
+        ],
+        "department": "stso",
+        "displayName": "History Of Mental Health"
+    },
+    {
+        "name": "stso 4330",
+        "prereqs": [
+            "ihss 1100",
+            "ihss 1240",
+            "inqr 1100",
+            "inqr 1240",
+            "stso 1100",
+            "stso 2100",
+            "stso 2300",
+            "stso 2500",
+            "stso 2520",
+            "stss 2100",
+            "stss 2300",
+            "stss 2500"
+        ],
+        "department": "stso",
+        "displayName": "Environmental Justice"
+    },
+    {
+        "name": "stso 4400",
+        "prereqs": [
+            "stso 2500",
+            "stso 2510",
+            "stso 2520",
+            "stss 2500",
+            "stss 2510",
+            "stss 2520"
+        ],
+        "department": "stso",
+        "displayName": "Medicine, Culture & Society"
+    },
+    {
+        "name": "stso 1100",
+        "prereqs": [],
+        "department": "stso",
+        "displayName": "Science, Tech, & Society"
+    },
+    {
+        "name": "stso 4560",
+        "prereqs": [
+            "stso 2100",
+            "stso 2210",
+            "stso 2300",
+            "stso 2500",
+            "stso 2510",
+            "stso 2520"
+        ],
+        "department": "stso",
+        "displayName": "Gender, Science & Technology"
+    }
+]

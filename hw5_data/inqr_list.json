@@ -1,0 +1,74 @@
+[
+    {
+        "name": "inqr 1030",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Behind The Tv Screen"
+    },
+    {
+        "name": "inqr 1040",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Documentary In 21st Century"
+    },
+    {
+        "name": "inqr 1100",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Science, Tech, & Society"
+    },
+    {
+        "name": "inqr 1110",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Nature / Society"
+    },
+    {
+        "name": "inqr 1150",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "The Genome And You"
+    },
+    {
+        "name": "inqr 1180",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "The Art Of Listening"
+    },
+    {
+        "name": "inqr 1200",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Principles Of Economics"
+    },
+    {
+        "name": "inqr 1240",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Sustainability Debates"
+    },
+    {
+        "name": "inqr 1250",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Designing Climate Justice"
+    },
+    {
+        "name": "inqr 1610",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Design And Innovation Studio 1"
+    },
+    {
+        "name": "inqr 1160",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "Science & Science Misconduct"
+    },
+    {
+        "name": "inqr 1220",
+        "prereqs": [],
+        "department": "inqr",
+        "displayName": "It & Society"
+    }
+]

@@ -1,0 +1,238 @@
+[
+    {
+        "name": "comm 2610",
+        "prereqs": [],
+        "department": "comm",
+        "displayName": "Intro To Visual Communication"
+    },
+    {
+        "name": "comm 1510",
+        "prereqs": [],
+        "department": "comm",
+        "displayName": "Communication Theory And Practice"
+    },
+    {
+        "name": "comm 4964",
+        "prereqs": [
+            "comm 2570",
+            "comm 2660"
+        ],
+        "department": "comm",
+        "displayName": "Brand Identity Design"
+    },
+    {
+        "name": "comm 4970",
+        "prereqs": [
+            "comm 2660"
+        ],
+        "department": "comm",
+        "displayName": "2-d Motion Graphics"
+    },
+    {
+        "name": "comm 4170",
+        "prereqs": [],
+        "department": "comm",
+        "displayName": "Electronic Coaching Sys."
+    },
+    {
+        "name": "comm 4180",
+        "prereqs": [
+            "comm 4170",
+            "comm 4420",
+            "comm 4710",
+            "comm 4770"
+        ],
+        "department": "comm",
+        "displayName": "Studio Design In Hci"
+    },
+    {
+        "name": "comm 4340",
+        "prereqs": [],
+        "department": "comm",
+        "displayName": "Creative Seminar I"
+    },
+    {
+        "name": "comm 4690",
+        "prereqs": [
+            "csci 1100"
+        ],
+        "department": "comm",
+        "displayName": "Interface Design:hypermedia Theory And Application"
+    },
+    {
+        "name": "comm 4570",
+        "prereqs": [
+            "comm 2610"
+        ],
+        "department": "comm",
+        "displayName": "Typography"
+    },
+    {
+        "name": "comm 4400",
+        "prereqs": [
+            "comm 4570"
+        ],
+        "department": "comm",
+        "displayName": "Cross Cultural Design: Analysis And Application"
+    },
+    {
+        "name": "comm 4660",
+        "prereqs": [
+            "comm 2610"
+        ],
+        "department": "comm",
+        "displayName": "Visual Literacy"
+    },
+    {
+        "name": "comm 4770",
+        "prereqs": [
+            "comm 4420"
+        ],
+        "department": "comm",
+        "displayName": "User-experience Design"
+    },
+    {
+        "name": "comm 4470",
+        "prereqs": [
+            "comm 2660"
+        ],
+        "department": "comm",
+        "displayName": "Information Design"
+    },
+    {
+        "name": "comm 4670",
+        "prereqs": [
+            "comm 4570"
+        ],
+        "department": "comm",
+        "displayName": "Advanced Typography"
+    },
+    {
+        "name": "comm 4710",
+        "prereqs": [
+            "comm 4420",
+            "itws 2210"
+        ],
+        "department": "comm",
+        "displayName": "Communication Design For The Www"
+    },
+    {
+        "name": "comm 4550",
+        "prereqs": [
+            "comm 1510"
+        ],
+        "department": "comm",
+        "displayName": "Religion In The Media"
+    },
+    {
+        "name": "comm 4730",
+        "prereqs": [
+            "comm 2570",
+            "comm 2660",
+            "comm 2680"
+        ],
+        "department": "comm",
+        "displayName": "Brand Identity Design"
+    },
+    {
+        "name": "comm 4420",
+        "prereqs": [
+            "engr 2020",
+            "ihss 1610"
+        ],
+        "department": "comm",
+        "displayName": "Foundations Of Hci Usability"
+    },
+    {
+        "name": "comm 4210",
+        "prereqs": [
+            "cogs 2520"
+        ],
+        "department": "comm",
+        "displayName": "Designing Interactive Characte"
+    },
+    {
+        "name": "comm 4240",
+        "prereqs": [
+            "comm 2520",
+            "gsas 2520",
+            "writ 2330"
+        ],
+        "department": "comm",
+        "displayName": "Writing For Games I"
+    },
+    {
+        "name": "comm 4350",
+        "prereqs": [
+            "arts 4840",
+            "comm 4340"
+        ],
+        "department": "comm",
+        "displayName": "Creative Seminar II"
+    },
+    {
+        "name": "comm 4220",
+        "prereqs": [
+            "cogs 2520"
+        ],
+        "department": "comm",
+        "displayName": "Character And Story For Games"
+    },
+    {
+        "name": "comm 4250",
+        "prereqs": [
+            "comm 4240"
+        ],
+        "department": "comm",
+        "displayName": "Writing For Games II"
+    },
+    {
+        "name": "comm 4320",
+        "prereqs": [
+            "arch 2520",
+            "arts 1020",
+            "comm 2570",
+            "comm 2660"
+        ],
+        "department": "comm",
+        "displayName": "Visual Poetics & Narrative"
+    },
+    {
+        "name": "comm 4880",
+        "prereqs": [
+            "csci 1010",
+            "csci 1100"
+        ],
+        "department": "comm",
+        "displayName": "Interactive Data Visualization"
+    },
+    {
+        "name": "comm 2520",
+        "prereqs": [],
+        "department": "comm",
+        "displayName": "Communication Theory & Prac."
+    },
+    {
+        "name": "comm 2660",
+        "prereqs": [],
+        "department": "comm",
+        "displayName": "Introduction To Graphic Design"
+    },
+    {
+        "name": "comm 2570",
+        "prereqs": [],
+        "department": "comm",
+        "displayName": "Typography"
+    },
+    {
+        "name": "comm 4288",
+        "prereqs": [
+            "comm 2520",
+            "comm 2660",
+            "writ 1110",
+            "writ 2110"
+        ],
+        "department": "comm",
+        "displayName": "Health Comm In Practice"
+    }
+]

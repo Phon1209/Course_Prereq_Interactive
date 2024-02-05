@@ -1,0 +1,204 @@
+[
+    {
+        "name": "erth 1100",
+        "prereqs": [],
+        "department": "erth",
+        "displayName": "Geology I: Earth's Interior"
+    },
+    {
+        "name": "erth 2100",
+        "prereqs": [
+            "erth 1100",
+            "math 1020",
+            "phys 1100"
+        ],
+        "department": "erth",
+        "displayName": "Intro Geophysics"
+    },
+    {
+        "name": "erth 2210",
+        "prereqs": [
+            "erth 1100",
+            "erth 1200"
+        ],
+        "department": "erth",
+        "displayName": "Field Methods"
+    },
+    {
+        "name": "erth 2330",
+        "prereqs": [
+            "erth 1100",
+            "erth 1200"
+        ],
+        "department": "erth",
+        "displayName": "Earth Materials"
+    },
+    {
+        "name": "erth 4500",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110"
+        ],
+        "department": "erth",
+        "displayName": "Earth's Climate:past, Present And Future"
+    },
+    {
+        "name": "erth 4690",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110"
+        ],
+        "department": "erth",
+        "displayName": "Aqueous Geochemistry"
+    },
+    {
+        "name": "erth 4710",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "erth",
+        "displayName": "Groundwater Hydrology"
+    },
+    {
+        "name": "erth 1200",
+        "prereqs": [],
+        "department": "erth",
+        "displayName": "Geology II Earth's Surface"
+    },
+    {
+        "name": "erth 2120",
+        "prereqs": [
+            "erth 2210"
+        ],
+        "department": "erth",
+        "displayName": "Structural Geology"
+    },
+    {
+        "name": "erth 2140",
+        "prereqs": [
+            "erth 1100",
+            "erth 1200"
+        ],
+        "department": "erth",
+        "displayName": "Intro To Geochemistry"
+    },
+    {
+        "name": "erth 4540",
+        "prereqs": [
+            "chem 1100",
+            "erth 1200"
+        ],
+        "department": "erth",
+        "displayName": "Organic Geochemistry"
+    },
+    {
+        "name": "erth 2200",
+        "prereqs": [
+            "biol 1010",
+            "chem 1100",
+            "erth 1100",
+            "phys 1100"
+        ],
+        "department": "erth",
+        "displayName": "Environmental Data Analysis"
+    },
+    {
+        "name": "erth 4810",
+        "prereqs": [
+            "chem 1200",
+            "chem 1220"
+        ],
+        "department": "erth",
+        "displayName": "Chem Of The Environment"
+    },
+    {
+        "name": "erth 4750",
+        "prereqs": [
+            "csci 1100"
+        ],
+        "department": "erth",
+        "displayName": "Gis In The Sciences"
+    },
+    {
+        "name": "erth 4400",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "erth",
+        "displayName": "Xinformatics"
+    },
+    {
+        "name": "erth 6400",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "erth",
+        "displayName": "Xinformatics"
+    },
+    {
+        "name": "erth 4350",
+        "prereqs": [
+            "csci 1200",
+            "csci 4380"
+        ],
+        "department": "erth",
+        "displayName": "Data Science"
+    },
+    {
+        "name": "erth 6350",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "erth",
+        "displayName": "Data Science"
+    },
+    {
+        "name": "erth 6690",
+        "prereqs": [
+            "chem 1100",
+            "erth 1100"
+        ],
+        "department": "erth",
+        "displayName": "Aqueous Geochemistry"
+    },
+    {
+        "name": "erth 4560",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110"
+        ],
+        "department": "erth",
+        "displayName": "Isotope Geochemistry"
+    },
+    {
+        "name": "erth 1150",
+        "prereqs": [
+            "erth 1100"
+        ],
+        "department": "erth",
+        "displayName": "Geology I: Lab"
+    },
+    {
+        "name": "erth 1510",
+        "prereqs": [],
+        "department": "erth",
+        "displayName": "Intro To Astrobiology"
+    },
+    {
+        "name": "erth 6545",
+        "prereqs": [
+            "chem 1100",
+            "erth 1200"
+        ],
+        "department": "erth",
+        "displayName": "Organic Geochemistry"
+    },
+    {
+        "name": "erth 6560",
+        "prereqs": [
+            "chem 1100"
+        ],
+        "department": "erth",
+        "displayName": "Isotope Geochemistry"
+    }
+]

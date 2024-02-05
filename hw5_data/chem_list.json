@@ -1,0 +1,426 @@
+[
+    {
+        "name": "chem 2210",
+        "prereqs": [
+            "chem 1100",
+            "chem 1300"
+        ],
+        "department": "chem",
+        "displayName": "Organic Compounds And React"
+    },
+    {
+        "name": "chem 2230",
+        "prereqs": [
+            "chem 2250"
+        ],
+        "department": "chem",
+        "displayName": "Organic Chemistry Lab I"
+    },
+    {
+        "name": "chem 2250",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "chem 1120"
+        ],
+        "department": "chem",
+        "displayName": "Organic Chemistry I"
+    },
+    {
+        "name": "chem 2940",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Readings In Chemistry"
+    },
+    {
+        "name": "chem 2950",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Undergraduate Research"
+    },
+    {
+        "name": "chem 2220",
+        "prereqs": [
+            "chem 2210"
+        ],
+        "department": "chem",
+        "displayName": "Organic Synthesis"
+    },
+    {
+        "name": "chem 2240",
+        "prereqs": [
+            "chem 2230",
+            "chem 2260"
+        ],
+        "department": "chem",
+        "displayName": "Organic Chemistry Lab II"
+    },
+    {
+        "name": "chem 2260",
+        "prereqs": [
+            "chem 2250"
+        ],
+        "department": "chem",
+        "displayName": "Organic Chemistry II"
+    },
+    {
+        "name": "chem 1100",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Chemistry I"
+    },
+    {
+        "name": "chem 1500",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Chem Of Materials I"
+    },
+    {
+        "name": "chem 1600",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "chem 1120"
+        ],
+        "department": "chem",
+        "displayName": "Materials Science"
+    },
+    {
+        "name": "chem 2120",
+        "prereqs": [
+            "chem 2110"
+        ],
+        "department": "chem",
+        "displayName": "Experimental Chemistry I:analytical Techniques"
+    },
+    {
+        "name": "chem 2930",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Out-of-classroom Experience"
+    },
+    {
+        "name": "chem 4300",
+        "prereqs": [
+            "chem 2260"
+        ],
+        "department": "chem",
+        "displayName": "Medicinal Chemistry"
+    },
+    {
+        "name": "chem 4410",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "chem",
+        "displayName": "Macroscopic Physical Chemistry"
+    },
+    {
+        "name": "chem 4690",
+        "prereqs": [
+            "chem 1100",
+            "erth 1110"
+        ],
+        "department": "chem",
+        "displayName": "Aqueous Geochemistry"
+    },
+    {
+        "name": "chem 4760",
+        "prereqs": [
+            "biol 1010",
+            "biol 2120",
+            "chem 2250"
+        ],
+        "department": "chem",
+        "displayName": "Molecular Biochem I"
+    },
+    {
+        "name": "chem 1200",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "chem 1120"
+        ],
+        "department": "chem",
+        "displayName": "Chemistry II"
+    },
+    {
+        "name": "chem 2030",
+        "prereqs": [
+            "chem 1200",
+            "chem 1210",
+            "chem 1220",
+            "chem 1600",
+            "engr 1600",
+            "isci 1600",
+            "phys 1600"
+        ],
+        "department": "chem",
+        "displayName": "Inorganic Chemistry I"
+    },
+    {
+        "name": "chem 2540",
+        "prereqs": [
+            "erth 1100",
+            "erth 1200"
+        ],
+        "department": "chem",
+        "displayName": "Intro To Geochemistry"
+    },
+    {
+        "name": "chem 4420",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "chem",
+        "displayName": "Microscopic Physical Chemistry"
+    },
+    {
+        "name": "chem 4620",
+        "prereqs": [
+            "chem 2260"
+        ],
+        "department": "chem",
+        "displayName": "Intro Polymer Chemistry"
+    },
+    {
+        "name": "chem 4770",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "chem",
+        "displayName": "Molecular Biochem II"
+    },
+    {
+        "name": "chem 4810",
+        "prereqs": [
+            "chem 1200",
+            "chem 1220"
+        ],
+        "department": "chem",
+        "displayName": "Chem Of The Environment"
+    },
+    {
+        "name": "chem 2150",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Equil Chem & Quant Analysis"
+    },
+    {
+        "name": "chem 4780",
+        "prereqs": [
+            "bcbp 4760",
+            "chem 4760"
+        ],
+        "department": "chem",
+        "displayName": "Protein Folding"
+    },
+    {
+        "name": "chem 4460",
+        "prereqs": [
+            "chem 4410",
+            "chme 2020"
+        ],
+        "department": "chem",
+        "displayName": "Microscopic Physical Chemistry"
+    },
+    {
+        "name": "chem 4530",
+        "prereqs": [
+            "chem 2250"
+        ],
+        "department": "chem",
+        "displayName": "Modern Techniques In Chemistry"
+    },
+    {
+        "name": "chem 4150",
+        "prereqs": [
+            "chem 2150"
+        ],
+        "department": "chem",
+        "displayName": "Instr Meth Of Analysis"
+    },
+    {
+        "name": "chem 4330",
+        "prereqs": [
+            "chem 2220",
+            "chem 2260"
+        ],
+        "department": "chem",
+        "displayName": "Drug Discovery"
+    },
+    {
+        "name": "chem 4310",
+        "prereqs": [
+            "chem 2220",
+            "chem 2260"
+        ],
+        "department": "chem",
+        "displayName": "Bioorganic Mechanisms"
+    },
+    {
+        "name": "chem 1300",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Chem Principles For Engineers"
+    },
+    {
+        "name": "chem 4950",
+        "prereqs": [
+            "chem 2930",
+            "chem 2940",
+            "chem 2950",
+            "chem 4970"
+        ],
+        "department": "chem",
+        "displayName": "Culminating Research Exp"
+    },
+    {
+        "name": "chem 4110",
+        "prereqs": [
+            "chem 2110",
+            "chem 2120"
+        ],
+        "department": "chem",
+        "displayName": "Instrumental Methods Of Analysis"
+    },
+    {
+        "name": "chem 4120",
+        "prereqs": [
+            "chem 4110",
+            "chem 4420"
+        ],
+        "department": "chem",
+        "displayName": "Experimental Chemistry Iv:physical And Instrumental Methods"
+    },
+    {
+        "name": "chem 4790",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "chem",
+        "displayName": "Protein Chemistry"
+    },
+    {
+        "name": "chem 2110",
+        "prereqs": [
+            "chem 1200",
+            "chem 1210",
+            "chem 1220"
+        ],
+        "department": "chem",
+        "displayName": "Equilibrium Chemistry And Quantitative Analysis"
+    },
+    {
+        "name": "chem 4010",
+        "prereqs": [
+            "chem 2030"
+        ],
+        "department": "chem",
+        "displayName": "Inorganic Chemistry II"
+    },
+    {
+        "name": "chem 4020",
+        "prereqs": [
+            "chem 2120",
+            "chem 4010",
+            "chem 4410"
+        ],
+        "department": "chem",
+        "displayName": "Experimental Chmistry III:inorganic And Physical Methods"
+    },
+    {
+        "name": "chem 1110",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Chemistry I With Advanced Lab"
+    },
+    {
+        "name": "chem 4970",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Advanced Research Project"
+    },
+    {
+        "name": "chem 2960",
+        "prereqs": [
+            "chem 2250"
+        ],
+        "department": "chem",
+        "displayName": "Intro To Forensic Chemistry"
+    },
+    {
+        "name": "chem 2941",
+        "prereqs": [
+            "csci 2200",
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "chem",
+        "displayName": "Undergraduate Research Project"
+    },
+    {
+        "name": "chem 4440",
+        "prereqs": [
+            "chem 1200",
+            "chem 1220",
+            "math 1010"
+        ],
+        "department": "chem",
+        "displayName": "Physical Chem For Life Science"
+    },
+    {
+        "name": "chem 1210",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "chem 1120"
+        ],
+        "department": "chem",
+        "displayName": "Chemistry II Without Lab"
+    },
+    {
+        "name": "chem 4200",
+        "prereqs": [
+            "chem 2250"
+        ],
+        "department": "chem",
+        "displayName": "Industrial Chemistry"
+    },
+    {
+        "name": "chem 4130",
+        "prereqs": [
+            "math 1020",
+            "phys 1200"
+        ],
+        "department": "chem",
+        "displayName": "Mass Spectrometry"
+    },
+    {
+        "name": "chem 4030",
+        "prereqs": [
+            "chem 2210",
+            "chem 4410"
+        ],
+        "department": "chem",
+        "displayName": "Expr Chem III Abridg: Phys Mth"
+    },
+    {
+        "name": "chem 1120",
+        "prereqs": [],
+        "department": "chem",
+        "displayName": "Chemistry I Honors"
+    },
+    {
+        "name": "chem 1220",
+        "prereqs": [
+            "chem 1120"
+        ],
+        "department": "chem",
+        "displayName": "Chemistry II Honors"
+    }
+]

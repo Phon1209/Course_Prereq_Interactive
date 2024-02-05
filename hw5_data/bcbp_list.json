@@ -1,0 +1,154 @@
+[
+    {
+        "name": "bcbp 4710",
+        "prereqs": [
+            "biol 2120",
+            "biol 2125"
+        ],
+        "department": "bcbp",
+        "displayName": "Biochemistry Lab"
+    },
+    {
+        "name": "bcbp 4760",
+        "prereqs": [
+            "biol 1010",
+            "biol 2120",
+            "chem 2250"
+        ],
+        "department": "bcbp",
+        "displayName": "Molecular Biochem I"
+    },
+    {
+        "name": "bcbp 4770",
+        "prereqs": [
+            "bcbp 4760"
+        ],
+        "department": "bcbp",
+        "displayName": "Molecular Biochem II"
+    },
+    {
+        "name": "bcbp 4310",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "bcbp",
+        "displayName": "Genetic Engineering"
+    },
+    {
+        "name": "bcbp 4961",
+        "prereqs": [
+            "bcbp 4660",
+            "bcbp 6650",
+            "biol 4660",
+            "biol 6650"
+        ],
+        "department": "bcbp",
+        "displayName": "Current Topics Circadian Biol"
+    },
+    {
+        "name": "bcbp 6961",
+        "prereqs": [
+            "bcbp 4660",
+            "bcbp 6650",
+            "biol 4660",
+            "biol 6650"
+        ],
+        "department": "bcbp",
+        "displayName": "Current Topics Circadian Biol"
+    },
+    {
+        "name": "bcbp 4870",
+        "prereqs": [
+            "bcbp 4760",
+            "math 1020",
+            "phys 1200"
+        ],
+        "department": "bcbp",
+        "displayName": "Protein Structure Determin."
+    },
+    {
+        "name": "bcbp 4550",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760",
+            "math 1020"
+        ],
+        "department": "bcbp",
+        "displayName": "Molecular Modeling"
+    },
+    {
+        "name": "bcbp 6420",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760",
+            "math 1020"
+        ],
+        "department": "bcbp",
+        "displayName": "Molecular Modeling"
+    },
+    {
+        "name": "bcbp 4800",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "bcbp",
+        "displayName": "Methods In Biophysics"
+    },
+    {
+        "name": "bcbp 6800",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "bcbp",
+        "displayName": "Methods In Biophysics"
+    },
+    {
+        "name": "bcbp 4660",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "bcbp",
+        "displayName": "The Biology Of Systems"
+    },
+    {
+        "name": "bcbp 6650",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "bcbp",
+        "displayName": "The Biology Of Systems"
+    },
+    {
+        "name": "bcbp 4470",
+        "prereqs": [
+            "biol 4270"
+        ],
+        "department": "bcbp",
+        "displayName": "Muscle And Cardiac Biology"
+    },
+    {
+        "name": "bcbp 6470",
+        "prereqs": [
+            "biol 4270"
+        ],
+        "department": "bcbp",
+        "displayName": "Muscle And Cardiac Biology"
+    }
+]

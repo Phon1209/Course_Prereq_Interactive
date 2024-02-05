@@ -1,0 +1,32 @@
+[
+    {
+        "name": "dses 4610",
+        "prereqs": [],
+        "department": "dses",
+        "displayName": "Oper Research Methods I"
+    },
+    {
+        "name": "dses 4770",
+        "prereqs": [],
+        "department": "dses",
+        "displayName": "Math Models Of Operations"
+    },
+    {
+        "name": "dses 4963",
+        "prereqs": [
+            "dses 4600",
+            "dses 4610",
+            "dses 4630",
+            "dses 4770",
+            "matp 4700"
+        ],
+        "department": "dses",
+        "displayName": "Theory Of Prod. Scheduling"
+    },
+    {
+        "name": "dses 4600",
+        "prereqs": [],
+        "department": "dses",
+        "displayName": "Operations Research Method"
+    }
+]

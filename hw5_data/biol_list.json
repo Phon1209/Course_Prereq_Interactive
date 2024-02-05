@@ -1,0 +1,502 @@
+[
+    {
+        "name": "biol 2500",
+        "prereqs": [
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "Genetics & Evolution"
+    },
+    {
+        "name": "biol 1010",
+        "prereqs": [
+            "biol 1015",
+            "biol 1016"
+        ],
+        "department": "biol",
+        "displayName": "Introduction To Biology"
+    },
+    {
+        "name": "biol 4270",
+        "prereqs": [
+            "biol 2120",
+            "biol 4620",
+            "chem 2250",
+            "phys 1100"
+        ],
+        "department": "biol",
+        "displayName": "Human Physiology"
+    },
+    {
+        "name": "biol 4360",
+        "prereqs": [
+            "biol 1010"
+        ],
+        "department": "biol",
+        "displayName": "Geomicrobiology"
+    },
+    {
+        "name": "biol 4540",
+        "prereqs": [
+            "biol 4620",
+            "csci 1200",
+            "math 1020"
+        ],
+        "department": "biol",
+        "displayName": "Sequence Analysis"
+    },
+    {
+        "name": "biol 4710",
+        "prereqs": [
+            "biol 2120",
+            "biol 2125"
+        ],
+        "department": "biol",
+        "displayName": "Biochemistry Lab"
+    },
+    {
+        "name": "biol 4720",
+        "prereqs": [
+            "biol 2120",
+            "biol 2125",
+            "biol 4620"
+        ],
+        "department": "biol",
+        "displayName": "Molecular Biology Lab"
+    },
+    {
+        "name": "biol 4760",
+        "prereqs": [
+            "biol 1010",
+            "biol 2120",
+            "chem 2250"
+        ],
+        "department": "biol",
+        "displayName": "Molecular Biochemistry I"
+    },
+    {
+        "name": "biol 4850",
+        "prereqs": [
+            "biol 1010",
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "Principles Of Ecology"
+    },
+    {
+        "name": "biol 2120",
+        "prereqs": [
+            "biol 1010"
+        ],
+        "department": "biol",
+        "displayName": "Intro To Cell & Molec Biology"
+    },
+    {
+        "name": "biol 4260",
+        "prereqs": [
+            "biol 2120",
+            "biol 4620",
+            "biol 4760"
+        ],
+        "department": "biol",
+        "displayName": "Advanced Cell Biology"
+    },
+    {
+        "name": "biol 4620",
+        "prereqs": [
+            "biol 2120",
+            "biol 2500"
+        ],
+        "department": "biol",
+        "displayName": "Molecular Biology"
+    },
+    {
+        "name": "biol 4740",
+        "prereqs": [
+            "biol 2120",
+            "biol 2125",
+            "biol 2500"
+        ],
+        "department": "biol",
+        "displayName": "Advanced Cell Biology Laboratory"
+    },
+    {
+        "name": "biol 4770",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "biol",
+        "displayName": "Molecular Biochem II"
+    },
+    {
+        "name": "biol 4961",
+        "prereqs": [
+            "bcbp 4660",
+            "bcbp 6650",
+            "biol 4660",
+            "biol 6650"
+        ],
+        "department": "biol",
+        "displayName": "Current Topics Circadian Biol"
+    },
+    {
+        "name": "biol 6961",
+        "prereqs": [
+            "bcbp 4660",
+            "bcbp 6650",
+            "biol 4660",
+            "biol 6650"
+        ],
+        "department": "biol",
+        "displayName": "Current Topics Circadian Biol"
+    },
+    {
+        "name": "biol 4963",
+        "prereqs": [
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "Neurobiological Diseases"
+    },
+    {
+        "name": "biol 6330",
+        "prereqs": [
+            "biol 2500",
+            "biol 4620"
+        ],
+        "department": "biol",
+        "displayName": "Cancer Biology"
+    },
+    {
+        "name": "biol 4550",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760",
+            "math 1020"
+        ],
+        "department": "biol",
+        "displayName": "Molecular Modeling"
+    },
+    {
+        "name": "biol 4870",
+        "prereqs": [
+            "biol 4850"
+        ],
+        "department": "biol",
+        "displayName": "Lake George Biology Limnology & Underwater Ecology"
+    },
+    {
+        "name": "biol 4630",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "biol",
+        "displayName": "Molecular Biology II"
+    },
+    {
+        "name": "biol 4400",
+        "prereqs": [
+            "biol 1010"
+        ],
+        "department": "biol",
+        "displayName": "Bioterrorism,biowarfare And Biodefense: A Clear And Present Danger"
+    },
+    {
+        "name": "biol 6410",
+        "prereqs": [
+            "biol 4620",
+            "csci 1200",
+            "math 1020"
+        ],
+        "department": "biol",
+        "displayName": "Sequence Analysis"
+    },
+    {
+        "name": "biol 6420",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760",
+            "math 1020"
+        ],
+        "department": "biol",
+        "displayName": "Molecular Modeling"
+    },
+    {
+        "name": "biol 4060",
+        "prereqs": [
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "Cancer Cell Research"
+    },
+    {
+        "name": "biol 4450",
+        "prereqs": [
+            "biol 1010"
+        ],
+        "department": "biol",
+        "displayName": "Environmental Biology"
+    },
+    {
+        "name": "biol 4250",
+        "prereqs": [
+            "biol 2120",
+            "biol 2500"
+        ],
+        "department": "biol",
+        "displayName": "Developmental Biology"
+    },
+    {
+        "name": "biol 6260",
+        "prereqs": [
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "Advanced Cell Biology"
+    },
+    {
+        "name": "biol 6520",
+        "prereqs": [
+            "biol 6510"
+        ],
+        "department": "biol",
+        "displayName": "Biology Core Course II"
+    },
+    {
+        "name": "biol 4860",
+        "prereqs": [
+            "biol 2500"
+        ],
+        "department": "biol",
+        "displayName": "Evolution"
+    },
+    {
+        "name": "biol 6510",
+        "prereqs": [],
+        "department": "biol",
+        "displayName": "Biology Core Course I"
+    },
+    {
+        "name": "biol 4100",
+        "prereqs": [
+            "biol 1010",
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "From Neuron To Behavior"
+    },
+    {
+        "name": "biol 6100",
+        "prereqs": [
+            "biol 1010",
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "From Neuron To Behavior"
+    },
+    {
+        "name": "biol 4200",
+        "prereqs": [
+            "biol 1010",
+            "math 1010"
+        ],
+        "department": "biol",
+        "displayName": "Biostatistics"
+    },
+    {
+        "name": "biol 4330",
+        "prereqs": [
+            "biol 2500",
+            "biol 4620"
+        ],
+        "department": "biol",
+        "displayName": "Cancer Biology"
+    },
+    {
+        "name": "biol 4310",
+        "prereqs": [
+            "biol 2120"
+        ],
+        "department": "biol",
+        "displayName": "Microbiology"
+    },
+    {
+        "name": "biol 1015",
+        "prereqs": [],
+        "department": "biol",
+        "displayName": "Introduction To Biology Laboratory"
+    },
+    {
+        "name": "biol 4320",
+        "prereqs": [
+            "biol 2500"
+        ],
+        "department": "biol",
+        "displayName": "Microbiology Laboratory"
+    },
+    {
+        "name": "biol 4350",
+        "prereqs": [
+            "biol 4310",
+            "biol 4620"
+        ],
+        "department": "biol",
+        "displayName": "Virology"
+    },
+    {
+        "name": "biol 4110",
+        "prereqs": [],
+        "department": "biol",
+        "displayName": "Investigative Medicine I"
+    },
+    {
+        "name": "biol 4120",
+        "prereqs": [
+            "biol 4110",
+            "bmed 4110"
+        ],
+        "department": "biol",
+        "displayName": "Investigative Medicine II"
+    },
+    {
+        "name": "biol 4880",
+        "prereqs": [
+            "biol 1010",
+            "biol 1015",
+            "biol 2120",
+            "biol 2125"
+        ],
+        "department": "biol",
+        "displayName": "The Global Environment"
+    },
+    {
+        "name": "biol 6350",
+        "prereqs": [
+            "biol 4310",
+            "biol 4620"
+        ],
+        "department": "biol",
+        "displayName": "Virology"
+    },
+    {
+        "name": "biol 6880",
+        "prereqs": [
+            "biol 1010",
+            "biol 1015",
+            "biol 2120",
+            "biol 2125"
+        ],
+        "department": "biol",
+        "displayName": "The Global Environment"
+    },
+    {
+        "name": "biol 4660",
+        "prereqs": [
+            "biol 4620",
+            "biol 4760"
+        ],
+        "department": "biol",
+        "displayName": "The Biology Of Systems"
+    },
+    {
+        "name": "biol 6650",
+        "prereqs": [
+            "bcbp 4760",
+            "biol 4620",
+            "biol 4760",
+            "chem 4760"
+        ],
+        "department": "biol",
+        "displayName": "The Biology Of Systems"
+    },
+    {
+        "name": "biol 4150",
+        "prereqs": [
+            "biol 4100",
+            "biol 4260"
+        ],
+        "department": "biol",
+        "displayName": "Cellular Neuroscience"
+    },
+    {
+        "name": "biol 6150",
+        "prereqs": [
+            "biol 4100",
+            "biol 4260"
+        ],
+        "department": "biol",
+        "displayName": "Cellular Neuroscience"
+    },
+    {
+        "name": "biol 4220",
+        "prereqs": [
+            "biol 4200"
+        ],
+        "department": "biol",
+        "displayName": "Machine Learning For Environmental Biology"
+    },
+    {
+        "name": "biol 6220",
+        "prereqs": [
+            "biol 4200"
+        ],
+        "department": "biol",
+        "displayName": "Machine Learning For Environmental Biology"
+    },
+    {
+        "name": "biol 4470",
+        "prereqs": [
+            "biol 4270"
+        ],
+        "department": "biol",
+        "displayName": "Muscle And Cardiac Biology"
+    },
+    {
+        "name": "biol 6470",
+        "prereqs": [
+            "biol 4270"
+        ],
+        "department": "biol",
+        "displayName": "Muscle And Cardiac Biology"
+    },
+    {
+        "name": "biol 2125",
+        "prereqs": [
+            "biol 1010"
+        ],
+        "department": "biol",
+        "displayName": "Intro Cell & Molec Biol Lab"
+    },
+    {
+        "name": "biol 4520",
+        "prereqs": [
+            "biol 1010",
+            "math 1010"
+        ],
+        "department": "biol",
+        "displayName": "Human Population"
+    },
+    {
+        "name": "biol 6140",
+        "prereqs": [
+            "biol 4260"
+        ],
+        "department": "biol",
+        "displayName": "Cytoskeletal Biology"
+    },
+    {
+        "name": "biol 1016",
+        "prereqs": [],
+        "department": "biol",
+        "displayName": "Intro Biol Computational Lab"
+    }
+]

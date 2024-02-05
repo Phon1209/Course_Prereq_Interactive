@@ -1,0 +1,200 @@
+[
+    {
+        "name": "chme 2010",
+        "prereqs": [
+            "chme 1100",
+            "engr 1100"
+        ],
+        "department": "chme",
+        "displayName": "Material, Energy & Entropy Bal"
+    },
+    {
+        "name": "chme 4150",
+        "prereqs": [
+            "chme 2020",
+            "chme 4010",
+            "chme 4020"
+        ],
+        "department": "chme",
+        "displayName": "Chemical Engr Lab I"
+    },
+    {
+        "name": "chme 4500",
+        "prereqs": [
+            "chme 2010",
+            "chme 2020",
+            "chme 4010",
+            "chme 4020"
+        ],
+        "department": "chme",
+        "displayName": "Chemical Reactor Design"
+    },
+    {
+        "name": "chme 6570",
+        "prereqs": [
+            "chme 2020",
+            "math 2400"
+        ],
+        "department": "chme",
+        "displayName": "Chemical & Phase Equilibria"
+    },
+    {
+        "name": "chme 6610",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "chme",
+        "displayName": "Math Methods In Chem Engr I"
+    },
+    {
+        "name": "chme 2020",
+        "prereqs": [
+            "chme 2010",
+            "math 2400"
+        ],
+        "department": "chme",
+        "displayName": "Energy, Entropy, & Equilibrium"
+    },
+    {
+        "name": "chme 4160",
+        "prereqs": [
+            "chme 4040",
+            "chme 4150",
+            "chme 4500"
+        ],
+        "department": "chme",
+        "displayName": "Chem Engr Lab II"
+    },
+    {
+        "name": "chme 4010",
+        "prereqs": [
+            "chme 2010",
+            "math 2400"
+        ],
+        "department": "chme",
+        "displayName": "Transport Phenomena I"
+    },
+    {
+        "name": "chme 6510",
+        "prereqs": [
+            "chme 4010",
+            "chme 4020"
+        ],
+        "department": "chme",
+        "displayName": "Adv Transport Phenomena I"
+    },
+    {
+        "name": "chme 4020",
+        "prereqs": [
+            "chme 4010",
+            "math 2400"
+        ],
+        "department": "chme",
+        "displayName": "Transport Phenomena II"
+    },
+    {
+        "name": "chme 4030",
+        "prereqs": [
+            "chme 2050",
+            "chme 4040",
+            "chme 4500"
+        ],
+        "department": "chme",
+        "displayName": "Chem Process Dynamics & Cntrl"
+    },
+    {
+        "name": "chme 4040",
+        "prereqs": [
+            "chme 2020",
+            "chme 4010",
+            "chme 4020"
+        ],
+        "department": "chme",
+        "displayName": "Chemical Eng Separations"
+    },
+    {
+        "name": "chme 4050",
+        "prereqs": [
+            "chme 2100",
+            "chme 4040",
+            "chme 4500"
+        ],
+        "department": "chme",
+        "displayName": "Chemical Process Dsgn: Fdmtl"
+    },
+    {
+        "name": "chme 4480",
+        "prereqs": [
+            "chme 4020"
+        ],
+        "department": "chme",
+        "displayName": "Single Molecules Complex Fluid"
+    },
+    {
+        "name": "chme 6480",
+        "prereqs": [
+            "chme 4020"
+        ],
+        "department": "chme",
+        "displayName": "Single Molecules Complex Fluid"
+    },
+    {
+        "name": "chme 4968",
+        "prereqs": [
+            "chme 4020"
+        ],
+        "department": "chme",
+        "displayName": "Process Intensification"
+    },
+    {
+        "name": "chme 4460",
+        "prereqs": [
+            "biol 1010",
+            "biol 2120",
+            "chme 2020",
+            "engr 2250"
+        ],
+        "department": "chme",
+        "displayName": "Biomolecular Engineering"
+    },
+    {
+        "name": "chme 2050",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "chme",
+        "displayName": "Introduction To Computational Chemical Engineering"
+    },
+    {
+        "name": "chme 1100",
+        "prereqs": [],
+        "department": "chme",
+        "displayName": "Fundmtls Of Chemical Engr"
+    },
+    {
+        "name": "chme 2100",
+        "prereqs": [
+            "chme 2020"
+        ],
+        "department": "chme",
+        "displayName": "Chemical Process Safety"
+    },
+    {
+        "name": "chme 4100",
+        "prereqs": [
+            "chme 2050",
+            "chme 4020",
+            "math 2400"
+        ],
+        "department": "chme",
+        "displayName": "Finite Element Modeling"
+    },
+    {
+        "name": "chme 4060",
+        "prereqs": [
+            "chme 4050"
+        ],
+        "department": "chme",
+        "displayName": "Chemical Process Dsgn: Apps"
+    }
+]

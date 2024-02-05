@@ -1,0 +1,270 @@
+[
+    {
+        "name": "psyc 4500",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Drugs Society & Behavior"
+    },
+    {
+        "name": "psyc 4960",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Bayesian Data Analysis"
+    },
+    {
+        "name": "psyc 1200",
+        "prereqs": [],
+        "department": "psyc",
+        "displayName": "Intro To Psychological Science"
+    },
+    {
+        "name": "psyc 2730",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Social Psychology"
+    },
+    {
+        "name": "psyc 4200",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Industrial & Org'l Psychology"
+    },
+    {
+        "name": "psyc 4600",
+        "prereqs": [
+            "cogs 4330",
+            "cogs 4360",
+            "psyc 4330",
+            "psyc 4360",
+            "psyc 4370"
+        ],
+        "department": "psyc",
+        "displayName": "Cognition & The Brain"
+    },
+    {
+        "name": "psyc 2220",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Human Factors In Design"
+    },
+    {
+        "name": "psyc 2310",
+        "prereqs": [
+            "cogs 2120",
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Research Methods And Statistics I"
+    },
+    {
+        "name": "psyc 4110",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Motivation & Performance"
+    },
+    {
+        "name": "psyc 4320",
+        "prereqs": [
+            "cogs 2120",
+            "phil 2120",
+            "psyc 1200",
+            "psyc 2120"
+        ],
+        "department": "psyc",
+        "displayName": "Behavioral Neuroscience"
+    },
+    {
+        "name": "psyc 4370",
+        "prereqs": [
+            "cogs 2120",
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Cognitive Psychology"
+    },
+    {
+        "name": "psyc 4400",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Personality"
+    },
+    {
+        "name": "psyc 4720",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Abnormal Psychology"
+    },
+    {
+        "name": "psyc 4770",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Psychopharm & Beh Toxico"
+    },
+    {
+        "name": "psyc 2961",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Developmental Psychology"
+    },
+    {
+        "name": "psyc 4410",
+        "prereqs": [
+            "cogs 2120",
+            "phil 2120",
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Sensation And Perception"
+    },
+    {
+        "name": "psyc 4510",
+        "prereqs": [
+            "csci 2300",
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Cognitive Modeling"
+    },
+    {
+        "name": "psyc 2800",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Intro To Sports Psychology"
+    },
+    {
+        "name": "psyc 4740",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Psychology And The Law"
+    },
+    {
+        "name": "psyc 2520",
+        "prereqs": [],
+        "department": "psyc",
+        "displayName": "Game Design"
+    },
+    {
+        "name": "psyc 2120",
+        "prereqs": [],
+        "department": "psyc",
+        "displayName": "Introduction To Cognitive Science"
+    },
+    {
+        "name": "psyc 4520",
+        "prereqs": [
+            "csci 2300",
+            "psyc 2520"
+        ],
+        "department": "psyc",
+        "displayName": "Game Development"
+    },
+    {
+        "name": "psyc 4310",
+        "prereqs": [
+            "engr 2600",
+            "mgmt 2100",
+            "psyc 2310"
+        ],
+        "department": "psyc",
+        "displayName": "Research Methods And Statistics II"
+    },
+    {
+        "name": "psyc 4330",
+        "prereqs": [
+            "cogs 2120",
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Introduction To Cognitive Neuroscience"
+    },
+    {
+        "name": "psyc 4610",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Stress And The Brain"
+    },
+    {
+        "name": "psyc 4730",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Positive Psychology"
+    },
+    {
+        "name": "psyc 4440",
+        "prereqs": [
+            "ihss 1140",
+            "ihss 1150",
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Sensibilities"
+    },
+    {
+        "name": "psyc 4700",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Hormones, Brain & Behavior"
+    },
+    {
+        "name": "psyc 4350",
+        "prereqs": [
+            "cogs 2120",
+            "csci 1100",
+            "psyc 1200",
+            "psyc 4310"
+        ],
+        "department": "psyc",
+        "displayName": "Math Methods In Psyc Sci"
+    },
+    {
+        "name": "psyc 4360",
+        "prereqs": [
+            "cogs 2120",
+            "psyc 1200"
+        ],
+        "department": "psyc",
+        "displayName": "Behavioral Neuroscience"
+    },
+    {
+        "name": "psyc 4220",
+        "prereqs": [
+            "cogs 2120",
+            "cogs 2340",
+            "cogs 4330",
+            "psyc 1200",
+            "psyc 4370"
+        ],
+        "department": "psyc",
+        "displayName": "Animal Cognition&inter W/human"
+    }
+]

@@ -1,0 +1,325 @@
+[
+    {
+        "name": "civl 4010",
+        "prereqs": [
+            "civl 2630"
+        ],
+        "department": "civl",
+        "displayName": "Foundation Engineering"
+    },
+    {
+        "name": "civl 4020",
+        "prereqs": [
+            "civl 2670"
+        ],
+        "department": "civl",
+        "displayName": "Bedford Seminar"
+    },
+    {
+        "name": "civl 4070",
+        "prereqs": [
+            "civl 2670"
+        ],
+        "department": "civl",
+        "displayName": "Steel Design"
+    },
+    {
+        "name": "civl 4240",
+        "prereqs": [
+            "engr 2250",
+            "engr 2530"
+        ],
+        "department": "civl",
+        "displayName": "Intro To Finite Elements"
+    },
+    {
+        "name": "civl 4440",
+        "prereqs": [
+            "civl 2670"
+        ],
+        "department": "civl",
+        "displayName": "Matrix Structural Analysis"
+    },
+    {
+        "name": "civl 4660",
+        "prereqs": [
+            "civl 2030"
+        ],
+        "department": "civl",
+        "displayName": "Traffic Engineering"
+    },
+    {
+        "name": "civl 6230",
+        "prereqs": [
+            "civl 2030"
+        ],
+        "department": "civl",
+        "displayName": "Transportation  Economics"
+    },
+    {
+        "name": "civl 6310",
+        "prereqs": [
+            "civl 4080"
+        ],
+        "department": "civl",
+        "displayName": "Adv Concrete Structures"
+    },
+    {
+        "name": "civl 6450",
+        "prereqs": [
+            "civl 4440"
+        ],
+        "department": "civl",
+        "displayName": "Structural Dynamics"
+    },
+    {
+        "name": "civl 6660",
+        "prereqs": [],
+        "department": "civl",
+        "displayName": "Fundamentals Of Finite Element"
+    },
+    {
+        "name": "civl 4080",
+        "prereqs": [
+            "civl 2670"
+        ],
+        "department": "civl",
+        "displayName": "Concrete Design"
+    },
+    {
+        "name": "civl 4120",
+        "prereqs": [
+            "engr 2530",
+            "engr 2600"
+        ],
+        "department": "civl",
+        "displayName": "Civil Engr & Instrum & Sensors"
+    },
+    {
+        "name": "civl 4150",
+        "prereqs": [
+            "civl 2630"
+        ],
+        "department": "civl",
+        "displayName": "Geotechnical Design"
+    },
+    {
+        "name": "civl 4640",
+        "prereqs": [
+            "civl 2030"
+        ],
+        "department": "civl",
+        "displayName": "Transportation Sys Planning"
+    },
+    {
+        "name": "civl 4962",
+        "prereqs": [
+            "civl 2050",
+            "engr 2250"
+        ],
+        "department": "civl",
+        "displayName": "Water Resources Engineering"
+    },
+    {
+        "name": "civl 6320",
+        "prereqs": [
+            "civl 4070"
+        ],
+        "department": "civl",
+        "displayName": "Adv Steel Design"
+    },
+    {
+        "name": "civl 6520",
+        "prereqs": [
+            "civl 4010",
+            "civl 4150"
+        ],
+        "department": "civl",
+        "displayName": "Adv Found And Earth Struc"
+    },
+    {
+        "name": "civl 2030",
+        "prereqs": [],
+        "department": "civl",
+        "displayName": "Intro Transportation Engineeri"
+    },
+    {
+        "name": "civl 2630",
+        "prereqs": [
+            "engr 2530"
+        ],
+        "department": "civl",
+        "displayName": "Intro To Geotechnical Engr"
+    },
+    {
+        "name": "civl 2670",
+        "prereqs": [
+            "engr 2530"
+        ],
+        "department": "civl",
+        "displayName": "Intro To Structural Eng"
+    },
+    {
+        "name": "civl 4620",
+        "prereqs": [
+            "civl 2030"
+        ],
+        "department": "civl",
+        "displayName": "Mass Transit Systems"
+    },
+    {
+        "name": "civl 4670",
+        "prereqs": [
+            "civl 2030"
+        ],
+        "department": "civl",
+        "displayName": "Highway Engineering"
+    },
+    {
+        "name": "civl 4964",
+        "prereqs": [
+            "civl 2670"
+        ],
+        "department": "civl",
+        "displayName": "Conceptual Structural Systems"
+    },
+    {
+        "name": "civl 6530",
+        "prereqs": [
+            "civl 2060",
+            "civl 2630"
+        ],
+        "department": "civl",
+        "displayName": "Adv Seepage, Drainage, Grndwtr"
+    },
+    {
+        "name": "civl 6510",
+        "prereqs": [
+            "civl 4150"
+        ],
+        "department": "civl",
+        "displayName": "Advanced Geotechnical Engineering"
+    },
+    {
+        "name": "civl 4920",
+        "prereqs": [
+            "engr 2050"
+        ],
+        "department": "civl",
+        "displayName": "Civil Engineering Capstone Design"
+    },
+    {
+        "name": "civl 6490",
+        "prereqs": [
+            "civl 6450"
+        ],
+        "department": "civl",
+        "displayName": "Earthquake Engr"
+    },
+    {
+        "name": "civl 6250",
+        "prereqs": [],
+        "department": "civl",
+        "displayName": "Transportation Sys Planning"
+    },
+    {
+        "name": "civl 6220",
+        "prereqs": [
+            "civl 2030"
+        ],
+        "department": "civl",
+        "displayName": "Critical Issues In Transport"
+    },
+    {
+        "name": "civl 6290",
+        "prereqs": [
+            "civl 6250"
+        ],
+        "department": "civl",
+        "displayName": "Freight Transportation Systems"
+    },
+    {
+        "name": "civl 6440",
+        "prereqs": [
+            "civl 4440"
+        ],
+        "department": "civl",
+        "displayName": "Nonlinear Structural Analysis"
+    },
+    {
+        "name": "civl 4450",
+        "prereqs": [
+            "civl 2670"
+        ],
+        "department": "civl",
+        "displayName": "Conceptual Structural Systems"
+    },
+    {
+        "name": "civl 6340",
+        "prereqs": [
+            "arch 4020",
+            "civl 4020",
+            "civl 6310",
+            "civl 6320"
+        ],
+        "department": "civl",
+        "displayName": "Bedford Design Studio"
+    },
+    {
+        "name": "civl 6390",
+        "prereqs": [
+            "enve 4310"
+        ],
+        "department": "civl",
+        "displayName": "Wind Engineering"
+    },
+    {
+        "name": "civl 1200",
+        "prereqs": [],
+        "department": "civl",
+        "displayName": "Engineering Graphics For Civil Engineers"
+    },
+    {
+        "name": "civl 4280",
+        "prereqs": [
+            "civl 4070",
+            "civl 4080"
+        ],
+        "department": "civl",
+        "displayName": "Design For Constructability"
+    },
+    {
+        "name": "civl 6350",
+        "prereqs": [
+            "civl 4080"
+        ],
+        "department": "civl",
+        "displayName": "Masonry Design"
+    },
+    {
+        "name": "civl 2050",
+        "prereqs": [
+            "engr 1100",
+            "phys 1100"
+        ],
+        "department": "civl",
+        "displayName": "Fluid Mechan Civl & Envir Engr"
+    },
+    {
+        "name": "civl 2060",
+        "prereqs": [
+            "civl 2050"
+        ],
+        "department": "civl",
+        "displayName": "Intro Water Resource Eng"
+    },
+    {
+        "name": "civl 4530",
+        "prereqs": [
+            "civl 2060",
+            "civl 2630"
+        ],
+        "department": "civl",
+        "displayName": "Seepage, Drainage, Groundwater"
+    }
+]

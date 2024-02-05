@@ -1,0 +1,612 @@
+[
+    {
+        "name": "csci 1200",
+        "prereqs": [
+            "csci 1100"
+        ],
+        "department": "csci",
+        "displayName": "Data Structures"
+    },
+    {
+        "name": "csci 4150",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Introduction To Artificial Intelligence"
+    },
+    {
+        "name": "csci 4380",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Database Systems"
+    },
+    {
+        "name": "csci 1100",
+        "prereqs": [],
+        "department": "csci",
+        "displayName": "Computer Science I"
+    },
+    {
+        "name": "csci 2200",
+        "prereqs": [
+            "csci 1200",
+            "math 1010",
+            "math 1020",
+            "math 1500",
+            "math 2010"
+        ],
+        "department": "csci",
+        "displayName": "Foundations Of Computer Sci"
+    },
+    {
+        "name": "csci 2300",
+        "prereqs": [
+            "csci 1200",
+            "csci 2200",
+            "math 1010",
+            "math 1020",
+            "math 1500",
+            "math 2010",
+            "math 2800"
+        ],
+        "department": "csci",
+        "displayName": "Introduction To Algorithms"
+    },
+    {
+        "name": "csci 2500",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "csci",
+        "displayName": "Computer Organization"
+    },
+    {
+        "name": "csci 4050",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Comput. & Complexity"
+    },
+    {
+        "name": "csci 4210",
+        "prereqs": [
+            "csci 2300",
+            "csci 2500",
+            "ecse 2660"
+        ],
+        "department": "csci",
+        "displayName": "Operating Systems"
+    },
+    {
+        "name": "csci 4250",
+        "prereqs": [
+            "csci 2300",
+            "csci 4020",
+            "csci 4050",
+            "csci 4260",
+            "csci 4800",
+            "math 4100",
+            "math 4150",
+            "math 4200",
+            "math 4210",
+            "math 4800"
+        ],
+        "department": "csci",
+        "displayName": "Frontiers Of Network Science"
+    },
+    {
+        "name": "csci 4430",
+        "prereqs": [
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Programming Languages"
+    },
+    {
+        "name": "csci 4800",
+        "prereqs": [
+            "math 2010",
+            "math 2011",
+            "math 2012",
+            "math 2400"
+        ],
+        "department": "csci",
+        "displayName": "Numerical Computing"
+    },
+    {
+        "name": "csci 2962",
+        "prereqs": [
+            "csci 1100",
+            "csci 1200"
+        ],
+        "department": "csci",
+        "displayName": "Lisp For Artificial Intel."
+    },
+    {
+        "name": "csci 4020",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Design And Analysis Of Algorithms"
+    },
+    {
+        "name": "csci 4220",
+        "prereqs": [
+            "csci 4210"
+        ],
+        "department": "csci",
+        "displayName": "Network Programming"
+    },
+    {
+        "name": "csci 4320",
+        "prereqs": [
+            "csci 2300",
+            "csci 2500",
+            "ecse 2660"
+        ],
+        "department": "csci",
+        "displayName": "Parallel Programming"
+    },
+    {
+        "name": "csci 4961",
+        "prereqs": [],
+        "department": "csci",
+        "displayName": "Network Resilience"
+    },
+    {
+        "name": "csci 6360",
+        "prereqs": [
+            "csci 4210"
+        ],
+        "department": "csci",
+        "displayName": "Parallel Computing"
+    },
+    {
+        "name": "csci 6270",
+        "prereqs": [
+            "csci 2300",
+            "math 2010"
+        ],
+        "department": "csci",
+        "displayName": "Computational Vision"
+    },
+    {
+        "name": "csci 1190",
+        "prereqs": [],
+        "department": "csci",
+        "displayName": "Beginning Prog For Eng"
+    },
+    {
+        "name": "csci 4260",
+        "prereqs": [
+            "csci 1100",
+            "csci 1200",
+            "csci 2200",
+            "math 4090"
+        ],
+        "department": "csci",
+        "displayName": "Graph Theory"
+    },
+    {
+        "name": "csci 4820",
+        "prereqs": [
+            "csci 4800",
+            "math 4800"
+        ],
+        "department": "csci",
+        "displayName": "Intro To Num Meth For Diff Eq"
+    },
+    {
+        "name": "csci 6100",
+        "prereqs": [],
+        "department": "csci",
+        "displayName": "Machine Learning From Data"
+    },
+    {
+        "name": "csci 4100",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Machine Learning From Data"
+    },
+    {
+        "name": "csci 4390",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Data Mining"
+    },
+    {
+        "name": "csci 4440",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Software Design & Documentatio"
+    },
+    {
+        "name": "csci 1010",
+        "prereqs": [],
+        "department": "csci",
+        "displayName": "Intro To Computer Programming"
+    },
+    {
+        "name": "csci 4972",
+        "prereqs": [
+            "phil 2140"
+        ],
+        "department": "csci",
+        "displayName": "Intermediate Formal Logic & Ai"
+    },
+    {
+        "name": "csci 4600",
+        "prereqs": [
+            "csci 4350",
+            "erth 4350",
+            "itws 4350"
+        ],
+        "department": "csci",
+        "displayName": "Data Analytics"
+    },
+    {
+        "name": "csci 6390",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Data Mining"
+    },
+    {
+        "name": "csci 6510",
+        "prereqs": [
+            "csci 4210"
+        ],
+        "department": "csci",
+        "displayName": "Distributed Algorithms And Systems"
+    },
+    {
+        "name": "csci 4650",
+        "prereqs": [],
+        "department": "csci",
+        "displayName": "Networking Laboratory I"
+    },
+    {
+        "name": "csci 4660",
+        "prereqs": [],
+        "department": "csci",
+        "displayName": "Networking Laboratory II"
+    },
+    {
+        "name": "csci 4520",
+        "prereqs": [
+            "csci 1200",
+            "itws 2110"
+        ],
+        "department": "csci",
+        "displayName": "Web Science Systems Develpment"
+    },
+    {
+        "name": "csci 4670",
+        "prereqs": [
+            "csci 4650"
+        ],
+        "department": "csci",
+        "displayName": "Networking Security Laboratory"
+    },
+    {
+        "name": "csci 4480",
+        "prereqs": [
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "csci",
+        "displayName": "Robotics I"
+    },
+    {
+        "name": "csci 4530",
+        "prereqs": [
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Advanced Computer Graphics"
+    },
+    {
+        "name": "csci 4976",
+        "prereqs": [
+            "csci 1200",
+            "itws 2110"
+        ],
+        "department": "csci",
+        "displayName": "Web Science Systems Dev"
+    },
+    {
+        "name": "csci 4977",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Network Resilience"
+    },
+    {
+        "name": "csci 4400",
+        "prereqs": [
+            "csci 1200",
+            "csci 4350"
+        ],
+        "department": "csci",
+        "displayName": "Xinformatics"
+    },
+    {
+        "name": "csci 6400",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "csci",
+        "displayName": "Xinformatics"
+    },
+    {
+        "name": "csci 2600",
+        "prereqs": [
+            "csci 1200",
+            "csci 2200"
+        ],
+        "department": "csci",
+        "displayName": "Principles Of Software"
+    },
+    {
+        "name": "csci 4230",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Cryptography And Network Security I"
+    },
+    {
+        "name": "csci 4350",
+        "prereqs": [
+            "csci 1200",
+            "csci 4380"
+        ],
+        "department": "csci",
+        "displayName": "Data Science"
+    },
+    {
+        "name": "csci 6230",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Cryptography And Network Security I"
+    },
+    {
+        "name": "csci 6350",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "csci",
+        "displayName": "Data Science"
+    },
+    {
+        "name": "csci 4240",
+        "prereqs": [
+            "csci 4210",
+            "csci 4230",
+            "ecse 4670"
+        ],
+        "department": "csci",
+        "displayName": "Cryptography And Network Security II"
+    },
+    {
+        "name": "csci 4540",
+        "prereqs": [
+            "gsas 4520"
+        ],
+        "department": "csci",
+        "displayName": "Game Development II"
+    },
+    {
+        "name": "csci 4680",
+        "prereqs": [
+            "csci 4660"
+        ],
+        "department": "csci",
+        "displayName": "Advanced Network Practicum"
+    },
+    {
+        "name": "csci 4370",
+        "prereqs": [
+            "csci 4350",
+            "itws 4350"
+        ],
+        "department": "csci",
+        "displayName": "Data And Society"
+    },
+    {
+        "name": "csci 4110",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Computational Social Processes"
+    },
+    {
+        "name": "csci 4500",
+        "prereqs": [
+            "csci 4210",
+            "csci 4220",
+            "csci 4430"
+        ],
+        "department": "csci",
+        "displayName": "Dist Comp Over The Internet"
+    },
+    {
+        "name": "csci 4030",
+        "prereqs": [
+            "csci 4020"
+        ],
+        "department": "csci",
+        "displayName": "Randomized Algorithms"
+    },
+    {
+        "name": "csci 4040",
+        "prereqs": [
+            "csci 4020"
+        ],
+        "department": "csci",
+        "displayName": "Approximation Algorithms"
+    },
+    {
+        "name": "csci 4270",
+        "prereqs": [
+            "csci 2300",
+            "math 2010"
+        ],
+        "department": "csci",
+        "displayName": "Computational Vision"
+    },
+    {
+        "name": "csci 4510",
+        "prereqs": [
+            "csci 4210"
+        ],
+        "department": "csci",
+        "displayName": "Dist Systems & Algorithms"
+    },
+    {
+        "name": "csci 6040",
+        "prereqs": [
+            "csci 4020"
+        ],
+        "department": "csci",
+        "displayName": "Approximation Algorithms"
+    },
+    {
+        "name": "csci 4130",
+        "prereqs": [
+            "csci 2300",
+            "math 2010"
+        ],
+        "department": "csci",
+        "displayName": "Natural Language Processing"
+    },
+    {
+        "name": "csci 4450",
+        "prereqs": [
+            "csci 4430"
+        ],
+        "department": "csci",
+        "displayName": "Principles Of Program Analysis"
+    },
+    {
+        "name": "csci 4550",
+        "prereqs": [
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Interactive Visualization"
+    },
+    {
+        "name": "csci 6550",
+        "prereqs": [
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Interactive Visualization"
+    },
+    {
+        "name": "csci 4120",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Computational Finance"
+    },
+    {
+        "name": "csci 4340",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "csci",
+        "displayName": "Ontologies"
+    },
+    {
+        "name": "csci 4310",
+        "prereqs": [
+            "csci 4210",
+            "ecse 2660"
+        ],
+        "department": "csci",
+        "displayName": "Networking In The Linux Kernel"
+    },
+    {
+        "name": "csci 4460",
+        "prereqs": [
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Large Scale Program & Testing"
+    },
+    {
+        "name": "csci 4420",
+        "prereqs": [
+            "csci 2200",
+            "phil 2140"
+        ],
+        "department": "csci",
+        "displayName": "Computability And Logic"
+    },
+    {
+        "name": "csci 4470",
+        "prereqs": [
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Open Source Software"
+    },
+    {
+        "name": "csci 4560",
+        "prereqs": [
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Computational Geometry"
+    },
+    {
+        "name": "csci 6560",
+        "prereqs": [
+            "csci 2300",
+            "csci 2600"
+        ],
+        "department": "csci",
+        "displayName": "Computational Geometry"
+    },
+    {
+        "name": "csci 1700",
+        "prereqs": [
+            "csci 1100"
+        ],
+        "department": "csci",
+        "displayName": "Early Introduction To Rcos"
+    },
+    {
+        "name": "csci 2700",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "csci",
+        "displayName": "Introduction To Rcos"
+    }
+]

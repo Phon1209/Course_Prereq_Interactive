@@ -1,0 +1,183 @@
+[
+    {
+        "name": "cogs 2520",
+        "prereqs": [],
+        "department": "cogs",
+        "displayName": "Introduction To Game Design"
+    },
+    {
+        "name": "cogs 4520",
+        "prereqs": [
+            "cogs 2520",
+            "csci 2300"
+        ],
+        "department": "cogs",
+        "displayName": "Game Development  I"
+    },
+    {
+        "name": "cogs 4320",
+        "prereqs": [
+            "cogs 2520"
+        ],
+        "department": "cogs",
+        "displayName": "Game Mechanics"
+    },
+    {
+        "name": "cogs 4210",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "cogs",
+        "displayName": "Cognitive Modeling"
+    },
+    {
+        "name": "cogs 2120",
+        "prereqs": [],
+        "department": "cogs",
+        "displayName": "Intro To Cognitive Science"
+    },
+    {
+        "name": "cogs 4410",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "cogs",
+        "displayName": "Programming For Cog Sci & Ai"
+    },
+    {
+        "name": "cogs 4330",
+        "prereqs": [
+            "cogs 2120",
+            "psyc 1200"
+        ],
+        "department": "cogs",
+        "displayName": "Introduction To Cognitive  Neuroscience"
+    },
+    {
+        "name": "cogs 4540",
+        "prereqs": [
+            "cogs 4520",
+            "csci 4520"
+        ],
+        "department": "cogs",
+        "displayName": "Game Development II"
+    },
+    {
+        "name": "cogs 4610",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "cogs",
+        "displayName": "Stress And The Brain"
+    },
+    {
+        "name": "cogs 4360",
+        "prereqs": [
+            "cogs 2120",
+            "phil 2120",
+            "psyc 1200",
+            "psyc 2120"
+        ],
+        "department": "cogs",
+        "displayName": "Behavioral Neuroscience"
+    },
+    {
+        "name": "cogs 4420",
+        "prereqs": [
+            "csci 2300",
+            "gsas 2540"
+        ],
+        "department": "cogs",
+        "displayName": "Game Ai"
+    },
+    {
+        "name": "cogs 4550",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "cogs",
+        "displayName": "Game Architecture"
+    },
+    {
+        "name": "cogs 4640",
+        "prereqs": [
+            "csci 1200",
+            "csci 2300"
+        ],
+        "department": "cogs",
+        "displayName": "Intelligent Virtual Agent"
+    },
+    {
+        "name": "cogs 4600",
+        "prereqs": [
+            "cogs 2120",
+            "cogs 4330",
+            "phil 2120",
+            "psyc 1200",
+            "psyc 2120",
+            "psyc 4330"
+        ],
+        "department": "cogs",
+        "displayName": "Cognition And The Brain"
+    },
+    {
+        "name": "cogs 2340",
+        "prereqs": [],
+        "department": "cogs",
+        "displayName": "Introduction To Linguistics"
+    },
+    {
+        "name": "cogs 4440",
+        "prereqs": [
+            "ihss 1140",
+            "ihss 1150",
+            "psyc 1200"
+        ],
+        "department": "cogs",
+        "displayName": "Sensibilities"
+    },
+    {
+        "name": "cogs 4560",
+        "prereqs": [
+            "cogs 2340"
+        ],
+        "department": "cogs",
+        "displayName": "Natural Languages/a Cross-linguistic Perspective"
+    },
+    {
+        "name": "cogs 4340",
+        "prereqs": [
+            "cogs 2340"
+        ],
+        "department": "cogs",
+        "displayName": "Computational Linguistics"
+    },
+    {
+        "name": "cogs 4700",
+        "prereqs": [
+            "psyc 1200"
+        ],
+        "department": "cogs",
+        "displayName": "Hormones, Brain & Behavior"
+    },
+    {
+        "name": "cogs 4780",
+        "prereqs": [
+            "cogs 2340"
+        ],
+        "department": "cogs",
+        "displayName": "Advanced Topics In Linguistics"
+    },
+    {
+        "name": "cogs 4220",
+        "prereqs": [
+            "cogs 2120",
+            "cogs 2340",
+            "cogs 4330",
+            "psyc 1200",
+            "psyc 4370"
+        ],
+        "department": "cogs",
+        "displayName": "Animal Cognition&inter W/human"
+    }
+]

@@ -1,0 +1,355 @@
+[
+    {
+        "name": "math 1010",
+        "prereqs": [],
+        "department": "math",
+        "displayName": "Calculus I"
+    },
+    {
+        "name": "math 1020",
+        "prereqs": [
+            "math 1010"
+        ],
+        "department": "math",
+        "displayName": "Calculus II"
+    },
+    {
+        "name": "math 2400",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "math",
+        "displayName": "Intro Differential Equations"
+    },
+    {
+        "name": "math 4600",
+        "prereqs": [
+            "math 2010"
+        ],
+        "department": "math",
+        "displayName": "Advanced Calculus"
+    },
+    {
+        "name": "math 2960",
+        "prereqs": [
+            "math 1010"
+        ],
+        "department": "math",
+        "displayName": "Intro To Data Mathematics"
+    },
+    {
+        "name": "math 4800",
+        "prereqs": [
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "math",
+        "displayName": "Numerical Computing"
+    },
+    {
+        "name": "math 1500",
+        "prereqs": [],
+        "department": "math",
+        "displayName": "Calc I For Arch, Mgmt &  Hass"
+    },
+    {
+        "name": "math 2010",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "math",
+        "displayName": "Multivar Calc & Matrix Algebra"
+    },
+    {
+        "name": "math 4040",
+        "prereqs": [
+            "math 4090"
+        ],
+        "department": "math",
+        "displayName": "Intro To Topology"
+    },
+    {
+        "name": "math 4100",
+        "prereqs": [
+            "math 2010"
+        ],
+        "department": "math",
+        "displayName": "Linear Algebra"
+    },
+    {
+        "name": "math 4200",
+        "prereqs": [
+            "math 1020",
+            "math 4090"
+        ],
+        "department": "math",
+        "displayName": "Mathematical Analysis I"
+    },
+    {
+        "name": "math 4400",
+        "prereqs": [
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "math",
+        "displayName": "Ordinary Diffeq And Dynamical"
+    },
+    {
+        "name": "math 4700",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "math",
+        "displayName": "Foundations Of Applied Math"
+    },
+    {
+        "name": "math 6220",
+        "prereqs": [
+            "math 4100",
+            "math 4200",
+            "math 4300",
+            "math 4600"
+        ],
+        "department": "math",
+        "displayName": "Applied Functional Analysis"
+    },
+    {
+        "name": "math 6500",
+        "prereqs": [
+            "math 4100",
+            "math 4200",
+            "math 4600"
+        ],
+        "department": "math",
+        "displayName": "Partial Differential Equations"
+    },
+    {
+        "name": "math 6600",
+        "prereqs": [
+            "math 2400",
+            "math 4600"
+        ],
+        "department": "math",
+        "displayName": "Methods Of Applied Mathematics"
+    },
+    {
+        "name": "math 6800",
+        "prereqs": [
+            "csci 4800",
+            "math 4800"
+        ],
+        "department": "math",
+        "displayName": "Computational Lin Algebra"
+    },
+    {
+        "name": "math 1520",
+        "prereqs": [
+            "math 1010",
+            "math 1500"
+        ],
+        "department": "math",
+        "displayName": "Math Methods In Mgt & Economic"
+    },
+    {
+        "name": "math 4210",
+        "prereqs": [
+            "math 4200"
+        ],
+        "department": "math",
+        "displayName": "Mathematical Analysis II"
+    },
+    {
+        "name": "math 4300",
+        "prereqs": [],
+        "department": "math",
+        "displayName": "Intro To Complex Variables"
+    },
+    {
+        "name": "math 4500",
+        "prereqs": [
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "math",
+        "displayName": "Meth Pde Of Math Physics"
+    },
+    {
+        "name": "math 4740",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "math",
+        "displayName": "Introduction To Financial Mathematics And Engineering"
+    },
+    {
+        "name": "math 4820",
+        "prereqs": [
+            "csci 4800",
+            "math 4800"
+        ],
+        "department": "math",
+        "displayName": "Intro Numerical Mthd Diff Equ"
+    },
+    {
+        "name": "math 6200",
+        "prereqs": [
+            "math 4210"
+        ],
+        "department": "math",
+        "displayName": "Real Analysis"
+    },
+    {
+        "name": "math 4720",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "math",
+        "displayName": "Math In Medicine & Biol"
+    },
+    {
+        "name": "math 6840",
+        "prereqs": [
+            "csci 4800",
+            "math 4800"
+        ],
+        "department": "math",
+        "displayName": "Numerical Solutions Of P"
+    },
+    {
+        "name": "math 2800",
+        "prereqs": [],
+        "department": "math",
+        "displayName": "Intro To Discrete Structures"
+    },
+    {
+        "name": "math 4120",
+        "prereqs": [
+            "math 2010"
+        ],
+        "department": "math",
+        "displayName": "Fund Of Geometry"
+    },
+    {
+        "name": "math 4150",
+        "prereqs": [
+            "csci 1100",
+            "csci 2200",
+            "math 4090"
+        ],
+        "department": "math",
+        "displayName": "Graph Theory"
+    },
+    {
+        "name": "math 6620",
+        "prereqs": [
+            "math 2400",
+            "math 4600"
+        ],
+        "department": "math",
+        "displayName": "Perturbation Methods"
+    },
+    {
+        "name": "math 6860",
+        "prereqs": [
+            "csci 4800",
+            "math 4800"
+        ],
+        "department": "math",
+        "displayName": "Finite Element Analysis"
+    },
+    {
+        "name": "math 1620",
+        "prereqs": [
+            "math 1010",
+            "math 1500"
+        ],
+        "department": "math",
+        "displayName": "Contemporary Math Ideas"
+    },
+    {
+        "name": "math 6400",
+        "prereqs": [
+            "math 4300",
+            "math 4400"
+        ],
+        "department": "math",
+        "displayName": "Ordinary Differential Equation"
+    },
+    {
+        "name": "math 6640",
+        "prereqs": [
+            "math 2400",
+            "math 4300",
+            "math 4600"
+        ],
+        "department": "math",
+        "displayName": "Complx Vari Integral Transform"
+    },
+    {
+        "name": "math 6791",
+        "prereqs": [
+            "math 4200",
+            "math 4800",
+            "math 6500",
+            "math 6840"
+        ],
+        "department": "math",
+        "displayName": "Biomechanical Image Soft Tissu"
+    },
+    {
+        "name": "math 4090",
+        "prereqs": [
+            "math 2010"
+        ],
+        "department": "math",
+        "displayName": "Foundations Of Analysis"
+    },
+    {
+        "name": "math 4030",
+        "prereqs": [
+            "csci 2200",
+            "phil 2140"
+        ],
+        "department": "math",
+        "displayName": "Computability And Logic"
+    },
+    {
+        "name": "math 2012",
+        "prereqs": [],
+        "department": "math",
+        "displayName": "Matrix Algebra"
+    },
+    {
+        "name": "math 2011",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "math",
+        "displayName": "Multivariable Calculus"
+    },
+    {
+        "name": "math 6660",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "math",
+        "displayName": "Stochastic Processes And Modeling"
+    },
+    {
+        "name": "math 4140",
+        "prereqs": [
+            "phil 2140"
+        ],
+        "department": "math",
+        "displayName": "Intermediate Logic"
+    },
+    {
+        "name": "math 4840",
+        "prereqs": [
+            "csci 4800",
+            "math 4800"
+        ],
+        "department": "math",
+        "displayName": "Numerical Linear Algebra  Apps"
+    }
+]

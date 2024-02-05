@@ -1,0 +1,77 @@
+[
+    {
+        "name": "phil 2140",
+        "prereqs": [],
+        "department": "phil",
+        "displayName": "Introduction To Logic"
+    },
+    {
+        "name": "phil 2960",
+        "prereqs": [
+            "cogs 2120",
+            "ihss 1140",
+            "phil 1110",
+            "phil 2100"
+        ],
+        "department": "phil",
+        "displayName": "Ethics Of Ai"
+    },
+    {
+        "name": "phil 1110",
+        "prereqs": [],
+        "department": "phil",
+        "displayName": "Intro To Philosophy"
+    },
+    {
+        "name": "phil 4240",
+        "prereqs": [],
+        "department": "phil",
+        "displayName": "Ethics"
+    },
+    {
+        "name": "phil 4420",
+        "prereqs": [
+            "csci 2200",
+            "phil 2140"
+        ],
+        "department": "phil",
+        "displayName": "Computability And Logic"
+    },
+    {
+        "name": "phil 2100",
+        "prereqs": [],
+        "department": "phil",
+        "displayName": "Critical Thinking"
+    },
+    {
+        "name": "phil 2120",
+        "prereqs": [],
+        "department": "phil",
+        "displayName": "Introduction To Cognitive Science"
+    },
+    {
+        "name": "phil 4140",
+        "prereqs": [
+            "phil 2140"
+        ],
+        "department": "phil",
+        "displayName": "Intermediate Logic"
+    },
+    {
+        "name": "phil 4500",
+        "prereqs": [
+            "ihss 1110",
+            "ihss 1150",
+            "inqr 1110",
+            "inqr 1150",
+            "phil 1110",
+            "phil 4240",
+            "stso 2500",
+            "stso 2510",
+            "stso 2520",
+            "stso 2700"
+        ],
+        "department": "phil",
+        "displayName": "Bioethics"
+    }
+]

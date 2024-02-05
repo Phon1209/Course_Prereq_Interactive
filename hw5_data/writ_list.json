@@ -1,0 +1,40 @@
+[
+    {
+        "name": "writ 1110",
+        "prereqs": [],
+        "department": "writ",
+        "displayName": "Writing In Context"
+    },
+    {
+        "name": "writ 2110",
+        "prereqs": [],
+        "department": "writ",
+        "displayName": "Strategic Writing"
+    },
+    {
+        "name": "writ 4550",
+        "prereqs": [
+            "comm 2520",
+            "writ 1110",
+            "writ 2110"
+        ],
+        "department": "writ",
+        "displayName": "Proposing & Persuading"
+    },
+    {
+        "name": "writ 2330",
+        "prereqs": [],
+        "department": "writ",
+        "displayName": "Creative Writing: The Short Story"
+    },
+    {
+        "name": "writ 4170",
+        "prereqs": [
+            "comm 1510",
+            "writ 1110",
+            "writ 2110"
+        ],
+        "department": "writ",
+        "displayName": "Writing For Promotion & Marketing"
+    }
+]

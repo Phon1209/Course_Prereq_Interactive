@@ -1,0 +1,102 @@
+[
+    {
+        "name": "matp 4600",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "matp",
+        "displayName": "Prob Theory & Applications"
+    },
+    {
+        "name": "matp 4700",
+        "prereqs": [
+            "math 2010"
+        ],
+        "department": "matp",
+        "displayName": "Math Models Of Operations"
+    },
+    {
+        "name": "matp 6600",
+        "prereqs": [
+            "math 2010",
+            "math 4090"
+        ],
+        "department": "matp",
+        "displayName": "Introduction To Optimization"
+    },
+    {
+        "name": "matp 4820",
+        "prereqs": [
+            "csci 1100",
+            "engr 1100",
+            "math 2010"
+        ],
+        "department": "matp",
+        "displayName": "Computational Optimization"
+    },
+    {
+        "name": "matp 6620",
+        "prereqs": [
+            "math 2010",
+            "matp 4700"
+        ],
+        "department": "matp",
+        "displayName": "Integer & Combinatorial Opt."
+    },
+    {
+        "name": "matp 6640",
+        "prereqs": [
+            "math 2010",
+            "matp 4700"
+        ],
+        "department": "matp",
+        "displayName": "Linear And Conic Optimization"
+    },
+    {
+        "name": "matp 6610",
+        "prereqs": [
+            "csci 1100",
+            "engr 1100",
+            "math 2010"
+        ],
+        "department": "matp",
+        "displayName": "Computational Optimization"
+    },
+    {
+        "name": "matp 4400",
+        "prereqs": [
+            "csci 1100",
+            "math 2010"
+        ],
+        "department": "matp",
+        "displayName": "Intro To Data Mathematics"
+    },
+    {
+        "name": "matp 4910",
+        "prereqs": [
+            "biol 4200",
+            "csci 4100",
+            "csci 6100",
+            "ecse 6610",
+            "isye 6180",
+            "itws 4600",
+            "itws 6600",
+            "matp 4400"
+        ],
+        "department": "matp",
+        "displayName": "Data Analytics Research"
+    },
+    {
+        "name": "matp 6910",
+        "prereqs": [
+            "biol 4200",
+            "csci 4100",
+            "csci 6100",
+            "itws 4600",
+            "itws 6600",
+            "matp 4400"
+        ],
+        "department": "matp",
+        "displayName": "Data Analytics Research"
+    }
+]

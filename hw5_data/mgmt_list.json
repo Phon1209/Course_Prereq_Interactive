@@ -1,0 +1,528 @@
+[
+    {
+        "name": "mgmt 2300",
+        "prereqs": [
+            "mgmt 1100"
+        ],
+        "department": "mgmt",
+        "displayName": "Financial Acctg In Digital Age"
+    },
+    {
+        "name": "mgmt 4850",
+        "prereqs": [
+            "mgmt 1100"
+        ],
+        "department": "mgmt",
+        "displayName": "Org Behavior In High Perf Org"
+    },
+    {
+        "name": "mgmt 4960",
+        "prereqs": [
+            "mgmt 2100"
+        ],
+        "department": "mgmt",
+        "displayName": "Sports Analytics"
+    },
+    {
+        "name": "mgmt 6190",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Introduction To Accounting And Financial Management"
+    },
+    {
+        "name": "mgmt 6550",
+        "prereqs": [
+            "mgmt 6100",
+            "mgmt 6510",
+            "mgmt 6520"
+        ],
+        "department": "mgmt",
+        "displayName": "Marketing Research"
+    },
+    {
+        "name": "mgmt 1100",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Management In The Digital Age"
+    },
+    {
+        "name": "mgmt 2320",
+        "prereqs": [
+            "mgmt 2300"
+        ],
+        "department": "mgmt",
+        "displayName": "Managerial Finance"
+    },
+    {
+        "name": "mgmt 6310",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Supply Chain Capstone"
+    },
+    {
+        "name": "mgmt 4320",
+        "prereqs": [
+            "mgmt 2300",
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "Investments I"
+    },
+    {
+        "name": "mgmt 4330",
+        "prereqs": [
+            "mgmt 2320",
+            "mgmt 4320"
+        ],
+        "department": "mgmt",
+        "displayName": "Investments II"
+    },
+    {
+        "name": "mgmt 4470",
+        "prereqs": [
+            "mgmt 2430"
+        ],
+        "department": "mgmt",
+        "displayName": "Marketing Research"
+    },
+    {
+        "name": "mgmt 4520",
+        "prereqs": [
+            "mgmt 1100"
+        ],
+        "department": "mgmt",
+        "displayName": "Intro To Tech Entrepreneurship"
+    },
+    {
+        "name": "mgmt 4860",
+        "prereqs": [
+            "mgmt 1100"
+        ],
+        "department": "mgmt",
+        "displayName": "Human Resources In High Performance Organizations"
+    },
+    {
+        "name": "mgmt 4870",
+        "prereqs": [
+            "mgmt 2300",
+            "mgmt 2320",
+            "mgmt 2430",
+            "mgmt 4110"
+        ],
+        "department": "mgmt",
+        "displayName": "Strategy And Policy"
+    },
+    {
+        "name": "mgmt 6100",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Foundations Of Data Science"
+    },
+    {
+        "name": "mgmt 6370",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Advanced Options, Futures And Derivatives Markets"
+    },
+    {
+        "name": "mgmt 6510",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Financial Computation & Simul"
+    },
+    {
+        "name": "mgmt 6650",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Tech & Comp Advantage"
+    },
+    {
+        "name": "mgmt 4110",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Operations Management"
+    },
+    {
+        "name": "mgmt 4340",
+        "prereqs": [
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "Adv Corporate Finance"
+    },
+    {
+        "name": "mgmt 4490",
+        "prereqs": [
+            "mgmt 2430"
+        ],
+        "department": "mgmt",
+        "displayName": "Adv Strat & Promotions"
+    },
+    {
+        "name": "mgmt 6140",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Manage Digitization & Transfrm"
+    },
+    {
+        "name": "mgmt 6160",
+        "prereqs": [
+            "mgmt 6100"
+        ],
+        "department": "mgmt",
+        "displayName": "App Analytics & Pred Modeling"
+    },
+    {
+        "name": "mgmt 6470",
+        "prereqs": [
+            "mgmt 6100"
+        ],
+        "department": "mgmt",
+        "displayName": "Management Of Quality, Processes And Reliability"
+    },
+    {
+        "name": "mgmt 6520",
+        "prereqs": [
+            "mgmt 6020"
+        ],
+        "department": "mgmt",
+        "displayName": "Financial Model & Optimization"
+    },
+    {
+        "name": "mgmt 6660",
+        "prereqs": [
+            "mgmt 6650"
+        ],
+        "department": "mgmt",
+        "displayName": "Strategy,tech & Entrep"
+    },
+    {
+        "name": "mgmt 6840",
+        "prereqs": [
+            "mgmt 6020",
+            "mgmt 6040",
+            "mgmt 6580",
+            "mgmt 7730",
+            "mgmt 7740"
+        ],
+        "department": "mgmt",
+        "displayName": "Practicum In Management"
+    },
+    {
+        "name": "mgmt 6964",
+        "prereqs": [
+            "mgmt 6020",
+            "mgmt 6370"
+        ],
+        "department": "mgmt",
+        "displayName": "Fixed Income"
+    },
+    {
+        "name": "mgmt 2100",
+        "prereqs": [
+            "math 1010",
+            "math 1020",
+            "math 1500",
+            "math 1520"
+        ],
+        "department": "mgmt",
+        "displayName": "Statistical Methods"
+    },
+    {
+        "name": "mgmt 6170",
+        "prereqs": [
+            "mgmt 6140"
+        ],
+        "department": "mgmt",
+        "displayName": "Adv Syst Analys & Design"
+    },
+    {
+        "name": "mgmt 6580",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Marketing High - Tech Prod"
+    },
+    {
+        "name": "mgmt 4100",
+        "prereqs": [
+            "mgmt 2100"
+        ],
+        "department": "mgmt",
+        "displayName": "Quantitative Methods For Bus"
+    },
+    {
+        "name": "mgmt 4230",
+        "prereqs": [
+            "mgmt 2300"
+        ],
+        "department": "mgmt",
+        "displayName": "Cost Accounting"
+    },
+    {
+        "name": "mgmt 4370",
+        "prereqs": [
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "Risk Management"
+    },
+    {
+        "name": "mgmt 4160",
+        "prereqs": [
+            "mgmt 4100"
+        ],
+        "department": "mgmt",
+        "displayName": "Appl Analy & Predictive Mod"
+    },
+    {
+        "name": "mgmt 4240",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Systems Analysis & Design"
+    },
+    {
+        "name": "mgmt 4510",
+        "prereqs": [
+            "mgmt 1100"
+        ],
+        "department": "mgmt",
+        "displayName": "Invention, Innov & Entrepren"
+    },
+    {
+        "name": "mgmt 6380",
+        "prereqs": [
+            "mgmt 6310"
+        ],
+        "department": "mgmt",
+        "displayName": "Advanced Corporate Finance"
+    },
+    {
+        "name": "mgmt 4130",
+        "prereqs": [
+            "csci 2300",
+            "mgmt 4240"
+        ],
+        "department": "mgmt",
+        "displayName": "Enterprise It Integration"
+    },
+    {
+        "name": "mgmt 4310",
+        "prereqs": [
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "Finl Trading And Investing"
+    },
+    {
+        "name": "mgmt 6240",
+        "prereqs": [
+            "mgmt 6020"
+        ],
+        "department": "mgmt",
+        "displayName": "Financl Trading And Investing"
+    },
+    {
+        "name": "mgmt 4460",
+        "prereqs": [
+            "mgmt 2430"
+        ],
+        "department": "mgmt",
+        "displayName": "Consumer Behavior And Prod Dsn"
+    },
+    {
+        "name": "mgmt 4220",
+        "prereqs": [
+            "mgmt 2300"
+        ],
+        "department": "mgmt",
+        "displayName": "Acct Info Systems"
+    },
+    {
+        "name": "mgmt 6080",
+        "prereqs": [
+            "mgmt 4100"
+        ],
+        "department": "mgmt",
+        "displayName": "Networks, Innovation And Value Creation I"
+    },
+    {
+        "name": "mgmt 6040",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Talent Management"
+    },
+    {
+        "name": "mgmt 6410",
+        "prereqs": [
+            "mgmt 6020"
+        ],
+        "department": "mgmt",
+        "displayName": "Quantitative Asset Management"
+    },
+    {
+        "name": "mgmt 6020",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Financial Management I"
+    },
+    {
+        "name": "mgmt 7730",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Economics And Institutions"
+    },
+    {
+        "name": "mgmt 7740",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Accounting For Reporting And Control"
+    },
+    {
+        "name": "mgmt 6260",
+        "prereqs": [
+            "mgmt 6020",
+            "mgmt 6190"
+        ],
+        "department": "mgmt",
+        "displayName": "Entrepreneurial Finance"
+    },
+    {
+        "name": "mgmt 7760",
+        "prereqs": [
+            "mgmt 6520"
+        ],
+        "department": "mgmt",
+        "displayName": "Risk Analytics And Management"
+    },
+    {
+        "name": "mgmt 4380",
+        "prereqs": [
+            "mgmt 4320"
+        ],
+        "department": "mgmt",
+        "displayName": "Derivatives Markets"
+    },
+    {
+        "name": "mgmt 4170",
+        "prereqs": [
+            "mgmt 4100",
+            "mgmt 4110"
+        ],
+        "department": "mgmt",
+        "displayName": "Data Resource Management"
+    },
+    {
+        "name": "mgmt 4350",
+        "prereqs": [
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "Financial Markets And Institutions"
+    },
+    {
+        "name": "mgmt 4360",
+        "prereqs": [
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "International Finance"
+    },
+    {
+        "name": "mgmt 4260",
+        "prereqs": [
+            "mgmt 2300"
+        ],
+        "department": "mgmt",
+        "displayName": "Financial Statement Analysis"
+    },
+    {
+        "name": "mgmt 4540",
+        "prereqs": [
+            "mgmt 2300",
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "Entrepreneurial Finance"
+    },
+    {
+        "name": "mgmt 6420",
+        "prereqs": [
+            "mgmt 6020",
+            "mgmt 6520"
+        ],
+        "department": "mgmt",
+        "displayName": "Student Managed Invest Fund"
+    },
+    {
+        "name": "mgmt 4270",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Intermediate Accounting I"
+    },
+    {
+        "name": "mgmt 4450",
+        "prereqs": [
+            "mgmt 2430"
+        ],
+        "department": "mgmt",
+        "displayName": "Internet Marketing"
+    },
+    {
+        "name": "mgmt 4280",
+        "prereqs": [
+            "mgmt 4270"
+        ],
+        "department": "mgmt",
+        "displayName": "Intermediate Accounting II"
+    },
+    {
+        "name": "mgmt 2430",
+        "prereqs": [],
+        "department": "mgmt",
+        "displayName": "Marketing Principles"
+    },
+    {
+        "name": "mgmt 2150",
+        "prereqs": [
+            "math 1010",
+            "math 1020",
+            "math 1520",
+            "mgmt 1500"
+        ],
+        "department": "mgmt",
+        "displayName": "Accelerated Business Statistic"
+    },
+    {
+        "name": "mgmt 4390",
+        "prereqs": [
+            "mgmt 1100"
+        ],
+        "department": "mgmt",
+        "displayName": "International Project Management"
+    },
+    {
+        "name": "mgmt 4080",
+        "prereqs": [
+            "mgmt 4100"
+        ],
+        "department": "mgmt",
+        "displayName": "Networks And Value Creation"
+    },
+    {
+        "name": "mgmt 4420",
+        "prereqs": [
+            "mgmt 2320"
+        ],
+        "department": "mgmt",
+        "displayName": "Student Managed Invest Fund"
+    },
+    {
+        "name": "mgmt 4175",
+        "prereqs": [
+            "mgmt 4100",
+            "mgmt 4110"
+        ],
+        "department": "mgmt",
+        "displayName": "Supply Chain Analytics"
+    }
+]

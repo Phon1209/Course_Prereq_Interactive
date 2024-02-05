@@ -1,0 +1,785 @@
+[
+    {
+        "name": "mane 2400",
+        "prereqs": [
+            "mane 2830"
+        ],
+        "department": "mane",
+        "displayName": "Fundamentals Of Nuclear Engr"
+    },
+    {
+        "name": "mane 4010",
+        "prereqs": [
+            "engr 2250"
+        ],
+        "department": "mane",
+        "displayName": "Thermal And Fluids Engr II"
+    },
+    {
+        "name": "mane 4030",
+        "prereqs": [
+            "bmed 2540",
+            "engr 2530",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Elements Of Mech Design"
+    },
+    {
+        "name": "mane 4040",
+        "prereqs": [
+            "mane 4030"
+        ],
+        "department": "mane",
+        "displayName": "Mechanical Systems Lab"
+    },
+    {
+        "name": "mane 4060",
+        "prereqs": [
+            "engr 2530"
+        ],
+        "department": "mane",
+        "displayName": "Aerospace Struct & Materials"
+    },
+    {
+        "name": "mane 4070",
+        "prereqs": [
+            "mane 2710",
+            "mane 2720"
+        ],
+        "department": "mane",
+        "displayName": "Aerodynamics"
+    },
+    {
+        "name": "mane 4080",
+        "prereqs": [
+            "mane 2710",
+            "mane 2720"
+        ],
+        "department": "mane",
+        "displayName": "Propulsion Systems"
+    },
+    {
+        "name": "mane 4090",
+        "prereqs": [
+            "mane 4070",
+            "mane 4500"
+        ],
+        "department": "mane",
+        "displayName": "Flight Mechanics"
+    },
+    {
+        "name": "mane 4100",
+        "prereqs": [
+            "engr 2090",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Spaceflight Mechanics"
+    },
+    {
+        "name": "mane 4180",
+        "prereqs": [
+            "engr 2090"
+        ],
+        "department": "mane",
+        "displayName": "Mechanisms"
+    },
+    {
+        "name": "mane 4200",
+        "prereqs": [
+            "mane 4070"
+        ],
+        "department": "mane",
+        "displayName": "Rotocraft Perf Stab Ctl"
+    },
+    {
+        "name": "mane 4240",
+        "prereqs": [
+            "bmed 2540",
+            "engr 2530"
+        ],
+        "department": "mane",
+        "displayName": "Intro To Finite Elements"
+    },
+    {
+        "name": "mane 4260",
+        "prereqs": [
+            "engr 2050",
+            "mane 2220"
+        ],
+        "department": "mane",
+        "displayName": "Mulitdisciplinary Capstone Design"
+    },
+    {
+        "name": "mane 4280",
+        "prereqs": [
+            "csci 1100",
+            "mane 2110",
+            "math 2010"
+        ],
+        "department": "mane",
+        "displayName": "Numerical Design Optimization"
+    },
+    {
+        "name": "mane 4330",
+        "prereqs": [
+            "engr 2050",
+            "mane 2220"
+        ],
+        "department": "mane",
+        "displayName": "Inventor's Studio 3"
+    },
+    {
+        "name": "mane 4360",
+        "prereqs": [
+            "engr 2600",
+            "mane 4400"
+        ],
+        "department": "mane",
+        "displayName": "Reactor Reliability & Safety"
+    },
+    {
+        "name": "mane 4370",
+        "prereqs": [
+            "engr 2600",
+            "mane 2830"
+        ],
+        "department": "mane",
+        "displayName": "Nuclear Engineering Lab"
+    },
+    {
+        "name": "mane 4380",
+        "prereqs": [],
+        "department": "mane",
+        "displayName": "Nuclear Eng Senior Dsgn Proj I"
+    },
+    {
+        "name": "mane 4410",
+        "prereqs": [
+            "mane 2830"
+        ],
+        "department": "mane",
+        "displayName": "Appl Atomic & Nucl Phys"
+    },
+    {
+        "name": "mane 4490",
+        "prereqs": [
+            "engr 2350",
+            "mane 4050"
+        ],
+        "department": "mane",
+        "displayName": "Mechatronics"
+    },
+    {
+        "name": "mane 4610",
+        "prereqs": [
+            "engr 2090",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Manufacturing Proc & Sys Lab"
+    },
+    {
+        "name": "mane 4710",
+        "prereqs": [
+            "mane 4010"
+        ],
+        "department": "mane",
+        "displayName": "Heat Transfer"
+    },
+    {
+        "name": "mane 4750",
+        "prereqs": [
+            "mane 4010",
+            "mane 4080",
+            "mane 4400",
+            "mane 4730"
+        ],
+        "department": "mane",
+        "displayName": "Combustion Systems"
+    },
+    {
+        "name": "mane 4760",
+        "prereqs": [
+            "mane 2710",
+            "mane 2720"
+        ],
+        "department": "mane",
+        "displayName": "Heating, Ventilation, & Ac"
+    },
+    {
+        "name": "mane 4910",
+        "prereqs": [
+            "mane 4070"
+        ],
+        "department": "mane",
+        "displayName": "Fluid Dynamics Lab"
+    },
+    {
+        "name": "mane 6170",
+        "prereqs": [],
+        "department": "mane",
+        "displayName": "Mechanics Of Solids"
+    },
+    {
+        "name": "mane 6250",
+        "prereqs": [
+            "mane 6170"
+        ],
+        "department": "mane",
+        "displayName": "Continuum Mechanics"
+    },
+    {
+        "name": "mane 6390",
+        "prereqs": [
+            "mane 2830"
+        ],
+        "department": "mane",
+        "displayName": "Atom & Nuclear Phy Appl"
+    },
+    {
+        "name": "mane 6660",
+        "prereqs": [],
+        "department": "mane",
+        "displayName": "Fundamentals Of Finite Element"
+    },
+    {
+        "name": "mane 4170",
+        "prereqs": [
+            "engr 2090",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Machine Dynamics"
+    },
+    {
+        "name": "mane 4230",
+        "prereqs": [
+            "mane 4060",
+            "mane 4070",
+            "mane 4090"
+        ],
+        "department": "mane",
+        "displayName": "Air Vehicle Design"
+    },
+    {
+        "name": "mane 4390",
+        "prereqs": [
+            "mane 4380"
+        ],
+        "department": "mane",
+        "displayName": "Nuclear Eng Senr Dsgn Proj II"
+    },
+    {
+        "name": "mane 4400",
+        "prereqs": [
+            "mane 2720"
+        ],
+        "department": "mane",
+        "displayName": "Nuclear Power Syst Engr"
+    },
+    {
+        "name": "mane 4440",
+        "prereqs": [
+            "mane 4480"
+        ],
+        "department": "mane",
+        "displayName": "Critical Reactor Laboratory"
+    },
+    {
+        "name": "mane 4470",
+        "prereqs": [
+            "csci 1100",
+            "mane 2110",
+            "mane 2830"
+        ],
+        "department": "mane",
+        "displayName": "Radiological Engineering"
+    },
+    {
+        "name": "mane 4480",
+        "prereqs": [
+            "mane 2110",
+            "math 2010",
+            "math 2011",
+            "math 2012"
+        ],
+        "department": "mane",
+        "displayName": "Physics Of Nuclear Reactors"
+    },
+    {
+        "name": "mane 4720",
+        "prereqs": [
+            "mane 4010",
+            "mane 4400"
+        ],
+        "department": "mane",
+        "displayName": "Design & Analy. Of Energy Sys."
+    },
+    {
+        "name": "mane 4860",
+        "prereqs": [
+            "mane 4240"
+        ],
+        "department": "mane",
+        "displayName": "Intro Nonlinear Finite Elemnts"
+    },
+    {
+        "name": "mane 4900",
+        "prereqs": [
+            "mane 4060",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Aeroelasticity & Struct Vibes"
+    },
+    {
+        "name": "mane 6210",
+        "prereqs": [
+            "mane 4120",
+            "mane 4130"
+        ],
+        "department": "mane",
+        "displayName": "Vtol Aircraft Design"
+    },
+    {
+        "name": "mane 6290",
+        "prereqs": [],
+        "department": "mane",
+        "displayName": "Radiation Transport Methods"
+    },
+    {
+        "name": "mane 6460",
+        "prereqs": [
+            "mane 4670"
+        ],
+        "department": "mane",
+        "displayName": "Fracture Mechan & Fatigue Matl"
+    },
+    {
+        "name": "mane 4350",
+        "prereqs": [
+            "mane 2830"
+        ],
+        "department": "mane",
+        "displayName": "Instrumentation & Measur"
+    },
+    {
+        "name": "mane 4430",
+        "prereqs": [
+            "mane 4350",
+            "mane 4480"
+        ],
+        "department": "mane",
+        "displayName": "Linear Accelerator Lab"
+    },
+    {
+        "name": "mane 6550",
+        "prereqs": [
+            "mane 4070"
+        ],
+        "department": "mane",
+        "displayName": "Theory Of Compress. Flow"
+    },
+    {
+        "name": "mane 4550",
+        "prereqs": [
+            "engr 2530",
+            "mane 4030"
+        ],
+        "department": "mane",
+        "displayName": "Analy. Of Manuf. Process."
+    },
+    {
+        "name": "mane 4920",
+        "prereqs": [
+            "mane 4060"
+        ],
+        "department": "mane",
+        "displayName": "Aerospace Structures And Control Laboratory"
+    },
+    {
+        "name": "mane 6520",
+        "prereqs": [],
+        "department": "mane",
+        "displayName": "Fluid Mechanics"
+    },
+    {
+        "name": "mane 6720",
+        "prereqs": [
+            "civl 6660",
+            "mane 6660"
+        ],
+        "department": "mane",
+        "displayName": "Adv Computnl Fluid Dynamics"
+    },
+    {
+        "name": "mane 2830",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "phys 1100",
+            "phys 1150"
+        ],
+        "department": "mane",
+        "displayName": "Nuclear Phenomena For Engineering Applications"
+    },
+    {
+        "name": "mane 4220",
+        "prereqs": [
+            "engr 2050",
+            "mane 2220"
+        ],
+        "department": "mane",
+        "displayName": "Inventors Studio 2"
+    },
+    {
+        "name": "mane 4050",
+        "prereqs": [
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "mane",
+        "displayName": "Modeling And Contrl Of Dyn Sys"
+    },
+    {
+        "name": "mane 4670",
+        "prereqs": [
+            "bmed 2540",
+            "engr 2530"
+        ],
+        "department": "mane",
+        "displayName": "Mech Behavior Of Materials"
+    },
+    {
+        "name": "mane 6530",
+        "prereqs": [
+            "mane 6520"
+        ],
+        "department": "mane",
+        "displayName": "Turbulence"
+    },
+    {
+        "name": "mane 6830",
+        "prereqs": [
+            "mane 4010",
+            "mane 4080"
+        ],
+        "department": "mane",
+        "displayName": "Combustion Systems"
+    },
+    {
+        "name": "mane 6380",
+        "prereqs": [
+            "mane 4480"
+        ],
+        "department": "mane",
+        "displayName": "Nuclear Reactor Material"
+    },
+    {
+        "name": "mane 4340",
+        "prereqs": [
+            "mane 2830"
+        ],
+        "department": "mane",
+        "displayName": "Physics Of Radiology"
+    },
+    {
+        "name": "mane 6300",
+        "prereqs": [
+            "mane 4290",
+            "mane 6290"
+        ],
+        "department": "mane",
+        "displayName": "Numeric Meth Reac Analys"
+    },
+    {
+        "name": "mane 6760",
+        "prereqs": [
+            "civl 6660",
+            "mane 6660"
+        ],
+        "department": "mane",
+        "displayName": "Finite Element Methods For Fluid Dynamics"
+    },
+    {
+        "name": "mane 6600",
+        "prereqs": [
+            "ecse 2410",
+            "mane 4050"
+        ],
+        "department": "mane",
+        "displayName": "Systems Analysis Techniques"
+    },
+    {
+        "name": "mane 4120",
+        "prereqs": [
+            "engr 1100",
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Heli Aerodynamic & Performance"
+    },
+    {
+        "name": "mane 6230",
+        "prereqs": [
+            "engr 4710",
+            "mane 4640"
+        ],
+        "department": "mane",
+        "displayName": "Adv. Manufacturing Proc & Sys"
+    },
+    {
+        "name": "mane 2220",
+        "prereqs": [
+            "civl 1200",
+            "ecse 1010",
+            "engr 1100",
+            "engr 1200",
+            "engr 1400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "mane",
+        "displayName": "Inventor's Studio 1"
+    },
+    {
+        "name": "mane 4140",
+        "prereqs": [
+            "mane 2720",
+            "math 2010",
+            "math 2011",
+            "math 2012"
+        ],
+        "department": "mane",
+        "displayName": "Intro Computat Fluid Dynamics"
+    },
+    {
+        "name": "mane 6570",
+        "prereqs": [
+            "mane 4070"
+        ],
+        "department": "mane",
+        "displayName": "Aerodynamic Flow Control"
+    },
+    {
+        "name": "mane 4190",
+        "prereqs": [
+            "engr 2250",
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Bio-fluid Mechanics: Theory And Modeling"
+    },
+    {
+        "name": "mane 2110",
+        "prereqs": [
+            "engr 1100",
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "mane",
+        "displayName": "Numerical Methods And Programming For Engineers"
+    },
+    {
+        "name": "mane 2710",
+        "prereqs": [
+            "math 1020",
+            "phys 1100",
+            "phys 1150"
+        ],
+        "department": "mane",
+        "displayName": "Thermodynamics"
+    },
+    {
+        "name": "mane 2720",
+        "prereqs": [
+            "engr 1100",
+            "math 2010",
+            "math 2011",
+            "math 2012",
+            "math 2400",
+            "phys 1100",
+            "phys 1150"
+        ],
+        "department": "mane",
+        "displayName": "Fluid Mechanics"
+    },
+    {
+        "name": "mane 4520",
+        "prereqs": [
+            "ecse 2410",
+            "mane 4500"
+        ],
+        "department": "mane",
+        "displayName": "Mechatronics"
+    },
+    {
+        "name": "mane 4540",
+        "prereqs": [
+            "mane 4050",
+            "mane 4500"
+        ],
+        "department": "mane",
+        "displayName": "Digital Control Systems"
+    },
+    {
+        "name": "mane 4770",
+        "prereqs": [
+            "mane 4010",
+            "mane 4400",
+            "mane 4730"
+        ],
+        "department": "mane",
+        "displayName": "Design, Analysis, Energy Syst"
+    },
+    {
+        "name": "mane 6610",
+        "prereqs": [
+            "ecse 6400",
+            "mane 6600"
+        ],
+        "department": "mane",
+        "displayName": "Nonlinear Control Systems"
+    },
+    {
+        "name": "mane 4500",
+        "prereqs": [
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "mane",
+        "displayName": "Modeling & Control Of Dyn Sys"
+    },
+    {
+        "name": "mane 4730",
+        "prereqs": [
+            "mane 2710"
+        ],
+        "department": "mane",
+        "displayName": "Heat Transfer"
+    },
+    {
+        "name": "mane 4160",
+        "prereqs": [
+            "engr 2090",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Vibrations"
+    },
+    {
+        "name": "mane 4530",
+        "prereqs": [
+            "ecse 2410",
+            "mane 4500"
+        ],
+        "department": "mane",
+        "displayName": "Control System Engineering"
+    },
+    {
+        "name": "mane 4560",
+        "prereqs": [
+            "math 2010",
+            "math 2011",
+            "math 2012",
+            "math 2400"
+        ],
+        "department": "mane",
+        "displayName": "Robotics I"
+    },
+    {
+        "name": "mane 4640",
+        "prereqs": [
+            "engr 2530",
+            "mane 4030"
+        ],
+        "department": "mane",
+        "displayName": "Analy. Of Manuf. Process"
+    },
+    {
+        "name": "mane 4210",
+        "prereqs": [
+            "mane 4090",
+            "mane 4120",
+            "mane 4130"
+        ],
+        "department": "mane",
+        "displayName": "Vtol Aircraft Design"
+    },
+    {
+        "name": "mane 4510",
+        "prereqs": [
+            "mane 4500"
+        ],
+        "department": "mane",
+        "displayName": "Control Systems Lab"
+    },
+    {
+        "name": "mane 6620",
+        "prereqs": [
+            "ecse 6400",
+            "mane 6600"
+        ],
+        "department": "mane",
+        "displayName": "Optimal Control Theory"
+    },
+    {
+        "name": "mane 4740",
+        "prereqs": [
+            "mane 2710",
+            "mane 2720",
+            "mane 4730"
+        ],
+        "department": "mane",
+        "displayName": "Thermal and Fluids Engineering Laboratory"
+    },
+    {
+        "name": "mane 4130",
+        "prereqs": [
+            "mane 4070"
+        ],
+        "department": "mane",
+        "displayName": "Multirotor Aerial Vehicles"
+    },
+    {
+        "name": "mane 6070",
+        "prereqs": [
+            "mane 4070"
+        ],
+        "department": "mane",
+        "displayName": "Multirotor Aerial Vehicles"
+    },
+    {
+        "name": "mane 4790",
+        "prereqs": [
+            "mane 4730"
+        ],
+        "department": "mane",
+        "displayName": "Advanced Heat Transfer"
+    },
+    {
+        "name": "mane 4290",
+        "prereqs": [
+            "mane 2110",
+            "mane 4480"
+        ],
+        "department": "mane",
+        "displayName": "Radiation Transport Methods"
+    },
+    {
+        "name": "mane 4620",
+        "prereqs": [
+            "engr 4710",
+            "mane 4610"
+        ],
+        "department": "mane",
+        "displayName": "Manufact Process & Sys Lab II"
+    }
+]

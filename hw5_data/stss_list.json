@@ -1,0 +1,182 @@
+[
+    {
+        "name": "stss 4800",
+        "prereqs": [
+            "stsh 2500",
+            "stss 2100",
+            "stss 2210",
+            "stss 2300",
+            "stss 2510",
+            "stss 2520",
+            "stss 2700"
+        ],
+        "department": "stss",
+        "displayName": "Public Svc & Social Justice"
+    },
+    {
+        "name": "stss 4980",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Research Design"
+    },
+    {
+        "name": "stss 1110",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Science, Tech And Society"
+    },
+    {
+        "name": "stss 2300",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Environment And Society"
+    },
+    {
+        "name": "stss 4330",
+        "prereqs": [
+            "stsh 1110",
+            "stss 1110"
+        ],
+        "department": "stss",
+        "displayName": "21st Century Risks, Robotics, Nanotechnology,cloning And Other Technologies"
+    },
+    {
+        "name": "stss 2100",
+        "prereqs": [
+            "ihss 1110",
+            "stsh 1110",
+            "stsh 1200",
+            "stss 1110",
+            "stss 1200"
+        ],
+        "department": "stss",
+        "displayName": "Investigating Society"
+    },
+    {
+        "name": "stss 4260",
+        "prereqs": [
+            "stsh 2010",
+            "stsh 2500",
+            "stss 2100",
+            "stss 2300",
+            "stss 2510",
+            "stss 2520"
+        ],
+        "department": "stss",
+        "displayName": "Food, Farms & Famine"
+    },
+    {
+        "name": "stss 4560",
+        "prereqs": [
+            "stsh 1110",
+            "stss 1110"
+        ],
+        "department": "stss",
+        "displayName": "Gender, Science And Tech"
+    },
+    {
+        "name": "stss 4965",
+        "prereqs": [
+            "stsh 1110",
+            "stss 1110"
+        ],
+        "department": "stss",
+        "displayName": "Futurism: Utopias & Dystopias"
+    },
+    {
+        "name": "stss 2210",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Design, Culture, And Society"
+    },
+    {
+        "name": "stss 4430",
+        "prereqs": [
+            "stsh 1110",
+            "stsh 2500",
+            "stss 1110",
+            "stss 2100",
+            "stss 2210",
+            "stss 2520",
+            "stss 2700"
+        ],
+        "department": "stss",
+        "displayName": "Drugs In History"
+    },
+    {
+        "name": "stss 4250",
+        "prereqs": [
+            "stsh 1110",
+            "stss 1110"
+        ],
+        "department": "stss",
+        "displayName": "Bioethics"
+    },
+    {
+        "name": "stss 4310",
+        "prereqs": [
+            "stsh 1110",
+            "stss 1110",
+            "stss 2300"
+        ],
+        "department": "stss",
+        "displayName": "Energy Politics"
+    },
+    {
+        "name": "stss 1200",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Sustainability Debates"
+    },
+    {
+        "name": "stss 4610",
+        "prereqs": [
+            "engr 2020"
+        ],
+        "department": "stss",
+        "displayName": "Design And Innovation Studio C"
+    },
+    {
+        "name": "stss 4970",
+        "prereqs": [
+            "engr 2020"
+        ],
+        "department": "stss",
+        "displayName": "Dsgn & Innovation Senior Proj"
+    },
+    {
+        "name": "stss 2510",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Cultural Anthropology"
+    },
+    {
+        "name": "stss 2520",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Sociology"
+    },
+    {
+        "name": "stss 4990",
+        "prereqs": [
+            "stss 4980"
+        ],
+        "department": "stss",
+        "displayName": "Sts & Sust Senior Project"
+    },
+    {
+        "name": "stss 2700",
+        "prereqs": [],
+        "department": "stss",
+        "displayName": "Law & Society"
+    },
+    {
+        "name": "stss 4290",
+        "prereqs": [
+            "stss 2210",
+            "stss 2300"
+        ],
+        "department": "stss",
+        "displayName": "Sustainability By Design"
+    }
+]

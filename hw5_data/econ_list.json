@@ -1,0 +1,407 @@
+[
+    {
+        "name": "econ 1200",
+        "prereqs": [],
+        "department": "econ",
+        "displayName": "Introductory Economics"
+    },
+    {
+        "name": "econ 2010",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200",
+            "math 1010",
+            "math 1500"
+        ],
+        "department": "econ",
+        "displayName": "Intermediate Microeconomic Theory"
+    },
+    {
+        "name": "econ 2020",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200",
+            "math 1010",
+            "math 1500"
+        ],
+        "department": "econ",
+        "displayName": "Intermediate Macroeconomic Theory"
+    },
+    {
+        "name": "econ 4140",
+        "prereqs": [
+            "econ 2010"
+        ],
+        "department": "econ",
+        "displayName": "Structure Of Industry:competition, Innovation, Entrepreneurship Policy"
+    },
+    {
+        "name": "econ 4160",
+        "prereqs": [
+            "econ 2010"
+        ],
+        "department": "econ",
+        "displayName": "Public Finance"
+    },
+    {
+        "name": "econ 4190",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "International Economics And Globalization"
+    },
+    {
+        "name": "econ 4240",
+        "prereqs": [
+            "econ 1200"
+        ],
+        "department": "econ",
+        "displayName": "Natural Resource Econ"
+    },
+    {
+        "name": "econ 4130",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Money & Banking"
+    },
+    {
+        "name": "econ 4210",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200",
+            "math 2010",
+            "math 2011",
+            "math 2012"
+        ],
+        "department": "econ",
+        "displayName": "Cost-benefit Analysis"
+    },
+    {
+        "name": "econ 4230",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Environmental Economics"
+    },
+    {
+        "name": "econ 4961",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200"
+        ],
+        "department": "econ",
+        "displayName": "Intl Trade & Environmntl Econ"
+    },
+    {
+        "name": "econ 4962",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "ihss 1975"
+        ],
+        "department": "econ",
+        "displayName": "Economics Of Growth & Innov"
+    },
+    {
+        "name": "econ 4250",
+        "prereqs": [
+            "econ 1200"
+        ],
+        "department": "econ",
+        "displayName": "Economics, Technology And Sustainability"
+    },
+    {
+        "name": "econ 4120",
+        "prereqs": [
+            "econ 2010"
+        ],
+        "department": "econ",
+        "displayName": "Mathematical Methods In Economics"
+    },
+    {
+        "name": "econ 4963",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "ihss 1975"
+        ],
+        "department": "econ",
+        "displayName": "Applied Game Theory"
+    },
+    {
+        "name": "econ 4900",
+        "prereqs": [
+            "econ 1200",
+            "econ 4570",
+            "ihss 1200",
+            "ihss 1975"
+        ],
+        "department": "econ",
+        "displayName": "Seminar In Economics"
+    },
+    {
+        "name": "econ 4150",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "ihss 1975"
+        ],
+        "department": "econ",
+        "displayName": "Economics Of Government Regulation And Firm Strategy"
+    },
+    {
+        "name": "econ 4110",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200",
+            "math 1010",
+            "math 1500"
+        ],
+        "department": "econ",
+        "displayName": "Econ Of Innovation & New Tech"
+    },
+    {
+        "name": "econ 4570",
+        "prereqs": [
+            "biol 4200",
+            "engr 2600",
+            "math 2010",
+            "matp 4600",
+            "mgmt 2100",
+            "psyc 2310"
+        ],
+        "department": "econ",
+        "displayName": "Econometrics"
+    },
+    {
+        "name": "econ 4965",
+        "prereqs": [
+            "econ 1200"
+        ],
+        "department": "econ",
+        "displayName": "Econ Of Financial Inst & Mrkts"
+    },
+    {
+        "name": "econ 4964",
+        "prereqs": [
+            "econ 1200",
+            "econ 2010",
+            "econ 2020",
+            "ihss 1975"
+        ],
+        "department": "econ",
+        "displayName": "Behavioral Economics"
+    },
+    {
+        "name": "econ 4310",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Law & Economics"
+    },
+    {
+        "name": "econ 4170",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200",
+            "math 1010",
+            "math 1500"
+        ],
+        "department": "econ",
+        "displayName": "Health Economics And Policy"
+    },
+    {
+        "name": "econ 4330",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Econ-financial Markets & Inst."
+    },
+    {
+        "name": "econ 6965",
+        "prereqs": [
+            "econ 1200"
+        ],
+        "department": "econ",
+        "displayName": "Economic Analysis-tech Change"
+    },
+    {
+        "name": "econ 4220",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200",
+            "math 2010"
+        ],
+        "department": "econ",
+        "displayName": "Applied Game Theory"
+    },
+    {
+        "name": "econ 4270",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200",
+            "math 1010",
+            "math 1500"
+        ],
+        "department": "econ",
+        "displayName": "Behavioral Economics"
+    },
+    {
+        "name": "econ 4280",
+        "prereqs": [
+            "econ 1200",
+            "engr 2600",
+            "ihss 1200",
+            "inqr 1200",
+            "math 1010",
+            "math 1500",
+            "matp 4600",
+            "mgmt 2100",
+            "psyc 2310"
+        ],
+        "department": "econ",
+        "displayName": "Econometric Methods-big Data"
+    },
+    {
+        "name": "econ 4290",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Econ Of Biotech & Med Innov"
+    },
+    {
+        "name": "econ 4320",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Econ Models Of Decis Making"
+    },
+    {
+        "name": "econ 4340",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Behavioral Financial Econ"
+    },
+    {
+        "name": "econ 4360",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Experimental Economics"
+    },
+    {
+        "name": "econ 6030",
+        "prereqs": [
+            "math 2010"
+        ],
+        "department": "econ",
+        "displayName": "Data Anaysis In Econ & Finance"
+    },
+    {
+        "name": "econ 4410",
+        "prereqs": [
+            "econ 2010",
+            "math 2010"
+        ],
+        "department": "econ",
+        "displayName": "Applied Microeconomics"
+    },
+    {
+        "name": "econ 4430",
+        "prereqs": [
+            "econ 2020"
+        ],
+        "department": "econ",
+        "displayName": "Economics Of Growth & Innov"
+    },
+    {
+        "name": "econ 4580",
+        "prereqs": [
+            "econ 4570",
+            "math 2010"
+        ],
+        "department": "econ",
+        "displayName": "Data Anaysis In Econ & Finance"
+    },
+    {
+        "name": "econ 4590",
+        "prereqs": [
+            "econ 4570",
+            "math 2010"
+        ],
+        "department": "econ",
+        "displayName": "Adv Data Analy & Policy Eval"
+    },
+    {
+        "name": "econ 6040",
+        "prereqs": [
+            "econ 6030"
+        ],
+        "department": "econ",
+        "displayName": "Adv Data Analy & Policy Eval"
+    },
+    {
+        "name": "econ 4010",
+        "prereqs": [
+            "econ 2010"
+        ],
+        "department": "econ",
+        "displayName": "Apld Microecon & Public Policy"
+    },
+    {
+        "name": "econ 2100",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Econ Data Analysis & Applic."
+    },
+    {
+        "name": "econ 4380",
+        "prereqs": [
+            "econ 1200",
+            "ihss 1200",
+            "inqr 1200"
+        ],
+        "department": "econ",
+        "displayName": "Labor Mrkts & Discrimination"
+    }
+]

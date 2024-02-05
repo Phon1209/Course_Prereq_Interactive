@@ -1,0 +1,45 @@
+[
+    {
+        "name": "astr 4220",
+        "prereqs": [
+            "phys 2220",
+            "phys 4420"
+        ],
+        "department": "astr",
+        "displayName": "Astrophysics"
+    },
+    {
+        "name": "astr 2050",
+        "prereqs": [
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "astr",
+        "displayName": "Intro Astronomy & Astrophys"
+    },
+    {
+        "name": "astr 4510",
+        "prereqs": [
+            "astr 2050"
+        ],
+        "department": "astr",
+        "displayName": "Origins Of Life: Cosmic Persp"
+    },
+    {
+        "name": "astr 4240",
+        "prereqs": [
+            "math 4600",
+            "phys 4330"
+        ],
+        "department": "astr",
+        "displayName": "Gravitation & Cosmology"
+    },
+    {
+        "name": "astr 4120",
+        "prereqs": [
+            "astr 2050"
+        ],
+        "department": "astr",
+        "displayName": "Observational Astronomy"
+    }
+]

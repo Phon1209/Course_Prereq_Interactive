@@ -1,0 +1,300 @@
+[
+    {
+        "name": "bmed 4010",
+        "prereqs": [
+            "bmed 2100",
+            "bmed 2300",
+            "bmed 2540"
+        ],
+        "department": "bmed",
+        "displayName": "Biomedical Engineering Lab"
+    },
+    {
+        "name": "bmed 4540",
+        "prereqs": [
+            "bmed 2540"
+        ],
+        "department": "bmed",
+        "displayName": "Biomechanics II"
+    },
+    {
+        "name": "bmed 4240",
+        "prereqs": [
+            "bmed 2100",
+            "engr 1600"
+        ],
+        "department": "bmed",
+        "displayName": "Tissue Biomaterial Interactions"
+    },
+    {
+        "name": "bmed 4500",
+        "prereqs": [
+            "biol 2120"
+        ],
+        "department": "bmed",
+        "displayName": "Adv Systems Physiology"
+    },
+    {
+        "name": "bmed 4550",
+        "prereqs": [
+            "bmed 2540"
+        ],
+        "department": "bmed",
+        "displayName": "Cell Biomechanics"
+    },
+    {
+        "name": "bmed 4600",
+        "prereqs": [
+            "bmed 4260"
+        ],
+        "department": "bmed",
+        "displayName": "Biomedical Engr Design"
+    },
+    {
+        "name": "bmed 2200",
+        "prereqs": [
+            "math 2400",
+            "phys 1200"
+        ],
+        "department": "bmed",
+        "displayName": "Modeling Of Biomedical Systems"
+    },
+    {
+        "name": "bmed 4470",
+        "prereqs": [
+            "engr 2600",
+            "math 2010"
+        ],
+        "department": "bmed",
+        "displayName": "Biostatistics For Life Science Applications"
+    },
+    {
+        "name": "bmed 6550",
+        "prereqs": [
+            "bmed 2540"
+        ],
+        "department": "bmed",
+        "displayName": "Cell Biomechanics"
+    },
+    {
+        "name": "bmed 4650",
+        "prereqs": [
+            "bmed 2540",
+            "bmed 4250",
+            "engr 2250",
+            "engr 2530"
+        ],
+        "department": "bmed",
+        "displayName": "Intro To Cell And Tissue Eng"
+    },
+    {
+        "name": "bmed 2100",
+        "prereqs": [],
+        "department": "bmed",
+        "displayName": "Biomaterials Sci & Engineering"
+    },
+    {
+        "name": "bmed 4964",
+        "prereqs": [
+            "engr 2250"
+        ],
+        "department": "bmed",
+        "displayName": "Biomedical Fluid Mechanics"
+    },
+    {
+        "name": "bmed 4966",
+        "prereqs": [
+            "bmed 2100"
+        ],
+        "department": "bmed",
+        "displayName": "Drugs & Gene Delivery"
+    },
+    {
+        "name": "bmed 4967",
+        "prereqs": [
+            "math 2400",
+            "phys 1200"
+        ],
+        "department": "bmed",
+        "displayName": "Intro To Biophotonics"
+    },
+    {
+        "name": "bmed 4420",
+        "prereqs": [
+            "bmed 4500"
+        ],
+        "department": "bmed",
+        "displayName": "Clinical Orthopaedics And Contemporary Research"
+    },
+    {
+        "name": "bmed 2540",
+        "prereqs": [
+            "engr 1100"
+        ],
+        "department": "bmed",
+        "displayName": "Biomechanics"
+    },
+    {
+        "name": "bmed 4560",
+        "prereqs": [
+            "bmed 2100",
+            "bmed 4240"
+        ],
+        "department": "bmed",
+        "displayName": "Biomaterial Applications In Medicine"
+    },
+    {
+        "name": "bmed 4580",
+        "prereqs": [
+            "bmed 4250",
+            "engr 2250"
+        ],
+        "department": "bmed",
+        "displayName": "Biomedical Fluid Mechanics"
+    },
+    {
+        "name": "bmed 2300",
+        "prereqs": [
+            "phys 1200"
+        ],
+        "department": "bmed",
+        "displayName": "Bioimaging/ Bioinstrumentation"
+    },
+    {
+        "name": "bmed 6650",
+        "prereqs": [
+            "bmed 2540",
+            "engr 2250",
+            "engr 2530"
+        ],
+        "department": "bmed",
+        "displayName": "Intro To Cell And Tissue Engr"
+    },
+    {
+        "name": "bmed 4200",
+        "prereqs": [
+            "bmed 2050",
+            "math 2400",
+            "phys 1200"
+        ],
+        "department": "bmed",
+        "displayName": "Modeling Of Biomedical Systems"
+    },
+    {
+        "name": "bmed 4260",
+        "prereqs": [
+            "engr 2050"
+        ],
+        "department": "bmed",
+        "displayName": "Biomedical Product Development & Commercialization"
+    },
+    {
+        "name": "bmed 4450",
+        "prereqs": [
+            "bmed 2100"
+        ],
+        "department": "bmed",
+        "displayName": "Drug And Gene Delivery"
+    },
+    {
+        "name": "bmed 4710",
+        "prereqs": [
+            "bmed 2100",
+            "math 2400"
+        ],
+        "department": "bmed",
+        "displayName": "Nano- And Bio- Actuatable Materials"
+    },
+    {
+        "name": "bmed 4460",
+        "prereqs": [
+            "bmed 2300"
+        ],
+        "department": "bmed",
+        "displayName": "Biological Image Analysis"
+    },
+    {
+        "name": "bmed 4510",
+        "prereqs": [
+            "bmed 2540"
+        ],
+        "department": "bmed",
+        "displayName": "Mechanobiology"
+    },
+    {
+        "name": "bmed 4590",
+        "prereqs": [
+            "bmed 2300"
+        ],
+        "department": "bmed",
+        "displayName": "Medical Imaging"
+    },
+    {
+        "name": "bmed 6590",
+        "prereqs": [
+            "bmed 2300"
+        ],
+        "department": "bmed",
+        "displayName": "Medical Imaging"
+    },
+    {
+        "name": "bmed 4110",
+        "prereqs": [],
+        "department": "bmed",
+        "displayName": "Investigative Medicine I"
+    },
+    {
+        "name": "bmed 4120",
+        "prereqs": [
+            "biol 4110",
+            "bmed 4110"
+        ],
+        "department": "bmed",
+        "displayName": "Investigative Medicine II"
+    },
+    {
+        "name": "bmed 4280",
+        "prereqs": [
+            "bmed 2540",
+            "engr 2530"
+        ],
+        "department": "bmed",
+        "displayName": "Biomechanics Of Soft Tissues"
+    },
+    {
+        "name": "bmed 4480",
+        "prereqs": [
+            "engr 2600",
+            "math 2010"
+        ],
+        "department": "bmed",
+        "displayName": "Biomedical Data Science"
+    },
+    {
+        "name": "bmed 6580",
+        "prereqs": [
+            "bmed 4250",
+            "engr 2250"
+        ],
+        "department": "bmed",
+        "displayName": "Biomedical Fluid Mechanics"
+    },
+    {
+        "name": "bmed 2050",
+        "prereqs": [
+            "engr 1100"
+        ],
+        "department": "bmed",
+        "displayName": "Programming For Biomed Engr"
+    },
+    {
+        "name": "bmed 4250",
+        "prereqs": [
+            "engr 1100",
+            "math 2400",
+            "phys 1100"
+        ],
+        "department": "bmed",
+        "displayName": "Biomed Transport Phenomena"
+    }
+]

@@ -1,0 +1,173 @@
+[
+    {
+        "name": "itws 1100",
+        "prereqs": [],
+        "department": "itws",
+        "displayName": "Intro To It & Web Science"
+    },
+    {
+        "name": "itws 4100",
+        "prereqs": [
+            "itws 2210",
+            "itws 4310"
+        ],
+        "department": "itws",
+        "displayName": "It & Web Science Capstone"
+    },
+    {
+        "name": "itws 4200",
+        "prereqs": [],
+        "department": "itws",
+        "displayName": "Web Science"
+    },
+    {
+        "name": "itws 4310",
+        "prereqs": [
+            "csci 1200",
+            "itws 2110"
+        ],
+        "department": "itws",
+        "displayName": "Managing It Resources"
+    },
+    {
+        "name": "itws 2110",
+        "prereqs": [
+            "csci 1200",
+            "itws 1100"
+        ],
+        "department": "itws",
+        "displayName": "Web Systems Development"
+    },
+    {
+        "name": "itws 2210",
+        "prereqs": [],
+        "department": "itws",
+        "displayName": "Introduction To Hci"
+    },
+    {
+        "name": "itws 4962",
+        "prereqs": [
+            "csci 1200",
+            "csci 4380"
+        ],
+        "department": "itws",
+        "displayName": "X-informatics"
+    },
+    {
+        "name": "itws 4969",
+        "prereqs": [
+            "csci 4961",
+            "itec 4200",
+            "itws 4200"
+        ],
+        "department": "itws",
+        "displayName": "Semantic E-science"
+    },
+    {
+        "name": "itws 4370",
+        "prereqs": [
+            "csci 2300",
+            "csci 2500",
+            "ecse 2660"
+        ],
+        "department": "itws",
+        "displayName": "Information System Security"
+    },
+    {
+        "name": "itws 4400",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "itws",
+        "displayName": "Xinformatics"
+    },
+    {
+        "name": "itws 6400",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "itws",
+        "displayName": "Xinformatics"
+    },
+    {
+        "name": "itws 4350",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "itws",
+        "displayName": "Data Science"
+    },
+    {
+        "name": "itws 6350",
+        "prereqs": [
+            "csci 1200"
+        ],
+        "department": "itws",
+        "displayName": "Data Science"
+    },
+    {
+        "name": "itws 4500",
+        "prereqs": [
+            "csci 1200",
+            "itws 2110"
+        ],
+        "department": "itws",
+        "displayName": "Web Science Systems Dev"
+    },
+    {
+        "name": "itws 4600",
+        "prereqs": [],
+        "department": "itws",
+        "displayName": "Data Analytics"
+    },
+    {
+        "name": "itws 6600",
+        "prereqs": [],
+        "department": "itws",
+        "displayName": "Data Analytics"
+    },
+    {
+        "name": "itws 4967",
+        "prereqs": [
+            "csci 2300"
+        ],
+        "department": "itws",
+        "displayName": "Modern Binary Exploitation"
+    },
+    {
+        "name": "itws 4250",
+        "prereqs": [
+            "csci 2300",
+            "itws 4500"
+        ],
+        "department": "itws",
+        "displayName": "Database Applications & Syst"
+    },
+    {
+        "name": "itws 6250",
+        "prereqs": [
+            "csci 2300",
+            "itws 4500"
+        ],
+        "department": "itws",
+        "displayName": "Database Applications & Syst"
+    },
+    {
+        "name": "itws 4850",
+        "prereqs": [
+            "csci 2500"
+        ],
+        "department": "itws",
+        "displayName": "Modern Binary Exploitation"
+    },
+    {
+        "name": "itws 6370",
+        "prereqs": [
+            "csci 2300",
+            "csci 2500",
+            "ecse 2660"
+        ],
+        "department": "itws",
+        "displayName": "Information System Security"
+    }
+]

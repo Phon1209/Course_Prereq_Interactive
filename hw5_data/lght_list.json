@@ -1,0 +1,38 @@
+[
+    {
+        "name": "lght 4840",
+        "prereqs": [],
+        "department": "lght",
+        "displayName": "Human Factors In Lighting"
+    },
+    {
+        "name": "lght 6760",
+        "prereqs": [
+            "lght 4230"
+        ],
+        "department": "lght",
+        "displayName": "Lighting Workshop"
+    },
+    {
+        "name": "lght 4230",
+        "prereqs": [],
+        "department": "lght",
+        "displayName": "Lighting Design"
+    },
+    {
+        "name": "lght 6770",
+        "prereqs": [
+            "lght 4840"
+        ],
+        "department": "lght",
+        "displayName": "Light And Health"
+    },
+    {
+        "name": "lght 4870",
+        "prereqs": [
+            "lght 4840"
+        ],
+        "department": "lght",
+        "displayName": "Light And Health"
+    }
+]

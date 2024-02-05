@@ -1,0 +1,498 @@
+[
+    {
+        "name": "arts 4070",
+        "prereqs": [
+            "arts 2230"
+        ],
+        "department": "arts",
+        "displayName": "3d Animation"
+    },
+    {
+        "name": "arts 4964",
+        "prereqs": [
+            "arts 2230"
+        ],
+        "department": "arts",
+        "displayName": "3d Technical Direction"
+    },
+    {
+        "name": "arts 4968",
+        "prereqs": [
+            "arts 1020",
+            "comm 2610",
+            "csci 1100",
+            "csci 1200"
+        ],
+        "department": "arts",
+        "displayName": "Creative Data Design"
+    },
+    {
+        "name": "arts 4973",
+        "prereqs": [
+            "arts 1020",
+            "arts 2530"
+        ],
+        "department": "arts",
+        "displayName": "Modern Art: Selected Topics"
+    },
+    {
+        "name": "arts 6961",
+        "prereqs": [
+            "arts 1200",
+            "arts 4220"
+        ],
+        "department": "arts",
+        "displayName": "Advanced Painting"
+    },
+    {
+        "name": "arts 1200",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Basic Drawing"
+    },
+    {
+        "name": "arts 1010",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": " Intro To Music And Sound"
+    },
+    {
+        "name": "arts 1020",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Digital Imaging"
+    },
+    {
+        "name": "arts 2010",
+        "prereqs": [
+            "arts 1030"
+        ],
+        "department": "arts",
+        "displayName": "Intermediate Video"
+    },
+    {
+        "name": "arts 2020",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Music And Technology 1"
+    },
+    {
+        "name": "arts 2030",
+        "prereqs": [
+            "arts 1020"
+        ],
+        "department": "arts",
+        "displayName": "Net Art"
+    },
+    {
+        "name": "arts 2040",
+        "prereqs": [
+            "arts 1020"
+        ],
+        "department": "arts",
+        "displayName": "Intermediate Digital Imaging"
+    },
+    {
+        "name": "arts 2400",
+        "prereqs": [
+            "arts 1010"
+        ],
+        "department": "arts",
+        "displayName": "Music And Sound I"
+    },
+    {
+        "name": "arts 2500",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "History Of Western Music"
+    },
+    {
+        "name": "arts 4050",
+        "prereqs": [
+            "arts 1030",
+            "ihss 1030",
+            "ihss 1040",
+            "inqr 1030",
+            "inqr 1040"
+        ],
+        "department": "arts",
+        "displayName": "Adv Video Media Studio"
+    },
+    {
+        "name": "arts 4060",
+        "prereqs": [
+            "arts 2230"
+        ],
+        "department": "arts",
+        "displayName": "3d Visual Effects"
+    },
+    {
+        "name": "arts 4010",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Interactive Arts Programming"
+    },
+    {
+        "name": "arts 4220",
+        "prereqs": [
+            "arts 1200"
+        ],
+        "department": "arts",
+        "displayName": "Painting"
+    },
+    {
+        "name": "arts 4400",
+        "prereqs": [
+            "arts 2400"
+        ],
+        "department": "arts",
+        "displayName": "Music Theory II"
+    },
+    {
+        "name": "arts 4200",
+        "prereqs": [
+            "arts 1200"
+        ],
+        "department": "arts",
+        "displayName": "Advanced Drawing"
+    },
+    {
+        "name": "arts 2210",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Sculpture I"
+    },
+    {
+        "name": "arts 2220",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Fundamentals Of 2d Design"
+    },
+    {
+        "name": "arts 2540",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "The Multimedia Century"
+    },
+    {
+        "name": "arts 4976",
+        "prereqs": [
+            "arts 2020",
+            "arts 4010"
+        ],
+        "department": "arts",
+        "displayName": "Sem. In New Performance Inst."
+    },
+    {
+        "name": "arts 4120",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Biopunk: Arts Lab Practice"
+    },
+    {
+        "name": "arts 4210",
+        "prereqs": [
+            "arts 2210"
+        ],
+        "department": "arts",
+        "displayName": "Sculpture II"
+    },
+    {
+        "name": "arts 2530",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Art History I:from Paleolithic To Renaissance"
+    },
+    {
+        "name": "arts 4510",
+        "prereqs": [
+            "arts 4540",
+            "cogs 4540",
+            "csci 4540"
+        ],
+        "department": "arts",
+        "displayName": "Experimental Game Design"
+    },
+    {
+        "name": "arts 4040",
+        "prereqs": [
+            "arts 1030",
+            "ihss 1030",
+            "ihss 1040",
+            "inqr 1030",
+            "inqr 1040"
+        ],
+        "department": "arts",
+        "displayName": "Rethinking Documentary:video Production"
+    },
+    {
+        "name": "arts 4020",
+        "prereqs": [
+            "arts 4070"
+        ],
+        "department": "arts",
+        "displayName": "Adv Digital 3d Projects"
+    },
+    {
+        "name": "arts 2060",
+        "prereqs": [
+            "arts 1020",
+            "arts 1040",
+            "arts 1200"
+        ],
+        "department": "arts",
+        "displayName": "2d Experimental Animation"
+    },
+    {
+        "name": "arts 2340",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Intro To Afro-cuban Percussion"
+    },
+    {
+        "name": "arts 4030",
+        "prereqs": [
+            "arts 1020"
+        ],
+        "department": "arts",
+        "displayName": "Multimedia Performance Systems"
+    },
+    {
+        "name": "arts 4130",
+        "prereqs": [
+            "arts 2500",
+            "arts 2540"
+        ],
+        "department": "arts",
+        "displayName": "New Media Theory"
+    },
+    {
+        "name": "arts 4630",
+        "prereqs": [
+            "arts 1030"
+        ],
+        "department": "arts",
+        "displayName": "Writing & Directing For Video"
+    },
+    {
+        "name": "arts 1030",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Digital Filmmaking"
+    },
+    {
+        "name": "arts 2070",
+        "prereqs": [
+            "arts 1020",
+            "arts 1200"
+        ],
+        "department": "arts",
+        "displayName": "Graphic Storytelling"
+    },
+    {
+        "name": "arts 2360",
+        "prereqs": [
+            "arts 2340"
+        ],
+        "department": "arts",
+        "displayName": "Roots Of Africa Music Ensemble"
+    },
+    {
+        "name": "arts 4540",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Game Development II"
+    },
+    {
+        "name": "arts 4850",
+        "prereqs": [
+            "arts 4840"
+        ],
+        "department": "arts",
+        "displayName": "Creative Seminar II"
+    },
+    {
+        "name": "arts 6400",
+        "prereqs": [
+            "cogs 4520",
+            "gsas 4520"
+        ],
+        "department": "arts",
+        "displayName": "Experimental Game Design"
+    },
+    {
+        "name": "arts 1040",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Introduction To Game Art"
+    },
+    {
+        "name": "arts 4090",
+        "prereqs": [
+            "arts 1020"
+        ],
+        "department": "arts",
+        "displayName": "Art & Code & Interactivity Arts"
+    },
+    {
+        "name": "arts 4160",
+        "prereqs": [
+            "arts 2020"
+        ],
+        "department": "arts",
+        "displayName": "Music And Technology II"
+    },
+    {
+        "name": "arts 4260",
+        "prereqs": [
+            "arts 1200"
+        ],
+        "department": "arts",
+        "displayName": "Life Drawing And Anatomy For Artists"
+    },
+    {
+        "name": "arts 4520",
+        "prereqs": [
+            "arts 4060",
+            "cogs 2520"
+        ],
+        "department": "arts",
+        "displayName": "Game Development I"
+    },
+    {
+        "name": "arts 4840",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Creative Seminar I"
+    },
+    {
+        "name": "arts 4640",
+        "prereqs": [
+            "arts 1020",
+            "arts 1030",
+            "arts 1040",
+            "arts 1200",
+            "arts 2020",
+            "arts 2220",
+            "arts 2380",
+            "arts 4120",
+            "arts 4140",
+            "ihss 1030",
+            "ihss 1040",
+            "ihss 1170",
+            "ihss 1180",
+            "inqr 1030",
+            "inqr 1040",
+            "inqr 1170",
+            "inqr 1180"
+        ],
+        "department": "arts",
+        "displayName": "Science Fictions"
+    },
+    {
+        "name": "arts 2150",
+        "prereqs": [
+            "arts 1440"
+        ],
+        "department": "arts",
+        "displayName": "Music And Sound II"
+    },
+    {
+        "name": "arts 2230",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "3d Digital Modeling"
+    },
+    {
+        "name": "arts 1440",
+        "prereqs": [
+            "arts 1010"
+        ],
+        "department": "arts",
+        "displayName": "Music And Sound I"
+    },
+    {
+        "name": "arts 4390",
+        "prereqs": [
+            "arts 4380"
+        ],
+        "department": "arts",
+        "displayName": "Composition Seminar"
+    },
+    {
+        "name": "arts 4460",
+        "prereqs": [
+            "arts 4060",
+            "arts 4070"
+        ],
+        "department": "arts",
+        "displayName": "Animation Production"
+    },
+    {
+        "name": "arts 1380",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Fundamentals Of Music & Sound"
+    },
+    {
+        "name": "arts 2200",
+        "prereqs": [
+            "arts 1200"
+        ],
+        "department": "arts",
+        "displayName": "Intermediate Drawing"
+    },
+    {
+        "name": "arts 2380",
+        "prereqs": [
+            "arts 1380"
+        ],
+        "department": "arts",
+        "displayName": "Music And Sound I"
+    },
+    {
+        "name": "arts 4380",
+        "prereqs": [
+            "arts 2380"
+        ],
+        "department": "arts",
+        "displayName": "Music And Sound II"
+    },
+    {
+        "name": "arts 4880",
+        "prereqs": [
+            "arts 2020",
+            "arts 2380"
+        ],
+        "department": "arts",
+        "displayName": "Music & Ai"
+    },
+    {
+        "name": "arts 2700",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Sound Recording & Prod I"
+    },
+    {
+        "name": "arts 4700",
+        "prereqs": [
+            "arts 2700"
+        ],
+        "department": "arts",
+        "displayName": "Sound Recording & Prod II"
+    },
+    {
+        "name": "arts 4280",
+        "prereqs": [
+            "arts 2230"
+        ],
+        "department": "arts",
+        "displayName": "3d Technical Direction"
+    },
+    {
+        "name": "arts 4140",
+        "prereqs": [],
+        "department": "arts",
+        "displayName": "Queer Ecologies"
+    }
+]

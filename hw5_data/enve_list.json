@@ -1,0 +1,135 @@
+[
+    {
+        "name": "enve 4110",
+        "prereqs": [
+            "chem 1100",
+            "erth 1100"
+        ],
+        "department": "enve",
+        "displayName": "Aqueous Geochemistry"
+    },
+    {
+        "name": "enve 4180",
+        "prereqs": [
+            "engr 2050",
+            "enve 4320",
+            "enve 4340"
+        ],
+        "department": "enve",
+        "displayName": "Environmental Process Design"
+    },
+    {
+        "name": "enve 4220",
+        "prereqs": [
+            "enve 2110"
+        ],
+        "department": "enve",
+        "displayName": "Water Reuse Tech & Application"
+    },
+    {
+        "name": "enve 4320",
+        "prereqs": [
+            "chem 1200",
+            "enve 2110"
+        ],
+        "department": "enve",
+        "displayName": "Env Chemodynamics"
+    },
+    {
+        "name": "enve 4310",
+        "prereqs": [
+            "bmed 4250",
+            "chme 4010",
+            "civl 2050",
+            "engr 2250",
+            "mane 2720"
+        ],
+        "department": "enve",
+        "displayName": "Appl Hydrology & Hydraulics"
+    },
+    {
+        "name": "enve 4330",
+        "prereqs": [
+            "enve 2110"
+        ],
+        "department": "enve",
+        "displayName": "Introduction To Air Quality Control"
+    },
+    {
+        "name": "enve 4350",
+        "prereqs": [
+            "enve 4320"
+        ],
+        "department": "enve",
+        "displayName": "Biol Process In Enve"
+    },
+    {
+        "name": "enve 4340",
+        "prereqs": [
+            "chem 1200",
+            "enve 2110"
+        ],
+        "department": "enve",
+        "displayName": "Physicochemical Proc In Enve"
+    },
+    {
+        "name": "enve 2110",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "civl 2050",
+            "math 2400"
+        ],
+        "department": "enve",
+        "displayName": "Introduction To Env. Engr."
+    },
+    {
+        "name": "enve 6110",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "enve",
+        "displayName": "Adv Groundwater Hydrology"
+    },
+    {
+        "name": "enve 4710",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "enve",
+        "displayName": "Groundwater Hydrology"
+    },
+    {
+        "name": "enve 4360",
+        "prereqs": [
+            "biol 1010"
+        ],
+        "department": "enve",
+        "displayName": "Geomicrobiology"
+    },
+    {
+        "name": "enve 4560",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110"
+        ],
+        "department": "enve",
+        "displayName": "Isotope Geochemistry"
+    },
+    {
+        "name": "enve 4370",
+        "prereqs": [
+            "civl 2060"
+        ],
+        "department": "enve",
+        "displayName": "Applied Hydrology & Design"
+    },
+    {
+        "name": "enve 6710",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "enve",
+        "displayName": "Adv Groundwater Hydrology"
+    }
+]

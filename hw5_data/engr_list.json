@@ -1,0 +1,287 @@
+[
+    {
+        "name": "engr 1100",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Intro To Engr Analysis"
+    },
+    {
+        "name": "engr 1200",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Engr Graphics & Cad"
+    },
+    {
+        "name": "engr 1600",
+        "prereqs": [
+            "chem 1100",
+            "chem 1110",
+            "chem 1120"
+        ],
+        "department": "engr",
+        "displayName": "Materials Science"
+    },
+    {
+        "name": "engr 2020",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Design & Innovation Studio III"
+    },
+    {
+        "name": "engr 2300",
+        "prereqs": [
+            "math 1020",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "engr",
+        "displayName": "Electronic Instrumentation"
+    },
+    {
+        "name": "engr 2530",
+        "prereqs": [
+            "engr 1100"
+        ],
+        "department": "engr",
+        "displayName": "Strength Of Materials"
+    },
+    {
+        "name": "engr 2600",
+        "prereqs": [
+            "math 1010"
+        ],
+        "department": "engr",
+        "displayName": "Mod & Analysis Uncertainty"
+    },
+    {
+        "name": "engr 1300",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Engr Processes"
+    },
+    {
+        "name": "engr 1500",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Chem Of Materials I"
+    },
+    {
+        "name": "engr 2090",
+        "prereqs": [
+            "ecse 1010",
+            "engr 1100",
+            "math 2400",
+            "phys 1100",
+            "phys 1150"
+        ],
+        "department": "engr",
+        "displayName": "Engineering Dynamics"
+    },
+    {
+        "name": "engr 2250",
+        "prereqs": [
+            "ecse 1010",
+            "engr 1100",
+            "math 2400",
+            "phys 1100",
+            "phys 1150"
+        ],
+        "department": "engr",
+        "displayName": "Thermal & Fluids Eng I"
+    },
+    {
+        "name": "engr 2830",
+        "prereqs": [
+            "chem 1100",
+            "chem 1500",
+            "engr 1500",
+            "phys 1100"
+        ],
+        "department": "engr",
+        "displayName": "Nuc Phen For Eng Applic"
+    },
+    {
+        "name": "engr 4710",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Manufacturing Processes And Systems Laboratory I"
+    },
+    {
+        "name": "engr 2050",
+        "prereqs": [
+            "civl 1200",
+            "ecse 1010",
+            "engr 1100",
+            "engr 1200",
+            "engr 1400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "engr",
+        "displayName": "Intro Engineering Design"
+    },
+    {
+        "name": "engr 4720",
+        "prereqs": [
+            "engr 4710",
+            "mane 4610"
+        ],
+        "department": "engr",
+        "displayName": "Manufacturing Processes And Systems Laboratory II"
+    },
+    {
+        "name": "engr 2350",
+        "prereqs": [
+            "csci 1100",
+            "csci 1200"
+        ],
+        "department": "engr",
+        "displayName": "Embedded Control"
+    },
+    {
+        "name": "engr 4300",
+        "prereqs": [
+            "math 2400",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "engr",
+        "displayName": "Electronic Instrumentation"
+    },
+    {
+        "name": "engr 4010",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Pd: Leadership Competencies"
+    },
+    {
+        "name": "engr 4060",
+        "prereqs": [
+            "engr 2050"
+        ],
+        "department": "engr",
+        "displayName": "Inventor's Studio"
+    },
+    {
+        "name": "engr 2720",
+        "prereqs": [
+            "engr 1200",
+            "engr 1300"
+        ],
+        "department": "engr",
+        "displayName": "Computer Aided Machining"
+    },
+    {
+        "name": "engr 2960",
+        "prereqs": [
+            "engr 2720",
+            "engr 4710"
+        ],
+        "department": "engr",
+        "displayName": "Computer Aided Machining II"
+    },
+    {
+        "name": "engr 1400",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Engineering Communications"
+    },
+    {
+        "name": "engr 4200",
+        "prereqs": [
+            "math 1010"
+        ],
+        "department": "engr",
+        "displayName": "Fortran Programming"
+    },
+    {
+        "name": "engr 4610",
+        "prereqs": [
+            "stso 2020"
+        ],
+        "department": "engr",
+        "displayName": "Product Design And Innovation Design Studio 6"
+    },
+    {
+        "name": "engr 2700",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "engr",
+        "displayName": "Intro Manufacturing Planning"
+    },
+    {
+        "name": "engr 6200",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Data-driven Decision Making"
+    },
+    {
+        "name": "engr 6230",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Lean Six Sigma I"
+    },
+    {
+        "name": "engr 6205",
+        "prereqs": [
+            "engr 6200"
+        ],
+        "department": "engr",
+        "displayName": "Production & Logistic Analysis"
+    },
+    {
+        "name": "engr 6215",
+        "prereqs": [
+            "engr 6200"
+        ],
+        "department": "engr",
+        "displayName": "Business Intelligence Analysis"
+    },
+    {
+        "name": "engr 6231",
+        "prereqs": [
+            "engr 6230"
+        ],
+        "department": "engr",
+        "displayName": "Lean Six Sigma II"
+    },
+    {
+        "name": "engr 6206",
+        "prereqs": [
+            "engr 6205"
+        ],
+        "department": "engr",
+        "displayName": "Modeling Production Decisions"
+    },
+    {
+        "name": "engr 6216",
+        "prereqs": [
+            "engr 6215"
+        ],
+        "department": "engr",
+        "displayName": "Modeling Business Decisions"
+    },
+    {
+        "name": "engr 6220",
+        "prereqs": [],
+        "department": "engr",
+        "displayName": "Data Architecture"
+    },
+    {
+        "name": "engr 6221",
+        "prereqs": [
+            "engr 6220"
+        ],
+        "department": "engr",
+        "displayName": "Machine Learning Frameworks"
+    },
+    {
+        "name": "engr 6222",
+        "prereqs": [
+            "engr 6221"
+        ],
+        "department": "engr",
+        "displayName": "Deep Learning In Ai Systems"
+    }
+]

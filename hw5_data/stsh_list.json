@@ -1,0 +1,113 @@
+[
+    {
+        "name": "stsh 4800",
+        "prereqs": [
+            "stsh 2500",
+            "stss 2100",
+            "stss 2210",
+            "stss 2300",
+            "stss 2510",
+            "stss 2520",
+            "stss 2700"
+        ],
+        "department": "stsh",
+        "displayName": "Public Svc & Social Justice"
+    },
+    {
+        "name": "stsh 4960",
+        "prereqs": [
+            "stss 2210"
+        ],
+        "department": "stsh",
+        "displayName": "Environmental Justice"
+    },
+    {
+        "name": "stsh 1110",
+        "prereqs": [],
+        "department": "stsh",
+        "displayName": "Science,tech And Society"
+    },
+    {
+        "name": "stsh 4300",
+        "prereqs": [
+            "stss 2300"
+        ],
+        "department": "stsh",
+        "displayName": "Sustainability Careers"
+    },
+    {
+        "name": "stsh 4420",
+        "prereqs": [
+            "ihss 1410",
+            "ihss 1420",
+            "ihss 1430",
+            "stsh 1110",
+            "stsh 2500",
+            "stss 1110",
+            "stss 2520"
+        ],
+        "department": "stsh",
+        "displayName": "History Of Medicine"
+    },
+    {
+        "name": "stsh 4430",
+        "prereqs": [
+            "stsh 1110",
+            "stsh 2500",
+            "stss 1110",
+            "stss 2100",
+            "stss 2210",
+            "stss 2520",
+            "stss 2700"
+        ],
+        "department": "stsh",
+        "displayName": "Drugs In History"
+    },
+    {
+        "name": "stsh 4310",
+        "prereqs": [
+            "stsh 1110",
+            "stss 1110",
+            "stss 2300"
+        ],
+        "department": "stsh",
+        "displayName": "Energy Politics"
+    },
+    {
+        "name": "stsh 1200",
+        "prereqs": [],
+        "department": "stsh",
+        "displayName": "Sustainability Debates"
+    },
+    {
+        "name": "stsh 4990",
+        "prereqs": [
+            "stss 4980"
+        ],
+        "department": "stsh",
+        "displayName": "Sts & Sust Senior Project"
+    },
+    {
+        "name": "stsh 2500",
+        "prereqs": [],
+        "department": "stsh",
+        "displayName": "American History"
+    },
+    {
+        "name": "stsh 4970",
+        "prereqs": [
+            "engr 2020"
+        ],
+        "department": "stsh",
+        "displayName": "Dsgn & Innovation Senior Proj"
+    },
+    {
+        "name": "stsh 4290",
+        "prereqs": [
+            "stss 2210",
+            "stss 2300"
+        ],
+        "department": "stsh",
+        "displayName": "Sustainability By Design"
+    }
+]

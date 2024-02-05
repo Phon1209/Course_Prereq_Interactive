@@ -1,0 +1,182 @@
+[
+    {
+        "name": "isye 4140",
+        "prereqs": [
+            "engr 2600"
+        ],
+        "department": "isye",
+        "displayName": "Statistical Analysis"
+    },
+    {
+        "name": "isye 4220",
+        "prereqs": [
+            "isye 4600"
+        ],
+        "department": "isye",
+        "displayName": "Optimization Algorithms And Applications"
+    },
+    {
+        "name": "isye 4270",
+        "prereqs": [
+            "engr 2050",
+            "mane 2220"
+        ],
+        "department": "isye",
+        "displayName": "Mulitdisciplinary Capstone Design"
+    },
+    {
+        "name": "isye 4280",
+        "prereqs": [
+            "engr 2600"
+        ],
+        "department": "isye",
+        "displayName": "Decision Focused Systems Engr"
+    },
+    {
+        "name": "isye 4530",
+        "prereqs": [
+            "csci 1010",
+            "csci 1100",
+            "csci 1190"
+        ],
+        "department": "isye",
+        "displayName": "Information Systems"
+    },
+    {
+        "name": "isye 4600",
+        "prereqs": [
+            "engr 2600",
+            "math 1020"
+        ],
+        "department": "isye",
+        "displayName": "Operations Research Methods"
+    },
+    {
+        "name": "isye 2210",
+        "prereqs": [
+            "math 1020"
+        ],
+        "department": "isye",
+        "displayName": "Production And Operations Management"
+    },
+    {
+        "name": "isye 4210",
+        "prereqs": [
+            "engr 2600",
+            "isye 2210",
+            "mgmt 2100",
+            "mgmt 4110"
+        ],
+        "department": "isye",
+        "displayName": "Desgn & Analys Of Supply Chain"
+    },
+    {
+        "name": "isye 4230",
+        "prereqs": [
+            "isye 4140",
+            "isye 4760"
+        ],
+        "department": "isye",
+        "displayName": "Quality Control"
+    },
+    {
+        "name": "isye 4250",
+        "prereqs": [
+            "engr 2700",
+            "isye 2210"
+        ],
+        "department": "isye",
+        "displayName": "Facilit Dsn & Indus Log"
+    },
+    {
+        "name": "isye 4290",
+        "prereqs": [
+            "csci 1100",
+            "isye 4140"
+        ],
+        "department": "isye",
+        "displayName": "Discrete Event Simulation, Modeling And Analysis"
+    },
+    {
+        "name": "isye 4760",
+        "prereqs": [],
+        "department": "isye",
+        "displayName": "Mathematical Statistics"
+    },
+    {
+        "name": "isye 6180",
+        "prereqs": [],
+        "department": "isye",
+        "displayName": "Knowledge Discovery With Data Mining"
+    },
+    {
+        "name": "isye 4200",
+        "prereqs": [
+            "engr 2600"
+        ],
+        "department": "isye",
+        "displayName": "Desgn & Analys Work Sys"
+    },
+    {
+        "name": "isye 4260",
+        "prereqs": [
+            "engr 2600"
+        ],
+        "department": "isye",
+        "displayName": "Human Performance Modeling & Support"
+    },
+    {
+        "name": "isye 4300",
+        "prereqs": [
+            "isye 4290"
+        ],
+        "department": "isye",
+        "displayName": "Complex Syst Models For Isye"
+    },
+    {
+        "name": "isye 4310",
+        "prereqs": [
+            "csci 1010",
+            "csci 1100",
+            "engr 2600"
+        ],
+        "department": "isye",
+        "displayName": "Ethics Of Modeling For Isye"
+    },
+    {
+        "name": "isye 4330",
+        "prereqs": [
+            "isye 4140",
+            "isye 4760",
+            "matp 4600"
+        ],
+        "department": "isye",
+        "displayName": "Design Of Experiments"
+    },
+    {
+        "name": "isye 4320",
+        "prereqs": [
+            "isye 4600"
+        ],
+        "department": "isye",
+        "displayName": "Theory Of Production Scheduling"
+    },
+    {
+        "name": "isye 4360",
+        "prereqs": [
+            "csci 1100",
+            "engr 2600",
+            "matp 4600"
+        ],
+        "department": "isye",
+        "displayName": "Applied Data Science"
+    },
+    {
+        "name": "isye 2530",
+        "prereqs": [
+            "csci 1100"
+        ],
+        "department": "isye",
+        "displayName": "Information & Data Systems"
+    }
+]

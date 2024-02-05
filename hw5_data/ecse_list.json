@@ -1,0 +1,593 @@
+[
+    {
+        "name": "ecse 2100",
+        "prereqs": [
+            "ecse 2010",
+            "math 2010",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "ecse",
+        "displayName": "Fields And Waves I"
+    },
+    {
+        "name": "ecse 2010",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "ecse",
+        "displayName": "Electric Circuits"
+    },
+    {
+        "name": "ecse 2050",
+        "prereqs": [
+            "ecse 2010",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "ecse",
+        "displayName": "Introduction To Electronics"
+    },
+    {
+        "name": "ecse 2060",
+        "prereqs": [
+            "ecse 2010",
+            "ecse 2610"
+        ],
+        "department": "ecse",
+        "displayName": "Digital Electronics"
+    },
+    {
+        "name": "ecse 2410",
+        "prereqs": [
+            "ecse 2010"
+        ],
+        "department": "ecse",
+        "displayName": "Signals & Systems"
+    },
+    {
+        "name": "ecse 2610",
+        "prereqs": [
+            "csci 1100"
+        ],
+        "department": "ecse",
+        "displayName": "Cptr Components & Oper"
+    },
+    {
+        "name": "ecse 4080",
+        "prereqs": [
+            "ecse 2050"
+        ],
+        "department": "ecse",
+        "displayName": "Semi Power Electronics"
+    },
+    {
+        "name": "ecse 4250",
+        "prereqs": [
+            "ecse 2210"
+        ],
+        "department": "ecse",
+        "displayName": "Ic Proc & Design"
+    },
+    {
+        "name": "ecse 4440",
+        "prereqs": [
+            "ecse 2410",
+            "mane 4050",
+            "mane 4500"
+        ],
+        "department": "ecse",
+        "displayName": "Control Systems Engineering"
+    },
+    {
+        "name": "ecse 4500",
+        "prereqs": [
+            "ecse 2410"
+        ],
+        "department": "ecse",
+        "displayName": "Distributed Systems"
+    },
+    {
+        "name": "ecse 4510",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Digital Control Systems"
+    },
+    {
+        "name": "ecse 4520",
+        "prereqs": [
+            "ecse 2410",
+            "ecse 2500"
+        ],
+        "department": "ecse",
+        "displayName": "Communication Systems"
+    },
+    {
+        "name": "ecse 4670",
+        "prereqs": [
+            "csci 2500",
+            "ecse 2500",
+            "ecse 2610"
+        ],
+        "department": "ecse",
+        "displayName": "Cptr Comm Networks"
+    },
+    {
+        "name": "ecse 4750",
+        "prereqs": [
+            "csci 2500",
+            "ecse 2610"
+        ],
+        "department": "ecse",
+        "displayName": "Computer Graphics"
+    },
+    {
+        "name": "ecse 4770",
+        "prereqs": [
+            "ecse 2610"
+        ],
+        "department": "ecse",
+        "displayName": "Computer Hardware Design"
+    },
+    {
+        "name": "ecse 4790",
+        "prereqs": [
+            "csci 1200",
+            "ecse 2350"
+        ],
+        "department": "ecse",
+        "displayName": "Microprocessor Systems"
+    },
+    {
+        "name": "ecse 6230",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Semiconductor Devices And Models I"
+    },
+    {
+        "name": "ecse 6400",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Systems Analysis Techniques"
+    },
+    {
+        "name": "ecse 6510",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Intro Stoch Sign & Sys"
+    },
+    {
+        "name": "ecse 6620",
+        "prereqs": [
+            "csci 1200",
+            "math 2010"
+        ],
+        "department": "ecse",
+        "displayName": "Comp Vision For Visual Effects"
+    },
+    {
+        "name": "ecse 2210",
+        "prereqs": [
+            "ecse 2010",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "ecse",
+        "displayName": "Microelectronics Technology"
+    },
+    {
+        "name": "ecse 2660",
+        "prereqs": [
+            "ecse 2610"
+        ],
+        "department": "ecse",
+        "displayName": "Comp Architecture & Networks"
+    },
+    {
+        "name": "ecse 4120",
+        "prereqs": [
+            "ecse 2110"
+        ],
+        "department": "ecse",
+        "displayName": "Electromechanics"
+    },
+    {
+        "name": "ecse 4320",
+        "prereqs": [
+            "csci 2500",
+            "ecse 2660"
+        ],
+        "department": "ecse",
+        "displayName": "Advanced Computer Systems"
+    },
+    {
+        "name": "ecse 4560",
+        "prereqs": [
+            "ecse 2410",
+            "ecse 2500"
+        ],
+        "department": "ecse",
+        "displayName": "Modern Communication Sys"
+    },
+    {
+        "name": "ecse 4760",
+        "prereqs": [
+            "ecse 4440",
+            "ecse 4520"
+        ],
+        "department": "ecse",
+        "displayName": "Real-time Applications In Control And Communications"
+    },
+    {
+        "name": "ecse 6260",
+        "prereqs": [
+            "ecse 6230",
+            "ecse 6290"
+        ],
+        "department": "ecse",
+        "displayName": "Semicond Power Devices"
+    },
+    {
+        "name": "ecse 6290",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Semiconductor Devices And Models II"
+    },
+    {
+        "name": "ecse 6300",
+        "prereqs": [
+            "ecse 4250"
+        ],
+        "department": "ecse",
+        "displayName": "Ic Fabrication Lab"
+    },
+    {
+        "name": "ecse 6440",
+        "prereqs": [
+            "ecse 6400",
+            "ecse 6600"
+        ],
+        "department": "ecse",
+        "displayName": "Optimal Control Theory"
+    },
+    {
+        "name": "ecse 6480",
+        "prereqs": [
+            "ecse 2500",
+            "ecse 6400"
+        ],
+        "department": "ecse",
+        "displayName": "Adaptv Sys & Reinforcmt Lrng"
+    },
+    {
+        "name": "ecse 6700",
+        "prereqs": [
+            "ecse 4770"
+        ],
+        "department": "ecse",
+        "displayName": "Computer Architecture Prototyping With Fpga's"
+    },
+    {
+        "name": "ecse 4220",
+        "prereqs": [
+            "ecse 2050",
+            "ecse 2610"
+        ],
+        "department": "ecse",
+        "displayName": "Vlsi Design"
+    },
+    {
+        "name": "ecse 6610",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Pattern Recognition"
+    },
+    {
+        "name": "ecse 6310",
+        "prereqs": [
+            "ecse 4030"
+        ],
+        "department": "ecse",
+        "displayName": "Fdmtls Of Rf/microwave Engr"
+    },
+    {
+        "name": "ecse 4720",
+        "prereqs": [
+            "phys 2220"
+        ],
+        "department": "ecse",
+        "displayName": "Solid State Physics"
+    },
+    {
+        "name": "ecse 6600",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Internet Protocols"
+    },
+    {
+        "name": "ecse 4260",
+        "prereqs": [
+            "ecse 2050",
+            "ecse 2060",
+            "ecse 2610",
+            "engr 4010"
+        ],
+        "department": "ecse",
+        "displayName": "Microelectronics Design"
+    },
+    {
+        "name": "ecse 6969",
+        "prereqs": [
+            "ecse 2010",
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "ecse",
+        "displayName": "App-constrained Optimization"
+    },
+    {
+        "name": "ecse 4900",
+        "prereqs": [
+            "engr 2050"
+        ],
+        "department": "ecse",
+        "displayName": "Multidisciplinary Capstone Design"
+    },
+    {
+        "name": "ecse 4460",
+        "prereqs": [
+            "ecse 4440",
+            "ecse 4510"
+        ],
+        "department": "ecse",
+        "displayName": "Control System Design"
+    },
+    {
+        "name": "ecse 4780",
+        "prereqs": [
+            "ecse 4770"
+        ],
+        "department": "ecse",
+        "displayName": "Advanced Computer Hardware Design"
+    },
+    {
+        "name": "ecse 4040",
+        "prereqs": [
+            "ecse 2050",
+            "ecse 2610"
+        ],
+        "department": "ecse",
+        "displayName": "Digital Electronics"
+    },
+    {
+        "name": "ecse 4480",
+        "prereqs": [
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "ecse",
+        "displayName": "Robotics I"
+    },
+    {
+        "name": "ecse 2500",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "ecse",
+        "displayName": "Engineering Probability"
+    },
+    {
+        "name": "ecse 4090",
+        "prereqs": [
+            "ecse 2410",
+            "mane 4500"
+        ],
+        "department": "ecse",
+        "displayName": "Mechatronics"
+    },
+    {
+        "name": "ecse 4130",
+        "prereqs": [
+            "ecse 4080",
+            "ecse 4110",
+            "ecse 4120"
+        ],
+        "department": "ecse",
+        "displayName": "Epe Lab"
+    },
+    {
+        "name": "ecse 6190",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Computer Methods In Epe"
+    },
+    {
+        "name": "ecse 4050",
+        "prereqs": [
+            "ecse 2050"
+        ],
+        "department": "ecse",
+        "displayName": "Advanced Electronic Circuits"
+    },
+    {
+        "name": "ecse 4530",
+        "prereqs": [
+            "ecse 2410",
+            "ecse 2500",
+            "math 2010"
+        ],
+        "department": "ecse",
+        "displayName": "Digital Signal Processing"
+    },
+    {
+        "name": "ecse 2110",
+        "prereqs": [
+            "ecse 2010",
+            "phys 1200",
+            "phys 1250"
+        ],
+        "department": "ecse",
+        "displayName": "Electrical Energy Systems"
+    },
+    {
+        "name": "ecse 4030",
+        "prereqs": [
+            "ecse 2050"
+        ],
+        "department": "ecse",
+        "displayName": "Analog Ic Design"
+    },
+    {
+        "name": "ecse 6590",
+        "prereqs": [
+            "ecse 6510"
+        ],
+        "department": "ecse",
+        "displayName": "Principles Of Wireless Communications"
+    },
+    {
+        "name": "ecse 1010",
+        "prereqs": [],
+        "department": "ecse",
+        "displayName": "Introduction To Ecse"
+    },
+    {
+        "name": "ecse 4110",
+        "prereqs": [
+            "ecse 2110"
+        ],
+        "department": "ecse",
+        "displayName": "Power Engineering Analysis"
+    },
+    {
+        "name": "ecse 6470",
+        "prereqs": [
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "ecse",
+        "displayName": "Robotics I"
+    },
+    {
+        "name": "ecse 4740",
+        "prereqs": [
+            "ecse 2660"
+        ],
+        "department": "ecse",
+        "displayName": "Appl Parallel Comp For Engrs"
+    },
+    {
+        "name": "ecse 4620",
+        "prereqs": [
+            "csci 1200",
+            "math 2010"
+        ],
+        "department": "ecse",
+        "displayName": "Comp Vision For Visual Effects"
+    },
+    {
+        "name": "ecse 6180",
+        "prereqs": [
+            "ecse 6190"
+        ],
+        "department": "ecse",
+        "displayName": "Adv Power Sys Modeling & Ctrl"
+    },
+    {
+        "name": "ecse 4380",
+        "prereqs": [
+            "ecse 2050",
+            "phys 1200"
+        ],
+        "department": "ecse",
+        "displayName": "Fund Of Solid State Lghtng Sys"
+    },
+    {
+        "name": "ecse 4370",
+        "prereqs": [
+            "ecse 2210"
+        ],
+        "department": "ecse",
+        "displayName": "Intro To Optoelectronics Tech"
+    },
+    {
+        "name": "ecse 4850",
+        "prereqs": [
+            "csci 1200",
+            "ecse 2500",
+            "math 2010"
+        ],
+        "department": "ecse",
+        "displayName": "Introduction To Deep Learning"
+    },
+    {
+        "name": "ecse 4170",
+        "prereqs": [
+            "math 2010",
+            "math 2400"
+        ],
+        "department": "ecse",
+        "displayName": "Mod & Sim For Cyber-phys Sys"
+    },
+    {
+        "name": "ecse 4660",
+        "prereqs": [
+            "csci 2500",
+            "ecse 2660"
+        ],
+        "department": "ecse",
+        "displayName": "Internetworking Of Things"
+    },
+    {
+        "name": "ecse 4840",
+        "prereqs": [
+            "ecse 2500",
+            "math 2010"
+        ],
+        "department": "ecse",
+        "displayName": "Intro To Machine Learning"
+    },
+    {
+        "name": "ecse 4310",
+        "prereqs": [
+            "ecse 2050"
+        ],
+        "department": "ecse",
+        "displayName": "Fdmtls Of Rf/microwave Engr"
+    },
+    {
+        "name": "ecse 4810",
+        "prereqs": [
+            "ecse 2500",
+            "engr 2600"
+        ],
+        "department": "ecse",
+        "displayName": "Introduction To Probabilistic Graphical Models"
+    },
+    {
+        "name": "ecse 4141",
+        "prereqs": [
+            "ecse 2110"
+        ],
+        "department": "ecse",
+        "displayName": "Renewable Power Generation"
+    },
+    {
+        "name": "ecse 6141",
+        "prereqs": [
+            "ecse 2110",
+            "ecse 4080"
+        ],
+        "department": "ecse",
+        "displayName": "Renewable Power Generation"
+    },
+    {
+        "name": "ecse 6320",
+        "prereqs": [
+            "csci 2500",
+            "ecse 2660"
+        ],
+        "department": "ecse",
+        "displayName": "Advanced Computer Systems"
+    }
+]

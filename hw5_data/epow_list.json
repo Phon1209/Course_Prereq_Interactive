@@ -1,0 +1,19 @@
+[
+    {
+        "name": "epow 4080",
+        "prereqs": [
+            "ecse 2050",
+            "engr 4300"
+        ],
+        "department": "epow",
+        "displayName": "Semiconductor Power Electr"
+    },
+    {
+        "name": "epow 4010",
+        "prereqs": [
+            "ecse 2010"
+        ],
+        "department": "epow",
+        "displayName": "Power Engineering Fundamentals"
+    }
+]

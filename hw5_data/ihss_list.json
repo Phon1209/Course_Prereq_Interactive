@@ -1,0 +1,118 @@
+[
+    {
+        "name": "ihss 1220",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "It & Society"
+    },
+    {
+        "name": "ihss 1975",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Understanding Empathy"
+    },
+    {
+        "name": "ihss 1610",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Design & Innovation Studio I"
+    },
+    {
+        "name": "ihss 2610",
+        "prereqs": [
+            "ihss 1610"
+        ],
+        "department": "ihss",
+        "displayName": "Design & Innovation Studio II"
+    },
+    {
+        "name": "ihss 1110",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Nature/society"
+    },
+    {
+        "name": "ihss 1140",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Minds And Machines"
+    },
+    {
+        "name": "ihss 1240",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Sustainability Debates"
+    },
+    {
+        "name": "ihss 1200",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Principles Of Economics"
+    },
+    {
+        "name": "ihss 1350",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Law, Values, And Public Policy"
+    },
+    {
+        "name": "ihss 1410",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Century Of The Gene"
+    },
+    {
+        "name": "ihss 1320",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Century Of Environ. Thought"
+    },
+    {
+        "name": "ihss 1150",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "The Genome And You"
+    },
+    {
+        "name": "ihss 1180",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "The Art Of Listening"
+    },
+    {
+        "name": "ihss 1430",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Health Of Contemp Africa"
+    },
+    {
+        "name": "ihss 1570",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "War & Tech-past/pres/future"
+    },
+    {
+        "name": "ihss 1160",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Sci. & Scientific Misconduct"
+    },
+    {
+        "name": "ihss 1170",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "History Of Animation"
+    },
+    {
+        "name": "ihss 1030",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Behind The Tv Screen"
+    },
+    {
+        "name": "ihss 1040",
+        "prereqs": [],
+        "department": "ihss",
+        "displayName": "Documentary 21st C: Ident Prod"
+    }
+]

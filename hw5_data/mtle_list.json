@@ -1,0 +1,136 @@
+[
+    {
+        "name": "mtle 4100",
+        "prereqs": [
+            "chem 1100",
+            "chem 1600",
+            "engr 1600",
+            "engr 2250",
+            "isci 1600",
+            "phys 1600"
+        ],
+        "department": "mtle",
+        "displayName": "Thermodynamics Of Materials"
+    },
+    {
+        "name": "mtle 4200",
+        "prereqs": [
+            "chem 1600",
+            "engr 1600",
+            "isci 1600",
+            "mtle 2100",
+            "phys 1200",
+            "phys 1600"
+        ],
+        "department": "mtle",
+        "displayName": "Elec & Optical Prop Of Matls"
+    },
+    {
+        "name": "mtle 4400",
+        "prereqs": [
+            "mtle 4150",
+            "mtle 4200",
+            "mtle 4250"
+        ],
+        "department": "mtle",
+        "displayName": "Synthesis And Processing"
+    },
+    {
+        "name": "mtle 4910",
+        "prereqs": [],
+        "department": "mtle",
+        "displayName": "Materials Selection"
+    },
+    {
+        "name": "mtle 4150",
+        "prereqs": [
+            "chem 1100",
+            "chem 1600",
+            "engr 1600",
+            "isci 1600",
+            "mtle 4100",
+            "phys 1600"
+        ],
+        "department": "mtle",
+        "displayName": "Kinetics In Materials Systems"
+    },
+    {
+        "name": "mtle 4250",
+        "prereqs": [
+            "engr 1600",
+            "mtle 2100"
+        ],
+        "department": "mtle",
+        "displayName": "Mechanical Properties Of Materials"
+    },
+    {
+        "name": "mtle 4310",
+        "prereqs": [
+            "mtle 4910"
+        ],
+        "department": "mtle",
+        "displayName": "Corrosion"
+    },
+    {
+        "name": "mtle 4450",
+        "prereqs": [
+            "mtle 4400"
+        ],
+        "department": "mtle",
+        "displayName": "Mtls Synthesis & Process II"
+    },
+    {
+        "name": "mtle 6300",
+        "prereqs": [
+            "ecse 4250"
+        ],
+        "department": "mtle",
+        "displayName": "Ic Fabrication Lab"
+    },
+    {
+        "name": "mtle 2100",
+        "prereqs": [
+            "bmed 2100",
+            "chem 1600",
+            "engr 1600",
+            "isci 1600",
+            "phys 1600"
+        ],
+        "department": "mtle",
+        "displayName": "Structure Of Materials"
+    },
+    {
+        "name": "mtle 4920",
+        "prereqs": [
+            "engr 2050",
+            "mtle 4910"
+        ],
+        "department": "mtle",
+        "displayName": "Multidisciplinary Capstone Design"
+    },
+    {
+        "name": "mtle 4470",
+        "prereqs": [
+            "engr 1600"
+        ],
+        "department": "mtle",
+        "displayName": "Biology In Materials Science"
+    },
+    {
+        "name": "mtle 4520",
+        "prereqs": [
+            "mtle 4100",
+            "mtle 4150"
+        ],
+        "department": "mtle",
+        "displayName": "Materials Under Extreme Conditions"
+    },
+    {
+        "name": "mtle 4720",
+        "prereqs": [
+            "math 2400"
+        ],
+        "department": "mtle",
+        "displayName": "App. Math. Meth. In Materials"
+    }
+]

@@ -1,0 +1,553 @@
+[
+    {
+        "name": "arch 2210",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Architectural Design 1"
+    },
+    {
+        "name": "arch 2230",
+        "prereqs": [
+            "arch 2220"
+        ],
+        "department": "arch",
+        "displayName": "Architecture Design 3"
+    },
+    {
+        "name": "arch 4250",
+        "prereqs": [
+            "arch 4240"
+        ],
+        "department": "arch",
+        "displayName": "Architecture Design 5"
+    },
+    {
+        "name": "arch 4980",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "B Arch Final Project 1"
+    },
+    {
+        "name": "arch 4990",
+        "prereqs": [
+            "arch 4980"
+        ],
+        "department": "arch",
+        "displayName": "B Arch Final Project 2"
+    },
+    {
+        "name": "arch 2220",
+        "prereqs": [
+            "arch 2210"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Design 2"
+    },
+    {
+        "name": "arch 2110",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Bldg & Thinking Arch 1"
+    },
+    {
+        "name": "arch 2130",
+        "prereqs": [
+            "arch 2120"
+        ],
+        "department": "arch",
+        "displayName": "Contemporary Design Approaches"
+    },
+    {
+        "name": "arch 4540",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Professional Practice 1"
+    },
+    {
+        "name": "arch 4770",
+        "prereqs": [
+            "arch 2830"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Design Studio 5"
+    },
+    {
+        "name": "arch 4830",
+        "prereqs": [
+            "arch 4820"
+        ],
+        "department": "arch",
+        "displayName": "Integrated Design Development Studio"
+    },
+    {
+        "name": "arch 4840",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Architectural Acoustics 1"
+    },
+    {
+        "name": "arch 2120",
+        "prereqs": [
+            "arch 2110"
+        ],
+        "department": "arch",
+        "displayName": "Bldg & Thinking Arch 2"
+    },
+    {
+        "name": "arch 4140",
+        "prereqs": [
+            "arch 2120",
+            "arch 2130"
+        ],
+        "department": "arch",
+        "displayName": "Modernity In Cult & Arch"
+    },
+    {
+        "name": "arch 4510",
+        "prereqs": [
+            "arch 2360",
+            "arch 4550",
+            "arch 4740"
+        ],
+        "department": "arch",
+        "displayName": "Construction Indust Semr 1"
+    },
+    {
+        "name": "arch 4750",
+        "prereqs": [
+            "arch 4740"
+        ],
+        "department": "arch",
+        "displayName": "Sustainable Building Design Metrics"
+    },
+    {
+        "name": "arch 4790",
+        "prereqs": [
+            "arch 4780"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Desgin Studio 7"
+    },
+    {
+        "name": "arch 6610",
+        "prereqs": [
+            "arch 5210"
+        ],
+        "department": "arch",
+        "displayName": "Graduate Architecture Design 3"
+    },
+    {
+        "name": "arch 4860",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Applied Psychoacoustics"
+    },
+    {
+        "name": "arch 4850",
+        "prereqs": [
+            "arch 4840"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Acoustics 2"
+    },
+    {
+        "name": "arch 2330",
+        "prereqs": [
+            "arch 2510"
+        ],
+        "department": "arch",
+        "displayName": "Structures 1"
+    },
+    {
+        "name": "arch 2360",
+        "prereqs": [
+            "arch 2370"
+        ],
+        "department": "arch",
+        "displayName": "Environmental And Ecol System"
+    },
+    {
+        "name": "arch 2510",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Materials And Design"
+    },
+    {
+        "name": "arch 4040",
+        "prereqs": [
+            "arch 4140"
+        ],
+        "department": "arch",
+        "displayName": "Cities/lands"
+    },
+    {
+        "name": "arch 4560",
+        "prereqs": [
+            "arch 2350",
+            "arch 2510"
+        ],
+        "department": "arch",
+        "displayName": "Materials And Enclosures"
+    },
+    {
+        "name": "arch 2610",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Grad. Arch Design 1"
+    },
+    {
+        "name": "arch 4240",
+        "prereqs": [
+            "arch 2230"
+        ],
+        "department": "arch",
+        "displayName": "Architecture Design 4"
+    },
+    {
+        "name": "arch 2350",
+        "prereqs": [
+            "arch 2510"
+        ],
+        "department": "arch",
+        "displayName": "Construction Systems"
+    },
+    {
+        "name": "arch 2620",
+        "prereqs": [
+            "arch 2610"
+        ],
+        "department": "arch",
+        "displayName": "Grad Arch Design 2"
+    },
+    {
+        "name": "arch 4330",
+        "prereqs": [
+            "arch 2510"
+        ],
+        "department": "arch",
+        "displayName": "Structures 2"
+    },
+    {
+        "name": "arch 4360",
+        "prereqs": [
+            "arch 2630"
+        ],
+        "department": "arch",
+        "displayName": "Grad Arch Design 4"
+    },
+    {
+        "name": "arch 2140",
+        "prereqs": [
+            "arch 2120"
+        ],
+        "department": "arch",
+        "displayName": "Bldg & Thinking Arch 3"
+    },
+    {
+        "name": "arch 2630",
+        "prereqs": [
+            "arch 2620"
+        ],
+        "department": "arch",
+        "displayName": "Grad Arch Design 3"
+    },
+    {
+        "name": "arch 4740",
+        "prereqs": [
+            "arch 2360"
+        ],
+        "department": "arch",
+        "displayName": "Bldg Systems And Environment"
+    },
+    {
+        "name": "arch 4020",
+        "prereqs": [
+            "arch 2330",
+            "arch 4330"
+        ],
+        "department": "arch",
+        "displayName": "Bedford Seminar"
+    },
+    {
+        "name": "arch 2150",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "The Ethos Of Architecture"
+    },
+    {
+        "name": "arch 2160",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Architectural Media"
+    },
+    {
+        "name": "arch 2520",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Digital Constructs I"
+    },
+    {
+        "name": "arch 2800",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Architectural Design Studio 1"
+    },
+    {
+        "name": "arch 6910",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Doctoral Seminar 1"
+    },
+    {
+        "name": "arch 6920",
+        "prereqs": [
+            "arch 6910"
+        ],
+        "department": "arch",
+        "displayName": "Doctoral Seminar 2"
+    },
+    {
+        "name": "arch 2370",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Energy, Comfort & Ecology"
+    },
+    {
+        "name": "arch 2530",
+        "prereqs": [
+            "arch 2520"
+        ],
+        "department": "arch",
+        "displayName": "Digital Constructs 2"
+    },
+    {
+        "name": "arch 2810",
+        "prereqs": [
+            "arch 2520",
+            "arch 2800"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Design Studio 2"
+    },
+    {
+        "name": "arch 4050",
+        "prereqs": [
+            "arch 4100"
+        ],
+        "department": "arch",
+        "displayName": "Cities And Their Territories"
+    },
+    {
+        "name": "arch 4090",
+        "prereqs": [
+            "arch 2150",
+            "arch 2160"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Case Studies"
+    },
+    {
+        "name": "arch 4120",
+        "prereqs": [
+            "arch 4100"
+        ],
+        "department": "arch",
+        "displayName": "Modernity & Architecture"
+    },
+    {
+        "name": "arch 4550",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Professional Practice 2"
+    },
+    {
+        "name": "arch 2540",
+        "prereqs": [
+            "arch 2530"
+        ],
+        "department": "arch",
+        "displayName": "Digital Constructs 3"
+    },
+    {
+        "name": "arch 2550",
+        "prereqs": [
+            "arch 2540"
+        ],
+        "department": "arch",
+        "displayName": "Digital Constructs 4"
+    },
+    {
+        "name": "arch 2820",
+        "prereqs": [
+            "arch 2530",
+            "arch 2810"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Design Studio 3"
+    },
+    {
+        "name": "arch 4100",
+        "prereqs": [
+            "arch 2150"
+        ],
+        "department": "arch",
+        "displayName": "An Architectural Genealogy"
+    },
+    {
+        "name": "arch 4130",
+        "prereqs": [
+            "arch 4120"
+        ],
+        "department": "arch",
+        "displayName": "Modernity In Culture, Civilization And Architecture 2"
+    },
+    {
+        "name": "arch 5100",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "History, Theory, Criticism I"
+    },
+    {
+        "name": "arch 5110",
+        "prereqs": [
+            "arch 5100"
+        ],
+        "department": "arch",
+        "displayName": "History, Theory, Criticism 2"
+    },
+    {
+        "name": "arch 5140",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Structures 1"
+    },
+    {
+        "name": "arch 5150",
+        "prereqs": [
+            "arch 5140"
+        ],
+        "department": "arch",
+        "displayName": "Structures 2"
+    },
+    {
+        "name": "arch 5210",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Graduate Architecture Design 2"
+    },
+    {
+        "name": "arch 5390",
+        "prereqs": [
+            "arch 5380"
+        ],
+        "department": "arch",
+        "displayName": "Professional Practice 2"
+    },
+    {
+        "name": "arch 2830",
+        "prereqs": [
+            "arch 2540",
+            "arch 2820"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Design Studio 4"
+    },
+    {
+        "name": "arch 4110",
+        "prereqs": [
+            "arch 4100"
+        ],
+        "department": "arch",
+        "displayName": "An Architectural Genealogy 2"
+    },
+    {
+        "name": "arch 5330",
+        "prereqs": [],
+        "department": "arch",
+        "displayName": "Entrepreneurship &architecture"
+    },
+    {
+        "name": "arch 5380",
+        "prereqs": [
+            "arch 5330"
+        ],
+        "department": "arch",
+        "displayName": "Professional Practice 1"
+    },
+    {
+        "name": "arch 4780",
+        "prereqs": [
+            "arch 4770"
+        ],
+        "department": "arch",
+        "displayName": "Architectural Design Studio 6"
+    },
+    {
+        "name": "arch 4820",
+        "prereqs": [
+            "arch 2550",
+            "arch 2830",
+            "arch 4540"
+        ],
+        "department": "arch",
+        "displayName": "Comprehensive Design Studio 1"
+    },
+    {
+        "name": "arch 4910",
+        "prereqs": [
+            "arch 4780",
+            "arch 4830"
+        ],
+        "department": "arch",
+        "displayName": "Final Project Design Research Seminar"
+    },
+    {
+        "name": "arch 4150",
+        "prereqs": [
+            "arch 4120"
+        ],
+        "department": "arch",
+        "displayName": "Contemporary Design Approaches"
+    },
+    {
+        "name": "arch 4920",
+        "prereqs": [
+            "arch 4790",
+            "arch 4910"
+        ],
+        "department": "arch",
+        "displayName": "Final Project Design Studio"
+    },
+    {
+        "name": "arch 4520",
+        "prereqs": [
+            "arch 4510"
+        ],
+        "department": "arch",
+        "displayName": "Construction Industry Semr 2"
+    },
+    {
+        "name": "arch 4530",
+        "prereqs": [
+            "arch 4520"
+        ],
+        "department": "arch",
+        "displayName": "Building Sciences Capstone"
+    },
+    {
+        "name": "arch 4880",
+        "prereqs": [
+            "arch 4860"
+        ],
+        "department": "arch",
+        "displayName": "Aural Architecture"
+    },
+    {
+        "name": "arch 4200",
+        "prereqs": [
+            "arch 2830"
+        ],
+        "department": "arch",
+        "displayName": "Portfolio Development"
+    }
+]

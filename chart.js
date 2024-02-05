@@ -112,22 +112,30 @@ async function fetchJSONData(department) {
     filePath = "./hw5_data/HED_formatted.json";
   else filePath = `./hw5_data/${department}_list.json`;
 
-  return await fetch(filePath)
+  let data;
+  if ((data = localStorage.getItem(department))) return JSON.parse(data);
+
+  data = await fetch(filePath)
     .then((res) => {
       if (!res.ok) {
         throw new Error(`HTTP error! Status: ${res.status}`);
       }
       return res.json();
     })
-    .then((data) => data)
+    .then((data) => {
+      localStorage.setItem(department, JSON.stringify(data));
+      return data;
+    })
     .catch((error) => console.error("Unable to fetch data:", error));
+
+  return data;
 }
 
 async function read(department) {
   return await fetchJSONData(department);
 }
 
-const render = async (department = "all") => {
+const render = async (department = "all", callback) => {
   const res = await read(department);
 
   data = hierarchy(res);
@@ -295,5 +303,8 @@ ${d.incoming.length} course(s) has this as prereq`
       .attr("font-weight", null);
   }
 
+  const nCourse = root.leaves().length;
+
+  callback(nCourse);
   return svg.node();
 };

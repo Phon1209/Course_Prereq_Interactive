@@ -1,6 +1,10 @@
 window.$ = document.querySelector.bind(document);
 window.$s = document.querySelectorAll.bind(document);
 
+const updateStatistic = (nCourse) => {
+  $("#courses").textContent = `${nCourse} course(s) found`;
+};
+
 document.addEventListener("DOMContentLoaded", () => {
   const departmentDropdown = $("#department");
 
@@ -14,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   departmentDropdown.addEventListener("change", () => {
     const selection = departmentDropdown.value;
-    render(selection);
+    render(selection, updateStatistic);
   });
-  render();
+  render("all", updateStatistic);
 });

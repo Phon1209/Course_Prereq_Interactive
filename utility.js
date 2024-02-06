@@ -1,0 +1,2 @@
+qualitativeColor = [];
+sequentialColor = [];

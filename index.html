@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HW5 Visualization</title>
+    <link rel="stylesheet" href="index.css" />
     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
     <script src="utility.js"></script>
     <script src="chart.js"></script>
@@ -11,7 +12,7 @@
   </head>
   <body>
     <div id="controller">
-      <div>
+      <div class="department-container">
         <label for="department">Select Department:</label>
         <div id="department"></div>
       </div>
@@ -19,9 +20,11 @@
         <label for=""></label>
       </div>
     </div>
-    <div id="result">
-      <p id="courses"></p>
+    <div id="res-panel">
+      <div id="result">
+        <p id="courses"></p>
+      </div>
+      <div id="chart"></div>
     </div>
-    <div id="chart"></div>
   </body>
 </html>

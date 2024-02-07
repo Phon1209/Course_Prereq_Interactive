@@ -149,10 +149,10 @@ const initialRender = async (callback) => {
 const render = async (department, filterName, callback) => {
   data = hierarchy(allData, filterScheme[filterName](department));
   const all = department.length == 1 && department[0] === "all";
-  const width = 1000;
+  const width = all ? 1500 : 1000;
   const radius = width / 2;
-  const fontSize = "10px";
-  const borderSize = 150;
+  const fontSize = all ? "4px" : "10px";
+  const borderSize = all ? 200 : 150;
 
   const tree = d3.cluster().size([2 * Math.PI, radius - borderSize]);
   const root = tree(

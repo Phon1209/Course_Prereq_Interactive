@@ -40,17 +40,22 @@ document.addEventListener("DOMContentLoaded", () => {
   const container = $("#department");
 
   departmentDir.forEach((dep, i) => {
-    var checkbox = document.createElement("input");
+    const checkbox = document.createElement("input");
     checkbox.type = "checkbox";
     checkbox.id = "checkbox-" + i;
     checkbox.value = dep;
     if (i === 0) checkbox.checked = true;
     checkbox.addEventListener("change", handleCheckboxChange);
     container.appendChild(checkbox);
-    var label = document.createElement("label");
+    const label = document.createElement("label");
     label.htmlFor = "checkbox-" + i;
     label.textContent = dep.toUpperCase();
-    container.appendChild(label);
+
+    const div = document.createElement("div");
+    div.appendChild(checkbox);
+    div.appendChild(label);
+
+    container.appendChild(div);
   });
 
   initialRender(updateStatistic);

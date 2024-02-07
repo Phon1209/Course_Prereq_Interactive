@@ -1,5 +1,5 @@
-qualitativeColor = [];
-sequentialColor = [];
+qualitativeColor = ['#8dd3c7','#f5d833','#bebada','#fb8072','#80b1d3'];
+sequentialColor = ['#feedde','#fdbe85','#fd8d3c','#e6550d','#a63603'];
 
 const colorScheme = {
   d3: d3.scaleOrdinal(d3.schemeCategory10),

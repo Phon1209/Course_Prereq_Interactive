@@ -47,12 +47,14 @@ const departmentDir = [
   "writ",
 ];
 
+// const selectedDepartment = ["csci", "chem", "phil", "phys", "math"];
+
 function bilink(root) {
   // return root;
   const map = new Map(root.leaves().map((d) => [d.data.name, d]));
   // console.log(root.leaves());
   for (const d of root.leaves()) {
-    // console.log(d.incoming, d.outgoing);
+    // console.log(d, d.prereqs);
     (d.incoming = []),
       (d.outgoing = d.data.prereqs
         .filter((i) => {
@@ -70,15 +72,17 @@ function bilink(root) {
   return root;
 }
 
-function hierarchy(data) {
+function hierarchy(data, filterMethod = () => true) {
   let root = {
     name: "RPI",
     children: [],
   };
   const depList = [];
   const map = new Map();
-  data.forEach((datum) => {
+  // console.log(data.filter(filterMethod));
+  data.filter(filterMethod).forEach((datum) => {
     const { name, department } = datum;
+    // console.log(datum);
     if (map.has(name)) return map.get(name);
     map.set(name, datum);
 
@@ -99,7 +103,7 @@ function hierarchy(data) {
     return datum;
   });
 
-  depList.forEach((dep, i) => {
+  depList.sort().forEach((dep, i) => {
     colorMapping[dep] = colorScale(i);
   });
 
@@ -108,9 +112,9 @@ function hierarchy(data) {
 
 async function fetchJSONData(department) {
   let filePath;
-  if (!department || department == "" || department === "all")
-    filePath = "./hw5_data/HED_formatted.json";
-  else filePath = `./hw5_data/${department}_list.json`;
+  // if (!department || department == "" || department === "all")
+  filePath = "./hw5_data/HED_formatted.json";
+  // else filePath = `./hw5_data/${department}_list.json`;
 
   let data;
   if ((data = localStorage.getItem(department))) return JSON.parse(data);
@@ -135,14 +139,20 @@ async function read(department) {
   return await fetchJSONData(department);
 }
 
-const render = async (department = "all", callback) => {
-  const res = await read(department);
+let allData;
 
-  data = hierarchy(res);
+const initialRender = async (callback) => {
+  allData = await read(department);
+  render(["all"], "include_department", callback);
+};
+
+const render = async (department, filterName, callback) => {
+  data = hierarchy(allData, filterScheme[filterName](department));
+  const all = department.length == 1 && department[0] === "all";
   const width = 1000;
   const radius = width / 2;
-  const fontSize = department === "all" ? "6px" : "10px";
-  const borderSize = department === "all" ? 100 : 200;
+  const fontSize = "10px";
+  const borderSize = 150;
 
   const tree = d3.cluster().size([2 * Math.PI, radius - borderSize]);
   const root = tree(
@@ -151,6 +161,7 @@ const render = async (department = "all", callback) => {
         .hierarchy(data)
         .sort(
           (a, b) =>
+            d3.ascending(a.type, b.type) ||
             d3.ascending(a.department, b.department) ||
             d3.ascending(a.data.name, b.data.name) ||
             d3.ascending(a.height, b.height)
@@ -170,8 +181,6 @@ const render = async (department = "all", callback) => {
       `max-width: 100%; height: auto; font: ${fontSize} sans-serif;`
     );
 
-  // console.log(root);
-  // console.log(root.leaves());
   const node = svg
     .append("g")
     .selectAll()
@@ -187,16 +196,21 @@ const render = async (department = "all", callback) => {
     .attr("text-anchor", (d) => (d.x < Math.PI ? "start" : "end"))
     .attr("transform", (d) => (d.x >= Math.PI ? "rotate(180)" : null))
     .attr("fill", (d) => {
-      return colorMapping[d.data.department];
+      if (all || department.includes(d.data.department))
+        return colorMapping[d.data.department];
+      return "#ffffff00";
     })
-    .attr("color", (d) => colorMapping[d.data.department])
+    .attr("color", (d) => {
+      if (all || department.includes(d.data.department))
+        return colorMapping[d.data.department];
+      return "#ffffff00";
+    })
     .text((d) => d.data.displayName)
     .each(function (d) {
       d.text = this;
     })
     .on("mouseover", overed)
     .on("mouseout", outed)
-    .on("click", click)
     .call((text) =>
       text.append("title").text(
         (d) => `${d.data.name.toUpperCase()}: ${d.data.displayName}
@@ -224,48 +238,6 @@ ${d.incoming.length} course(s) has this as prereq`
       d.path = this;
     });
 
-  function click(event, d) {
-    event.preventDefault();
-    const text = d3.select(this);
-    const isToggled = text.attr("data-toggled");
-
-    const newState = isToggled === "true" ? "false" : "true";
-    text.attr("data-toggled", newState);
-
-    if (newState === "true") {
-      link.style("mix-blend-mode", null);
-      d3.select(this).attr("font-weight", "bold");
-      // d3.select(this).attr("font-size", "15px");
-      d3.selectAll(d.incoming.map((d) => d.path))
-        .attr("stroke", colorin)
-        .raise();
-      d3.selectAll(d.incoming.map(([d]) => d.text))
-        .attr("fill", colorin)
-        .attr("font-weight", "bold");
-      d3.selectAll(d.outgoing.map((d) => d.path))
-        .attr("stroke", colorout)
-        .raise();
-      d3.selectAll(d.outgoing.map(([, d]) => d.text))
-        .attr("fill", colorout)
-        .attr("font-weight", "bold");
-    } else if (newState === "false") {
-      link.style("mix-blend-mode", "multiply");
-      d3.select(this).attr("font-weight", null);
-      d3.selectAll(d.incoming.map((d) => d.path)).attr("stroke", null);
-      d3.selectAll(d.incoming.map(([d]) => d.text))
-        .attr("fill", function () {
-          return d3.select(this).attr("color");
-        })
-        .attr("font-weight", null);
-      d3.selectAll(d.outgoing.map((d) => d.path)).attr("stroke", null);
-      d3.selectAll(d.outgoing.map(([, d]) => d.text))
-        .attr("fill", function () {
-          return d3.select(this).attr("color");
-        })
-        .attr("font-weight", null);
-    }
-  }
-
   function overed(event, d) {
     link.style("mix-blend-mode", null);
     d3.select(this).attr("font-weight", "bold");
@@ -285,8 +257,6 @@ ${d.incoming.length} course(s) has this as prereq`
   }
 
   function outed(event, d) {
-    const toggled = d3.select(this).attr("data-toggled") === "true";
-    if (toggled) return;
     link.style("mix-blend-mode", "multiply");
     d3.select(this).attr("font-weight", null);
     d3.selectAll(d.incoming.map((d) => d.path)).attr("stroke", null);

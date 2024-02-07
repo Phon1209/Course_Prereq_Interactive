@@ -47,19 +47,13 @@ const departmentDir = [
   "writ",
 ];
 
-// const selectedDepartment = ["csci", "chem", "phil", "phys", "math"];
-
 function bilink(root) {
-  // return root;
   const map = new Map(root.leaves().map((d) => [d.data.name, d]));
-  // console.log(root.leaves());
   for (const d of root.leaves()) {
-    // console.log(d, d.prereqs);
     (d.incoming = []),
       (d.outgoing = d.data.prereqs
         .filter((i) => {
           const out = map.get(i);
-          // if (!out) console.log(d.data.name, i);
           return out;
         })
         .map((i) => {
@@ -79,10 +73,8 @@ function hierarchy(data, filterMethod = () => true) {
   };
   const depList = [];
   const map = new Map();
-  // console.log(data.filter(filterMethod));
   data.filter(filterMethod).forEach((datum) => {
     const { name, department } = datum;
-    // console.log(datum);
     if (map.has(name)) return map.get(name);
     map.set(name, datum);
 
@@ -110,39 +102,10 @@ function hierarchy(data, filterMethod = () => true) {
   return root;
 }
 
-async function fetchJSONData(department) {
-  let filePath;
-  // if (!department || department == "" || department === "all")
-  filePath = "./hw5_data/HED_formatted.json";
-  // else filePath = `./hw5_data/${department}_list.json`;
-
-  let data;
-  if ((data = localStorage.getItem(department))) return JSON.parse(data);
-
-  data = await fetch(filePath)
-    .then((res) => {
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`);
-      }
-      return res.json();
-    })
-    .then((data) => {
-      localStorage.setItem(department, JSON.stringify(data));
-      return data;
-    })
-    .catch((error) => console.error("Unable to fetch data:", error));
-
-  return data;
-}
-
-async function read(department) {
-  return await fetchJSONData(department);
-}
-
 let allData;
 
 const initialRender = async (callback) => {
-  allData = await read(department);
+  allData = prereqData;
   render(["all"], "include_department", callback);
 };
 

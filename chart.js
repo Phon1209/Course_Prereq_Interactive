@@ -142,7 +142,11 @@ const render = async (department, filterName, callback) => {
     .attr(
       "style",
       `max-width: 100%; height: auto; font: ${fontSize} sans-serif;`
-    );
+    )
+    .call(
+      d3.zoom().scaleExtent([1 / 2, 4]).on("zoom", function (event) {
+        svg.attr("transform", event.transform);
+      }));
 
   const node = svg
     .append("g")

@@ -4,11 +4,20 @@ window.$s = document.querySelectorAll.bind(document);
 const updateStatistic = (nCourse, courseListing) => {
   $("#courses").textContent = `${nCourse} course(s) found`;
   const res = $("#course-label");
-
   const newChildren = [];
-  courseListing.forEach((course) => {
+
+  [
+    {
+      color: "#f00",
+      name: "prereqs",
+    },
+    {
+      color: "#00f",
+      name: "postreqs",
+    },
+  ].forEach((course) => {
     const div = document.createElement("div");
-    div.classList.add("result-label");
+    div.classList.add("line-label");
     const { color, name } = course;
     const colDiv = document.createElement("div");
     const nameDiv = document.createElement("p");
@@ -18,6 +27,22 @@ const updateStatistic = (nCourse, courseListing) => {
     div.appendChild(nameDiv);
     newChildren.push(div);
   });
+
+  if (!(courseListing.length == 1 && courseListing[0].name === "all")) {
+    courseListing.forEach((course) => {
+      const div = document.createElement("div");
+      div.classList.add("result-label");
+      const { color, name } = course;
+      const colDiv = document.createElement("div");
+      const nameDiv = document.createElement("p");
+      colDiv.style.backgroundColor = color;
+      nameDiv.textContent = name;
+      div.appendChild(colDiv);
+      div.appendChild(nameDiv);
+      newChildren.push(div);
+    });
+  }
+
   res.replaceChildren(...newChildren);
 };
 

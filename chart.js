@@ -250,7 +250,6 @@ ${d.incoming.length} course(s) has this as prereq`
     name: department,
   }));
 
-  console.log(courseListing);
   callback(nCourse, courseListing);
   return svg.node();
 };

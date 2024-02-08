@@ -144,9 +144,13 @@ const render = async (department, filterName, callback) => {
       `max-width: 100%; height: auto; font: ${fontSize} sans-serif;`
     )
     .call(
-      d3.zoom().scaleExtent([1 / 2, 4]).on("zoom", function (event) {
-        svg.attr("transform", event.transform);
-      }));
+      d3
+        .zoom()
+        .scaleExtent([1 / 2, 4])
+        .on("zoom", function (event) {
+          svg.attr("transform", event.transform);
+        })
+    );
 
   const node = svg
     .append("g")
@@ -241,7 +245,12 @@ ${d.incoming.length} course(s) has this as prereq`
   }
 
   const nCourse = root.leaves().length;
+  const courseListing = department.map((department) => ({
+    color: colorMapping[department],
+    name: department,
+  }));
 
-  callback(nCourse);
+  console.log(courseListing);
+  callback(nCourse, courseListing);
   return svg.node();
 };

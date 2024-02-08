@@ -1,7 +1,7 @@
 const colornone = "#ccc";
 const colorout = "#f00";
 const colorin = "#00f";
-const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
+const colorScale = colorScheme["qualitative"];
 const colorMapping = {};
 const departmentDir = [
   "all",

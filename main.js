@@ -1,8 +1,24 @@
 window.$ = document.querySelector.bind(document);
 window.$s = document.querySelectorAll.bind(document);
 
-const updateStatistic = (nCourse) => {
+const updateStatistic = (nCourse, courseListing) => {
   $("#courses").textContent = `${nCourse} course(s) found`;
+  const res = $("#course-label");
+
+  const newChildren = [];
+  courseListing.forEach((course) => {
+    const div = document.createElement("div");
+    div.classList.add("result-label");
+    const { color, name } = course;
+    const colDiv = document.createElement("div");
+    const nameDiv = document.createElement("p");
+    colDiv.style.backgroundColor = color;
+    nameDiv.textContent = name;
+    div.appendChild(colDiv);
+    div.appendChild(nameDiv);
+    newChildren.push(div);
+  });
+  res.replaceChildren(...newChildren);
 };
 
 const handleCheckboxChange = (event) => {
